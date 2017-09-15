@@ -1,5 +1,5 @@
 # hostname (and path) to the root eg. https://appernetic.github.io/
-baseurl = "http://gaysianthirdspace.github.io/"
+baseurl = "https://gaysianthirdspace.github.io/"
 
 # Remark if you want to disable multilingual support.
 DefaultContentLanguage = "en"
