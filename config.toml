@@ -73,17 +73,17 @@ optin = true #opt-in: true/false
 # menu for changing language. This changes languages with js and stores the choice with the help of JavaScript in a Cookie. Then the path is rewritten with pathnamereplace.js. The name of the md files needs to have the same name for each language abbreviation to work correctly. Example: showcase.en.md and showcase.sv.md. It only works if DefaultContentLanguageInSubdir = true
 switchlang = false
 # You can use markdown here.
-BrandImage = "http://res.cloudinary.com/gaysianthirdspace/image/upload/c_scale,h_60/v1505467310/G3S_Logo_Long_anluoh.png" #top header brand image.
+BrandImage = "http://res.cloudinary.com/gaysianthirdspace/image/upload/c_scale,h_60/v1505467821/G3S_Logo_Long_with_Padding_m1lzvx.png" #top header brand image.
 brand = "Gaysian Third Space" # brand image alt text.
 topline = "Outside of the apps and the clubs/raves, we seek to create a Third Space for individuals to find support and community as each of us navigate our gay(sian) experience. Get involved in our community and make some new friends!"
-footline = "code with <i class='fa fa-heart'></i>"
+footline = "Here is a footer!"
 
 customJS = []
 customCSS = ["/css/style_custom.css"]
 
 # Text for the top menu link, which goes to the root URL for the site.
 # Default (if omitted) is "Home".
-home = "home"
+home = "Home"
 
 mailmunchid = "" # Mailmunch site id
 sumomeid = "" # Sumome id
