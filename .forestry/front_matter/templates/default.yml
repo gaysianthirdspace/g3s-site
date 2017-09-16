@@ -1,0 +1,43 @@
+---
+hide_body: false
+fields:
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: post
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: true
+- name: author
+  label: Author
+  type: text
+  hidden: false
+  default: author
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: description
+- name: keywords
+  label: Keywords
+  type: list
+  hidden: false
+  default:
+  - key
+  - words
+- name: topics
+  label: Topics
+  type: tag_list
+  hidden: false
+  default:
+  - topic 1
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default:
+  - one
+  - two
