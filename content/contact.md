@@ -5,6 +5,8 @@ tags = ["one", "two"]
 title = "Contact"
 topics = ["topic 1"]
 type = "page"
+[menu.main]
+weight = 1
 
 +++
 

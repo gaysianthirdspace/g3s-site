@@ -1,164 +1,100 @@
-# hostname (and path) to the root eg. https://appernetic.github.io/
-baseurl = "https://gaysianthirdspace.github.io/"
-
-# Remark if you want to disable multilingual support.
 DefaultContentLanguage = "en"
-
-# Language
-languageCode = "en"
-
-# SES friendly url:s
+baseurl = "https://gaysianthirdspace.github.io/"
 canonifyurls = true
-
-# Frontmatter format
-# "yaml", "toml", "json"
+disqusShortname = ""
+languageCode = "en"
 metaDataFormat = "toml"
-
-# Theme to use (located in /themes/THEMENAME/)
-theme = "hugo-bootstrap-premium"
-# Pagination
 paginate = 10
 paginatePath = "page"
-
-# Enable Disqus integration
-disqusShortname = ""
-
-
-[permalinks]
-post = "/:year/:month/:day/:filename/"
-code = "/:filename/"
-
-[taxonomies]
-tag = "tags"
-topic = "topics"
-
+theme = "hugo-bootstrap-premium"
 [author]
-name = "Gaysian Third Space"
 email = "gaysianthirdspace@gmail.com"
-
-#
-# All parameters below here are optional and can be mixed and matched.
-#
-
-[params.theme]
-# bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly,
-# default, flatly, journal, lumen, paper, readable, sandstone, simplex, slate,
-# spacelab, superhero, united, yeti.
-name = "sandstone"
-
-[params.popover]
-# This is a highly configurable popover form.
-enablepopover = false #enable or disable popover: true/false.
-posturl = "https://zapier.com/hooks/catch/1227563/" # Your zapier post hook.
-headerimage = "//placehold.it/1000x600"
-expirecookie = 5 #show it again after number of days to visitors that has not subscribed.
-cookiename = "mycookie1" #give the cookie a unique name variable (avoid spaces and strange characters).
-signupheader = "Join Our Newsletter"
-showmodaltimeout = 10000 #show popover modal after time interval in milliseconds.
-mouseleave = true #show popover when mouse leaves window: true/false.
-modalsize = "" #lg or sm. Empty is md. If phone is detected lg is used.
-imagedescription = "Placeholder image for this popover modal optin form"
-signuptext = "Signup today for free and be the first to get notified on new updates."
-inputplaceholder = "Enter your email"
-submitbutton = "Subscribe"
-successmessage = "Thanks for your subscription!"
-errormessage = "Submitting form failed!"
-optin = true #opt-in: true/false
-
-[params]
-# menu for changing language. This changes languages with js and stores the choice with the help of JavaScript in a Cookie. Then the path is rewritten with pathnamereplace.js. The name of the md files needs to have the same name for each language abbreviation to work correctly. Example: showcase.en.md and showcase.sv.md. It only works if DefaultContentLanguageInSubdir = true
-switchlang = false
-# You can use markdown here.
-BrandImage = "http://res.cloudinary.com/gaysianthirdspace/image/upload/c_scale,h_60/v1505534413/G3S_Logo_Long_for_Dark_Background_ho4zir.png" # G3S logo for dark header
-#BrandImage = "http://res.cloudinary.com/gaysianthirdspace/image/upload/c_scale,h_60/v1505467821/G3S_Logo_Long_with_Padding_m1lzvx.png" # G3S logo for light header
-#BrandImage = "http://res.cloudinary.com/gaysianthirdspace/image/upload/c_scale,h_40/v1505467821/G3S_Logo_Long_with_Padding_m1lzvx.png" # Small G3S logo for thin light header
-brand = "Gaysian Third Space" # brand image alt text.
-topline = "Outside of the apps and the clubs/raves, we seek to create a Third Space for individuals to find support and community as each of us navigate our gay(sian) experience. Get involved in our community and make some new friends!"
-footline = "Here is a footer!"
-
-customJS = []
-customCSS = ["/css/style_custom.css"]
-
-# Text for the top menu link, which goes to the root URL for the site.
-# Default (if omitted) is "Home".
-home = "Home"
-
-mailmunchid = "" # Mailmunch site id
-sumomeid = "" # Sumome id
-mathjax = "2.7.1" # cdnjs hosted version; empty string to disable mathjax
-
-# Show a sidebar menu
-showRightSidebar = false
-# Select a syntax highlight.
-# Check the static/css/highlight directory for options.
-highlight = "default"
-
-# Google Analytics.
-googleAnalytics = "UA-77731767-1"
-
-# Sidebar social links.
-github = "" # Your Github profile ID
-bitbucket = "" # Your Bitbucket profile ID
-linkedin = "" # Your LinkedIn profile ID (from public URL)
-googleplus = "" # Your Google+ profile ID
-tumblr = "gaysianthirdspace"  # Your Tumblr channel ID
-facebook = "gaysianthirdspace" # Your Facebook profile ID
-instagram = "gaysianthirdspace"  # Your Instagram channel ID
-twitter = "" # Your Twitter profile ID
-youtube = ""  # Your Youtube channel ID
-flattr = ""  # populate with your flattr uid
-
+name = "Gaysian Third Space"
 [blackfriday]
 angledQuotes = true
+extensionmask = []
+extensions = []
 fractions = false
 hrefTargetBlank = false
 latexDashes = true
 plainIdAnchors = true
-extensions = []
-extensionmask = []
-
-# Menus
-# If you want active menu items highlighted for internal pages don't add them here, they need to be added in each files front matter.
-# like this:
-#[menu]
-#     [menu.main]
-#        name = "Showcase"
-#        weight = 3
-#        identifier = "showcase"
-[menu]
-
-  [[menu.main]]
-  name = "Home"
-  pre = ""
-  weight = 1
-  identifier = "home"
-  url = "/"
-
-  [[menu.footer]]
-  name = "About G3S"
-  pre = "<i>&middot;</i>"
-  identifier = "about"
-  weight = 1
-  url = "/about"
-
-  [[menu.footer]]
-  name = "Tumblr"
-  pre = "<i>&middot;</i>"
-  identifier = "tumblr"
-  weight = 2
-  url = "http://gaysianthirdspace.tumblr.com"
-
-  [[menu.footer]]
-  name = "Facebook"
-  pre = "<i>&middot;</i>"
-  identifier = "fb"
-  weight = 3
-  url = "https://www.facebook.com/gaysianthirdspace"
-
-  [[menu.footer]]
-  name = "Instagram"
-  pre = "<i>&middot;</i>"
-  identifier = "ig"
-  weight = 4
-  url = "https://www.instagram.com/gaysianthirdspace"
-
+[[menu.footer]]
+identifier = "ig"
+name = "Instagram"
+pre = "<i>&middot;</i>"
+url = "https://www.instagram.com/gaysianthirdspace"
+weight = 4
+[[menu.footer]]
+identifier = "fb"
+name = "Facebook"
+pre = "<i>&middot;</i>"
+url = "https://www.facebook.com/gaysianthirdspace"
+weight = 3
+[[menu.footer]]
+identifier = "tumblr"
+name = "Tumblr"
+pre = "<i>&middot;</i>"
+url = "http://gaysianthirdspace.tumblr.com"
+weight = 2
+[[menu.footer]]
+identifier = "about"
+name = "About G3S"
+pre = "<i>&middot;</i>"
+url = "/about"
+weight = 1
+[[menu.main]]
+identifier = "home"
+name = "Home"
+pre = ""
+url = "/"
+weight = 1
+[params]
+bitbucket = ""
+brand = "Gaysian Third Space"
+brandimage = "http://res.cloudinary.com/gaysianthirdspace/image/upload/c_scale,h_60/v1505534413/G3S_Logo_Long_for_Dark_Background_ho4zir.png"
+customcss = ["/css/style_custom.css"]
+customjs = []
+facebook = "gaysianthirdspace"
+flattr = ""
+footline = "Here is a footer!"
+github = ""
+googleanalytics = "UA-77731767-1"
+googleplus = ""
+highlight = "default"
+home = "Home"
+instagram = "gaysianthirdspace"
+linkedin = ""
+mailmunchid = ""
+mathjax = "2.7.1"
+showrightsidebar = false
+sumomeid = ""
+switchlang = false
+topline = "Outside of the apps and the clubs/raves, we seek to create a Third Space for individuals to find support and community as each of us navigate our gay(sian) experience. Get involved in our community and make some new friends!"
+tumblr = "gaysianthirdspace"
+twitter = ""
+youtube = ""
+[params.popover]
+cookiename = "mycookie1"
+enablepopover = false
+errormessage = "Submitting form failed!"
+expirecookie = 5
+headerimage = "//placehold.it/1000x600"
+imagedescription = "Placeholder image for this popover modal optin form"
+inputplaceholder = "Enter your email"
+modalsize = ""
+mouseleave = true
+optin = true
+posturl = "https://zapier.com/hooks/catch/1227563/"
+showmodaltimeout = 10000
+signupheader = "Join Our Newsletter"
+signuptext = "Signup today for free and be the first to get notified on new updates."
+submitbutton = "Subscribe"
+successmessage = "Thanks for your subscription!"
+[params.theme]
+name = "sandstone"
+[permalinks]
+code = "/:filename/"
+post = "/:year/:month/:day/:filename/"
+[taxonomies]
+tag = "tags"
+topic = "topics"

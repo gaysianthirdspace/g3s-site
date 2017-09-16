@@ -1,15 +1,13 @@
 +++
 date = "2017-09-15T08:48:04Z"
-draft = false
 title = "What We Do"
-
-[menu]
+type = "page"
 [menu.main]
+identifier = "programs"
 name = "Programs"
 pre = ""
-weight = 2
-identifier = "programs"
 url = "/programs/"
+weight = 3
 
 +++
 We are building online and offline communities through the following initiatives:
