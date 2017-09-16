@@ -69,7 +69,9 @@ optin = true #opt-in: true/false
 # menu for changing language. This changes languages with js and stores the choice with the help of JavaScript in a Cookie. Then the path is rewritten with pathnamereplace.js. The name of the md files needs to have the same name for each language abbreviation to work correctly. Example: showcase.en.md and showcase.sv.md. It only works if DefaultContentLanguageInSubdir = true
 switchlang = false
 # You can use markdown here.
-BrandImage = "http://res.cloudinary.com/gaysianthirdspace/image/upload/c_scale,h_60/v1505534413/G3S_Logo_Long_for_Dark_Background_ho4zir.png" #top header brand image.
+BrandImage = "http://res.cloudinary.com/gaysianthirdspace/image/upload/c_scale,h_60/v1505534413/G3S_Logo_Long_for_Dark_Background_ho4zir.png" # G3S logo for dark header
+#BrandImage = "http://res.cloudinary.com/gaysianthirdspace/image/upload/c_scale,h_60/v1505467821/G3S_Logo_Long_with_Padding_m1lzvx.png" # G3S logo for light header
+#BrandImage = "http://res.cloudinary.com/gaysianthirdspace/image/upload/c_scale,h_40/v1505467821/G3S_Logo_Long_with_Padding_m1lzvx.png" # Small G3S logo for thin light header
 brand = "Gaysian Third Space" # brand image alt text.
 topline = "Outside of the apps and the clubs/raves, we seek to create a Third Space for individuals to find support and community as each of us navigate our gay(sian) experience. Get involved in our community and make some new friends!"
 footline = "Here is a footer!"
@@ -124,23 +126,39 @@ extensionmask = []
 #        weight = 3
 #        identifier = "showcase"
 [menu]
-[[menu.main]]
-name = "Home"
-pre = ""
-weight = 1
-identifier = "home"
-url = "/"
-[[menu.main]]
-name = "About"
-pre = ""
-weight = 2
-identifier = "about"
-url = "/about/"
 
-[[menu.footer]]
-name = "About"
-pre = "<i>&middot;</i>"
-identifier = "about"
-weight = 1
-url = "/about"
+  [[menu.main]]
+  name = "Home"
+  pre = ""
+  weight = 1
+  identifier = "home"
+  url = "/"
+
+  [[menu.footer]]
+  name = "About G3S"
+  pre = "<i>&middot;</i>"
+  identifier = "about"
+  weight = 1
+  url = "/about"
+
+  [[menu.footer]]
+  name = "Tumblr"
+  pre = "<i>&middot;</i>"
+  identifier = "tumblr"
+  weight = 2
+  url = "http://gaysianthirdspace.tumblr.com"
+
+  [[menu.footer]]
+  name = "Facebook"
+  pre = "<i>&middot;</i>"
+  identifier = "fb"
+  weight = 3
+  url = "https://www.facebook.com/gaysianthirdspace"
+
+  [[menu.footer]]
+  name = "Instagram"
+  pre = "<i>&middot;</i>"
+  identifier = "ig"
+  weight = 4
+  url = "https://www.instagram.com/gaysianthirdspace"
 
