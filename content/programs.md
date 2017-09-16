@@ -1,6 +1,7 @@
 +++
-title = "What We Do"
 description = "Programs"
+title = "What We Do"
+type = "page"
 
 +++
 We are building online and offline communities through the following initiatives:
