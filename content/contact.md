@@ -1,6 +1,5 @@
 +++
 date = "2017-09-16T00:51:51+00:00"
-draft = true
 keywords = ["key", "words"]
 tags = ["one", "two"]
 title = "Contact"
@@ -9,6 +8,5 @@ type = "page"
 
 +++
 
-# Headline
 
-Text
+Here's how you can contact us...
