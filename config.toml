@@ -4,15 +4,8 @@ baseurl = "https://gaysianthirdspace.github.io/"
 # Remark if you want to disable multilingual support.
 DefaultContentLanguage = "en"
 
-# If you want all of the languages to be put below their respective language code,
-# enable DefaultContentLanguageInSubdir = true. Without enabling it english content
-# will be in the root and other languages in their respective subfolder such as /sv/.
-# See [Languages] settings at the end of this file.
-
-# Use this languageCode if it's not a multilingual site and also remove all language blocks and menus in the language sections to disable multilingual support.
-# language blocks.
 # Language
-#languageCode = "en"
+languageCode = "en"
 
 # SES friendly url:s
 canonifyurls = true
@@ -28,7 +21,7 @@ paginate = 10
 paginatePath = "page"
 
 # Enable Disqus integration
-disqusShortname = "shortname"
+disqusShortname = ""
 
 
 [permalinks]
@@ -48,7 +41,10 @@ email = "gaysianthirdspace@gmail.com"
 #
 
 [params.theme]
-name = "paper"
+# bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly,
+# default, flatly, journal, lumen, paper, readable, sandstone, simplex, slate,
+# spacelab, superhero, united, yeti.
+name = "sandstone"
 
 [params.popover]
 # This is a highly configurable popover form.
@@ -73,7 +69,7 @@ optin = true #opt-in: true/false
 # menu for changing language. This changes languages with js and stores the choice with the help of JavaScript in a Cookie. Then the path is rewritten with pathnamereplace.js. The name of the md files needs to have the same name for each language abbreviation to work correctly. Example: showcase.en.md and showcase.sv.md. It only works if DefaultContentLanguageInSubdir = true
 switchlang = false
 # You can use markdown here.
-BrandImage = "http://res.cloudinary.com/gaysianthirdspace/image/upload/c_scale,h_60/v1505467821/G3S_Logo_Long_with_Padding_m1lzvx.png" #top header brand image.
+BrandImage = "http://res.cloudinary.com/gaysianthirdspace/image/upload/c_scale,h_60/v1505534413/G3S_Logo_Long_for_Dark_Background_ho4zir.png" #top header brand image.
 brand = "Gaysian Third Space" # brand image alt text.
 topline = "Outside of the apps and the clubs/raves, we seek to create a Third Space for individuals to find support and community as each of us navigate our gay(sian) experience. Get involved in our community and make some new friends!"
 footline = "Here is a footer!"
@@ -90,21 +86,23 @@ sumomeid = "" # Sumome id
 mathjax = "2.7.1" # cdnjs hosted version; empty string to disable mathjax
 
 # Show a sidebar menu
-showRightSidebar = true
+showRightSidebar = false
 # Select a syntax highlight.
 # Check the static/css/highlight directory for options.
 highlight = "default"
 
 # Google Analytics.
-googleAnalytics = "Your Google Analytics tracking code"
+googleAnalytics = "UA-77731767-1"
 
 # Sidebar social links.
-github = "Myprofile" # Your Github profile ID
+github = "" # Your Github profile ID
 bitbucket = "" # Your Bitbucket profile ID
 linkedin = "" # Your LinkedIn profile ID (from public URL)
-googleplus = "Myprofile" # Your Google+ profile ID
-facebook = "Myprofile" # Your Facebook profile ID
-twitter = "Myprofile" # Your Twitter profile ID
+googleplus = "" # Your Google+ profile ID
+tumblr = "gaysianthirdspace"  # Your Tumblr channel ID
+facebook = "gaysianthirdspace" # Your Facebook profile ID
+instagram = "gaysianthirdspace"  # Your Instagram channel ID
+twitter = "" # Your Twitter profile ID
 youtube = ""  # Your Youtube channel ID
 flattr = ""  # populate with your flattr uid
 
@@ -125,80 +123,24 @@ extensionmask = []
 #        name = "Showcase"
 #        weight = 3
 #        identifier = "showcase"
-# i18n menus. A menu will be added for each language to the right in the top menu. This menu will switch to the selected language. Remember to add the corresponding language in pathnamereplace.js.
-#[[Languages.sv.menu.switchlang]]
-#  name = "English"
-#  identifier = ""
-#  weight = 4
-#  url = "en"
-
-
-[Languages]
-[Languages.en]
-languageCode = "en"
-weight = 1
-copyright = "(c) 2016 Copyright my blog"
-title = "My blog" # Site title
-
-[[Languages.en.menu.main]]
-name = "Blog"
+[menu]
+[[menu.main]]
+name = "Home"
 pre = ""
-weight = 2
-identifier = "post"
-url = "/post/"
-
-[[Languages.en.menu.main]]
+weight = 1
+identifier = "home"
+url = "/"
+[[menu.main]]
 name = "About"
-weight = 1
-identifier = ""
-url = "https://appernetic.io/app/#/about"
-pre = "<i class='fa fa-road'></i>"
-
-[[Languages.en.menu.main]]
-name = "Dashboard"
-identifier = ""
-weight = 3
-url = "https://appernetic.io/app/"
-
-[[Languages.en.menu.footer]] # add  links to the bottom right corner.
-name = "Disclaimer"
-pre = "<i>&middot;</i>"
-identifier = "disclaimer"
-weight = 1
-url = "/disclaimer/"
-
-[[Languages.en.menu.footer]]
-name = "Terms"
-identifier = "terms"
-weight = 2
-url = "/terms/"
-
-[Languages.sv]
-languageCode = "sv"
-weight = 2
-title = "Min blog" # Site title
-copyright = "(c) 2016 Alla rättigheter"
-
-[[Languages.sv.menu.main]]
-name = "Bloggen"
 pre = ""
 weight = 2
-identifier = "post"
-url = "/sv/post/"
+identifier = "about"
+url = "/about/"
 
-[[Languages.sv.menu.footer]] # add  links to the bottom right corner.
-name = "Ansvarsfriskrivning"
+[[menu.footer]]
+name = "About"
 pre = "<i>&middot;</i>"
-identifier = "friskrivning"
+identifier = "about"
 weight = 1
-url = "/sv/friskrivning/"
+url = "/about"
 
-[[Languages.sv.menu.footer]]
-name = "Vilkor"
-identifier = "vilkor"
-weight = 2
-url = "/sv/vilkor/"
-
-[Languages.sv.taxonomies]
-tag = "Taggar"
-topic = "Ämne"

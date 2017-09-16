@@ -1,10 +1,10 @@
 +++
 date = "2017-09-15T08:48:04Z"
-draft = true
-title = "firstpost"
+draft = false
+title = "Test Post"
 
 +++
-Testing?
+This is a post, which could be used for announcements if we want to do announcements on the landing page.
 ![Test image!][1]
 
 
