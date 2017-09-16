@@ -19,8 +19,20 @@ weight = 2
 [[menu.main]]
 identifier = "programs"
 name = "Programs"
-url = "/programs/"
+url = "#"
 weight = 3
+[[menu.main]]
+identifier = "programs-overview"
+name = "Overview"
+url = "/programs/"
+parent = "programs"
+weight = 1
+[[menu.main]]
+identifier = "programs-meetups"
+name = "Meetups"
+url = "/meetups/"
+parent = "programs"
+weight = 2
 [[menu.main]]
 name = "Contact"
 url = "/contact/"
