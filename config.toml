@@ -9,29 +9,29 @@ title = "GaysianThirdSpace"
 [Permalinks]
 blog = "/blog/:year/:month/:day/:filename/"
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-[[menu.main]]
-name = "About"
-url = "/about/"
+identifier = "programs-meetups"
+name = "Meetups"
+parent = "programs"
+url = "/meetups/"
 weight = 2
+[[menu.main]]
+identifier = "programs-overview"
+name = "Overview"
+parent = "programs"
+url = "/programs/"
+weight = 1
 [[menu.main]]
 identifier = "programs"
 name = "Programs"
 url = "#"
 weight = 3
 [[menu.main]]
-identifier = "programs-overview"
-name = "Overview"
-url = "/programs/"
-parent = "programs"
+name = "Home"
+url = "/"
 weight = 1
 [[menu.main]]
-identifier = "programs-meetups"
-name = "Meetups"
-url = "/meetups/"
-parent = "programs"
+name = "About"
+url = "/about/"
 weight = 2
 [[menu.main]]
 name = "Contact"
