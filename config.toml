@@ -9,42 +9,42 @@ title = "GaysianThirdSpace"
 [Permalinks]
 blog = "/blog/:year/:month/:day/:filename/"
 [[menu.main]]
-name = "Contact"
-url = "/contact/"
-weight = 4
+name = "Home"
+url = "/"
+weight = 1
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 2
 [[menu.main]]
 identifier = "programs"
 name = "Programs"
 url = "/programs/"
 weight = 3
 [[menu.main]]
-name = "About"
-url = "/about/"
-weight = 2
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-[[menu.topbar]]
-name = "Email"
-pre = "<i class='fa fa-2x fa-envelope'></i>"
-url = "mailto:gaysianthirdspace@gmail.com"
+name = "Contact"
+url = "/contact/"
 weight = 4
 [[menu.topbar]]
-name = "Instagram"
-pre = "<i class='fa fa-2x fa-instagram'></i>"
-url = "http://instagram.com/gaysianthirdspace"
-weight = 3
+name = "Tumblr"
+pre = "<i class='fa fa-2x fa-tumblr'></i>"
+url = "http://gaysianthirdspace.tumblr.com"
+weight = 1
 [[menu.topbar]]
 name = "Facebook"
 pre = "<i class='fa fa-2x fa-facebook'></i>"
 url = "http://facebook.com/gaysianthirdspace"
 weight = 2
 [[menu.topbar]]
-name = "Tumblr"
-pre = "<i class='fa fa-2x fa-tumblr'></i>"
-url = "http://gaysianthirdspace.tumblr.com"
-weight = 1
+name = "Instagram"
+pre = "<i class='fa fa-2x fa-instagram'></i>"
+url = "http://instagram.com/gaysianthirdspace"
+weight = 3
+[[menu.topbar]]
+name = "Email"
+pre = "<i class='fa fa-2x fa-envelope'></i>"
+url = "mailto:gaysianthirdspace@gmail.com"
+weight = 4
 [params]
 about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
 address = "<p><strong>Universal Ltd.</strong>\n        <br>13/25 New Avenue\n        <br>Newtown upon River\n        <br>45Y 73J\n        <br>England\n        <br>\n        <strong>Great Britain</strong>\n      </p>\n      "
