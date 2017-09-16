@@ -47,7 +47,7 @@ identifier = "home"
 name = "Home"
 pre = ""
 url = "/"
-weight = 1
+weight = 4
 [params]
 bitbucket = ""
 brand = "Gaysian Third Space"
