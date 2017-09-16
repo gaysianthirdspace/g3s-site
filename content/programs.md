@@ -7,7 +7,7 @@ identifier = "programs"
 name = "Programs"
 pre = ""
 url = "/programs/"
-weight = 3
+weight = 1
 
 +++
 We are building online and offline communities through the following initiatives:
