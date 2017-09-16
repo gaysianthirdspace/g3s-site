@@ -6,11 +6,13 @@ fields:
   type: datetime
   hidden: false
   default: ''
+  description: Date of post publication
 - name: title
   label: Title
   type: text
   hidden: false
   default: ''
+  description: Displayed page title
 - name: type
   label: Type
   type: text
