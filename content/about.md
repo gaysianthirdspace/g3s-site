@@ -1,13 +1,6 @@
 +++
-date = "2017-09-15T08:48:04Z"
-title = "About Gaysian Third Space"
-type = "page"
-[menu.main]
-identifier = "about"
-name = "About"
-pre = ""
-url = "/about/"
-weight = 3
+title = "About GaysianThirdSpace"
+description = "About"
 
 +++
 Outside the clubs and beyond the apps, we aim to provide a Third Space – a community to share, discuss, and provide support for the unique experience of being Gay and Asian.

@@ -1,13 +1,6 @@
 +++
-date = "2017-09-15T08:48:04Z"
 title = "What We Do"
-type = "page"
-[menu.main]
-identifier = "programs"
-name = "Programs"
-pre = ""
-url = "/programs/"
-weight = 1
+description = "Programs"
 
 +++
 We are building online and offline communities through the following initiatives:

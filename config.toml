@@ -1,100 +1,169 @@
-DefaultContentLanguage = "en"
-baseurl = "https://gaysianthirdspace.github.io/"
-canonifyurls = true
+baseurl = "https://gaysianthirdspace.github.io"
+title = "GaysianThirdSpace"
+theme = "hugo-universal-theme"
+languageCode = "en-us"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "en"
+# Enable comments by entering your Disqus shortname
 disqusShortname = ""
-languageCode = "en"
-metaDataFormat = "toml"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = "UA-77731767-1"
+
+# Define the number of posts per page
 paginate = 10
-paginatePath = "page"
-theme = "hugo-bootstrap-premium"
-[author]
-email = "gaysianthirdspace@gmail.com"
-name = "Gaysian Third Space"
-[blackfriday]
-angledQuotes = true
-extensionmask = []
-extensions = []
-fractions = false
-hrefTargetBlank = false
-latexDashes = true
-plainIdAnchors = true
-[[menu.footer]]
-identifier = "ig"
-name = "Instagram"
-pre = "<i>&middot;</i>"
-url = "https://www.instagram.com/gaysianthirdspace"
-weight = 4
-[[menu.footer]]
-identifier = "fb"
-name = "Facebook"
-pre = "<i>&middot;</i>"
-url = "https://www.facebook.com/gaysianthirdspace"
-weight = 3
-[[menu.footer]]
-identifier = "tumblr"
-name = "Tumblr"
-pre = "<i>&middot;</i>"
-url = "http://gaysianthirdspace.tumblr.com"
-weight = 2
-[[menu.footer]]
-identifier = "about"
-name = "About G3S"
-pre = "<i>&middot;</i>"
-url = "/about"
-weight = 1
+
+[menu]
+
+# Main menu
+
 [[menu.main]]
-identifier = "home"
-name = "Home"
-pre = ""
-url = "/"
-weight = 4
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url  = "/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Programs"
+    identifier = "programs"
+    url  = "/programs/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 4
+
+# Top bar social links menu
+
+[[menu.topbar]]
+    weight = 1
+    name = "Tumblr"
+    url = "http://gaysianthirdspace.tumblr.com"
+    pre = "<i class='fa fa-2x fa-tumblr'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "Facebook"
+    url = "http://facebook.com/gaysianthirdspace"
+    pre = "<i class='fa fa-2x fa-facebook'></i>"
+
+[[menu.topbar]]
+    weight = 3
+    name = "Instagram"
+    url = "http://instagram.com/gaysianthirdspace"
+    pre = "<i class='fa fa-2x fa-instagram'></i>"
+
+[[menu.topbar]]
+    weight = 4
+    name = "Email"
+    url = "mailto:gaysianthirdspace@gmail.com"
+    pre = "<i class='fa fa-2x fa-envelope'></i>"
+
 [params]
-bitbucket = ""
-brand = "Gaysian Third Space"
-brandimage = "http://res.cloudinary.com/gaysianthirdspace/image/upload/c_scale,h_60/v1505534413/G3S_Logo_Long_for_Dark_Background_ho4zir.png"
-customcss = ["/css/style_custom.css"]
-customjs = []
-facebook = "gaysianthirdspace"
-flattr = ""
-footline = "Here is a footer!"
-github = ""
-googleanalytics = "UA-77731767-1"
-googleplus = ""
-highlight = "default"
-home = "Home"
-instagram = "gaysianthirdspace"
-linkedin = ""
-mailmunchid = ""
-mathjax = "2.7.1"
-showrightsidebar = false
-sumomeid = ""
-switchlang = false
-topline = "Outside of the apps and the clubs/raves, we seek to create a Third Space for individuals to find support and community as each of us navigate our gay(sian) experience. Get involved in our community and make some new friends!"
-tumblr = "gaysianthirdspace"
-twitter = ""
-youtube = ""
-[params.popover]
-cookiename = "mycookie1"
-enablepopover = false
-errormessage = "Submitting form failed!"
-expirecookie = 5
-headerimage = "//placehold.it/1000x600"
-imagedescription = "Placeholder image for this popover modal optin form"
-inputplaceholder = "Enter your email"
-modalsize = ""
-mouseleave = true
-optin = true
-posturl = "https://zapier.com/hooks/catch/1227563/"
-showmodaltimeout = 10000
-signupheader = "Join Our Newsletter"
-signuptext = "Signup today for free and be the first to get notified on new updates."
-submitbutton = "Subscribe"
-successmessage = "Thanks for your subscription!"
-[params.theme]
-name = "sandstone"
-[permalinks]
-code = "/:filename/"
-post = "/:year/:month/:day/:filename/"
-[taxonomies]
-tag = "tags"
-topic = "topics"
+    viewMorePostLink = "/blog/"
+    author = "DevCows"
+    defaultKeywords = ["devows", "hugo", "go"]
+    defaultDescription = "Site template made by devcows using hugo"
+
+    # Google Maps API key (if not set will default to not passing a key.)
+    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "default"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "your@email.com"
+
+    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    logo = "img/logo.png"
+    address = """<p><strong>Universal Ltd.</strong>
+        <br>13/25 New Avenue
+        <br>Newtown upon River
+        <br>45Y 73J
+        <br>England
+        <br>
+        <strong>Great Britain</strong>
+      </p>
+      """
+    latitude = "-12.043333"
+    longitude = "-77.028333"
+
+[Permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = false
+    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
+      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+      </p>
+      """
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carousel]
+    enable = true
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+
+[params.features]
+    enable = true
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+[params.testimonials]
+    enable = false
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "Testimonials"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+
+[params.see_more]
+    enable = true
+    icon = "fa fa-file-code-o"
+    title = "Do you want to see more?"
+    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    link_url = "#"
+    link_text = "Check other homepages"
+
+[params.clients]
+    enable = false
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more informtion take a look at the README.
+    title = "Our Clients"
+    subtitle = ""
+
+[params.recent_posts]
+    enable = false
+    title = "From our blog"
+    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
