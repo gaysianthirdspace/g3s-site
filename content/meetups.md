@@ -9,6 +9,5 @@ type = "page"
 
 +++
 
-# Headline
 
-Text
+We do meetups and stuff.
