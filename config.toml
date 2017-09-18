@@ -55,14 +55,13 @@ pre = "<i class='fa fa-2x fa-envelope'></i>"
 url = "mailto:gaysianthirdspace@gmail.com"
 weight = 4
 [params]
-about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-address = "<p><strong>Universal Ltd.</strong>\n        <br>13/25 New Avenue\n        <br>Newtown upon River\n        <br>45Y 73J\n        <br>England\n        <br>\n        <strong>Great Britain</strong>\n      </p>\n      "
-author = "DevCows"
-copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+about_us = "<p>Outside the clubs and beyond the apps, we aim to provide a Third Space – a community to share, discuss, and provide support for the unique experience of being Gay and Asian. Get involved in our community and make some new friends!</p>"
+author = "Gaysian Third Space"
+copyright = "Copyright © 2017 Gaysian Third Space, All Rights Reserved."
 date_format = "January 2, 2006"
-defaultdescription = "Site template made by devcows using hugo"
-defaultkeywords = ["devows", "hugo", "go"]
-email = "your@email.com"
+defaultdescription = "Outside the clubs and beyond the apps, we aim to provide a Third Space – a community to share, discuss, and provide support for the unique experience of being Gay and Asian. Get involved in our community and make some new friends!"
+defaultkeywords = ["gaysian", "gay", "asian", "asian american", "queer", "lgbt", "lgbtq", "community"]
+email = "gaysianthirdspace@gmail.com"
 googlemapsapikey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 latitude = "-12.043333"
 logo = "img/logo.png"
@@ -71,10 +70,10 @@ style = "default"
 viewmorepostlink = "/blog/"
 [params.carousel]
 enable = true
-[params.clients]
-enable = true
+[params.partners]
+enable = false
 subtitle = ""
-title = "Sibling Organizations"
+title = "Partner Organizations"
 [params.recent_posts]
 enable = false
 subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."

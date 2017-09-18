@@ -16,6 +16,8 @@ We also regularly invite members of our community to guest curate our blog, wher
 
 Finally, we are [cataloging](http://gaysianthirdspace.tumblr.com/tags) our archives to make it easier to find content that speaks to specific topics and experiences.
 
+If you'd prefer to follow us on WordPress, we maintain a mirror of our Tumblr blog [here](https://gaysianthirdspacev2.wordpress.com/).
+
 ## <a name="linechat"></a> LINE Chat Group
 
 We have a chat group on LINE to facilitate closer interactions through chatting, serious discussions, and more casual conversations across many time zones. LINE Group Moderators (Fish and Jeff from the [G3S Team](/about#team)) work actively to moderate membership and monitor the chat to maintain a supportive and welcoming environment for all of the participants. They reserve the right to decline new membership or remove current members.
@@ -54,7 +56,9 @@ We run a [Writer’s Roundtable series](http://gaysianthirdspace.tumblr.com/tagg
 
 We are working to create resources to support mental health for queer API people, in order to help meet the needs of members of the G3S community and queer API communities more broadly. We are currently investigating how we might best leverage our collective knowledge and resources to meet the needs of our communities. If you are interested in collaborating, sharing notes, or chatting with us about queer API mental health, we'd love to talk to you! Just [send us a message](/contact) and we will follow up with you.
 
-## etc
+## <a name="socialmedia"></a> Social Media
+
+We are exploring other platforms for engagement and story-sharing by maintaining the following pages:
 
 - An [Instagram account](http://www.instagram.com/gaysianthirdspace/) for sharing our experiences and learning from each other through a more visual medium. We are starting by sharing our Follower Friday profiles on the account, and we hope to eventually provide a community platform for visual storytelling.
 - A [Facebook page](https://www.facebook.com/gaysianthirdspace) for facilitating more interactive discussions about the content posted to the Tumblr blog.
