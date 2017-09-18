@@ -78,7 +78,7 @@ enable = true
 enable = true
 subtitle = ""
 title = "Sibling Organizations"
-[params.features]
+[params.values]
 enable = true
 [params.recent_posts]
 enable = false
