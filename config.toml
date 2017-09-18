@@ -75,9 +75,9 @@ viewmorepostlink = "/blog/"
 [params.carousel]
 enable = true
 [params.clients]
-enable = false
+enable = true
 subtitle = ""
-title = "Our Clients"
+title = "Sibling Organizations"
 [params.features]
 enable = true
 [params.recent_posts]
