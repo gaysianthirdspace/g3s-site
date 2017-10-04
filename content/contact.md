@@ -15,7 +15,8 @@ You can send us a message on Tumblr through our Ask Box. By default, we post ans
 ## Facebook
 
 You can send us a private message on Facebook below:
-<div class="fb-page" data-href="https://www.facebook.com/gaysianthirdspace/" data-tabs="messages" data-width="500" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/gaysianthirdspace/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/gaysianthirdspace/">Gaysian Third Space - G3S</a></blockquote></div>
+
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgaysianthirdspace%2F&tabs=messages&width=500&height=250&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="500" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
 ## Email
 
