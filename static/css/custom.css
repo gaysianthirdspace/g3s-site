@@ -2,11 +2,19 @@ footer#footer {
   margin-top: 40px;
 }
 
-.home-carousel {
+div.box-simple {
+  margin-bottom: 60px;
+}
+
+div.box-simple div.icon {
+  border: none;
+}
+
+div.home-carousel {
   background-image: url(../img/carousel/background.jpg);
 }
 
-.home-carousel .dark-mask {
+div.home-carousel div.dark-mask {
   background-color: rgb(0, 0, 0);
   opacity: 0.5;
 }
