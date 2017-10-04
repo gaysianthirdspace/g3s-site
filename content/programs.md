@@ -24,7 +24,7 @@ We have a chat group on LINE to facilitate closer interactions through chatting,
 
 To join the LINE group, please follow these instructions:
 
-1. Fill out the form here (this step is required).
+1. Fill out the [sign-up form](https://docs.google.com/forms/d/1et74jeWtk1F0Q667p-cWpZLmKaWFN0FJyHZ-_M9kHVs/edit) here (this step is required).
 2. [Download and install](https://line.me/en/download) the LINE app.
 3. Send a friend request to “alostfish” on LINE.
 4. Send “alostfish” a quick message on LINE so he knows to add you.
