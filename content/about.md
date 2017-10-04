@@ -27,6 +27,10 @@ There are many ways you can get involved in our community:
 - Follow us on [Instagram](https://www.instagram.com/gaysianthirdspace/)!
 - Follow us on [Facebook](https://www.facebook.com/gaysianthirdspace)!
 
+## Community Impact
+
+Add quotes from G3S members about the impact G3S has had on them.
+
 ## <a name="team"></a> The G3S Team
 
 For accountability and relatability, we should probably have brief individual profiles about who the G3S team consists of, why we're doing this work, and what our roles and responsibilities are.

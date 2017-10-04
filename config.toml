@@ -86,7 +86,7 @@ link_url = "#"
 subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
 title = "Do you want to see more?"
 [params.testimonials]
-enable = true
+enable = false
 subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 title = "Testimonials"
 [params.topbar]
