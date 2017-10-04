@@ -67,7 +67,14 @@
   <meta property="og:url" content="{{ .URL }}/" />
   <meta property="og:image" content="{{ .Site.Params.logo }}" />
 
-  <!-- Google Analytics -->
-  {{ template "_internal/google_analytics.html" . }}
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+gtag('config', '{{ .Site.GoogleAnalytics }}');
+  </script>
 
 </head>
