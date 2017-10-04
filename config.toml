@@ -1,7 +1,7 @@
 baseurl = "http://gaysianthirdspace.com/"
 defaultContentLanguage = "en"
 disqusShortname = ""
-googleAnalytics = "UA-77731767-1"
+googleAnalytics = "UA-77731767-2"
 languageCode = "en-us"
 paginate = 10
 theme = "hugo-universal-theme"
