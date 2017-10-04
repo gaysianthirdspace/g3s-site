@@ -29,7 +29,7 @@ There are many ways you can get involved in our community:
 
 ## Community Impact
 
-Add quotes from G3S members about the impact G3S has had on them.
+Add a carousel of quotes from G3S members about the impact G3S has had on them.
 
 ## <a name="team"></a> The G3S Team
 
