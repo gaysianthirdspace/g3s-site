@@ -37,23 +37,7 @@ Add a carousel of quotes from G3S members about the impact G3S has had on them.
 
 The administrative team volunteers their time to support and grow the G3S community and the broader Gaysian and LGBTQ+ Asian communities.
 
-#### Fish, Co-founder
-Information needed: why you co-founded G3S; your primary roles and responsibilities for G3S; your background (however you interpret that, e.g. identities, where you're from, your profession, your community involvements); a few hobbies or things you like to do in your free time; and a profile photo at least 250 px wide (square if possible), or a note to skip the profile photo
-
-#### Jeffrey Wong, Co-founder
-Information needed: why you co-founded G3S; your roles and responsibilities for G3S; your background (however you interpret that, e.g. identities, where you're from, your profession, your community involvements); a few hobbies or things you like to do in your free time; and a profile photo at least 250 px wide (square if possible), or a note to skip the profile photo
-
-#### Andrew Nguyen
-Information needed: how/why you got involved in G3S and the admin team; your roles and responsibilities for G3S; your background (however you interpret that, e.g. identities, where you're from, your profession, your community involvements); a few hobbies or things you like to do in your free time; and a profile photo at least 250 px wide (square if possible), or a note to skip the profile photo
-
-#### Ethan Li
-Having joined the admin team to help develop G3S as a resource for queer Asians, Ethan focuses on maintaining the website and Instagram account and occasionally guest-curates the blog. Ethan is a queer, nonbinary Chinese+Taiwanese-American from Michigan and is currently studying computer science as a grad student in the SF Bay Area. They are also a member of the steering committee for [API Equality Northern California](https://www.apiequalitync.org)'s Dragon Fruit Project, an intergenerational oral history project documenting the experiences of queer Asians and Pacific Islanders. Ethan enjoys dancing with a K-pop dance cover group, building things, and reading speculative fiction and Asian American literature.
-
-#### Anthony Tran
-Information needed: how/why you got involved in G3S and the admin team; your roles and responsibilities for G3S; your background (however you interpret that, e.g. identities, where you're from, your profession, your community involvements); a few hobbies or things you like to do in your free time; and a profile photo at least 250 px wide (square if possible), or a note to skip the profile photo
-
-#### Charles Lin
-Information needed: how/why you got involved in G3S and the admin team; your roles and responsibilities for G3S; your background (however you interpret that, e.g. identities, where you're from, your profession, your community involvements); a few hobbies or things you like to do in your free time; and a profile photo at least 250 px wide (square if possible), or a note to skip the profile photo
+{{% admin-team-gallery %}}
 
 ### Website Maintenance Team
 

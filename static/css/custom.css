@@ -27,3 +27,29 @@ div.home-carousel div.dark-mask {
   opacity: 0.5;
 }
 
+@media (min-width: 992px) {
+  .vertical-align-md {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .vertical-align-sm {
+    display: flex;
+    align-items: center;
+  }
+}
+
+div.admin-team-row {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  div.admin-team-row img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
