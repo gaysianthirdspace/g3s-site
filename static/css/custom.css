@@ -40,6 +40,11 @@ div.home-carousel div.dark-mask {
   opacity: 0.5;
 }
 
+div.owl-item div.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 @media (min-width: 992px) {
   .vertical-align-md {
     display: flex;
