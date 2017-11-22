@@ -1,15 +1,9 @@
 /* global $this: true */
 /* eslint no-unused-vars: ["error", { "varsIgnorePattern": "animationsSlider" }] */
 
-if ($.cookie('themeCSSpath')) {
-  $('link#theme-stylesheet').attr('href', $.cookie('themeCSSpath'))
-}
-if ($.cookie('themeLayout')) {
-  $('body').addClass($.cookie('themeLayout'))
-}
-
 $(function () {
   //sliderHomepage()
+  navsHomepage()
   sliders()
   fullScreenContainer()
   // productDetailGallery(4000)
@@ -20,6 +14,17 @@ $(function () {
   counters()
   contactForm()
 })
+
+function navsHomepage () {
+  $('.navbar-inverse .navbar-collapse').on('show.bs.collapse', function() {
+    console.log('collapse!')
+    $('.navbar-header').css('background-color', 'rgba(51, 51, 51, 1)')
+  })
+  $('.navbar-inverse .navbar-collapse').on('hidden.bs.collapse', function() {
+    console.log('collapse!')
+    $('.navbar-header').css('background-color', 'rgba(51, 51, 51, 0)')
+  })
+}
 
 // Ajax contact
 function contactForm () {
@@ -84,10 +89,8 @@ function sliders () {
       slideSpeed: 400,
       paginationSpeed: 1000,
       autoPlay: true,
-      autoPlayHoverPause: true,
       stopOnHover: true,
       singleItem: true,
-      lazyLoad: true,
       addClassActive: true,
       afterInit: function () {
         // animationsSlider()

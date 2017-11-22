@@ -36,7 +36,7 @@ footer#footer {
 }
 
 .navbar-inverse {
-  background: transparent;
+  background-color: rgba(51, 51, 51, 0);
   z-index: 100;
 }
 
@@ -72,9 +72,8 @@ div.box-simple h3 {
 }
 
 div.home-carousel {
-  position: relative;
   margin-top: -75px;
-  background-image: url(../img/carousel/background.jpg);
+  background: transparent;
 }
 
 div.home-carousel .owl-carousel {
@@ -113,17 +112,14 @@ div.home-carousel p {
 }
 
 .home-carousel .owl-controls {
-  margin-top: 5px !important;
+  position: relative;
+  top: -40px;
+  margin-top: 0px !important;
+  z-index: 10;
 }
 
-.home-carousel .owl-theme .owl-controls .owl-page span {
-  background: #ffb43a;
-}
 .home-carousel .owl-theme .owl-controls .owl-page.active span {
-  background: #ffa107;
-}
-.home-carousel .owl-theme .owl-controls .owl-page:hover span {
-  background: #ffa107;
+  opacity: 0.9;
 }
 
 @media (min-width: 992px) {
