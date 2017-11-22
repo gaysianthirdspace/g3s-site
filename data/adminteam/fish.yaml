@@ -1,6 +1,10 @@
 ---
-text: "Information needed: why you co-founded G3S; your primary roles and responsibilities for G3S; your background (however you interpret that, e.g. identities, where you're from, your profession, your community involvements); a few hobbies or things you like to do in your free time; and a profile photo at least 250 px wide (square if possible), or a note to skip the profile photo"
-name: "Fish"
-position: "Co-founder"
+text: 'Information needed: why you co-founded G3S; your primary roles and responsibilities
+  for G3S; your background (however you interpret that, e.g. identities, where you''re
+  from, your profession, your community involvements); a few hobbies or things you
+  like to do in your free time; and a profile photo at least 250 px wide (square if
+  possible), or a note to skip the profile photo'
+name: Fish
+position: Co-founder
 avatar: img/admin-team/user-placeholder.png
 order: 1
