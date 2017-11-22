@@ -1,3 +1,11 @@
+body {
+  font-size: 15px;
+}
+
+div.container {
+  max-width: 800px;
+}
+
 footer#footer {
   margin-top: 40px;
   background: #333;
@@ -6,8 +14,13 @@ footer#footer {
   line-height: 28px;
 }
 
+.navbar .navbar-header {
+  border-top: solid 4px transparent;
+}
+
 .navbar ul.nav > li > a {
   text-decoration: none;
+  font-size: 13px;
 }
 
 div.box-simple {
@@ -41,9 +54,13 @@ div.home-carousel div.dark-mask {
   }
 }
 
+div.admin-team-gallery {
+  padding: 0px;
+}
+
 div.admin-team-row {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 767px) {

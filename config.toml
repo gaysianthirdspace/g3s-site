@@ -11,29 +11,25 @@ blog = "/blog/:year/:month/:day/:filename/"
 [[menu.main]]
 name = "Contact"
 url = "/contact/"
-weight = 6
+weight = 5
 [[menu.main]]
 name = "Blog"
 url = "http://gaysianthirdspace.tumblr.com"
-weight = 5
+weight = 4
 [[menu.main]]
 identifier = "meetups"
 name = "Meetups"
 url = "/meetups/"
-weight = 4
+weight = 3
 [[menu.main]]
 identifier = "programs"
 name = "Programs"
 url = "/programs/"
-weight = 3
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+weight = 2
 [[menu.main]]
 name = "About"
 url = "/about/"
-weight = 2
+weight = 1
 [[menu.topbar]]
 name = "Email"
 pre = "<i class='fa fa-envelope'></i>"

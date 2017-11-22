@@ -1,10 +1,10 @@
-<div class="container">
+<div class="container admin-team-gallery">
     {{ range $index, $element := sort .Site.Data.adminteam "order" }}
     <div class="row vertical-align-md vertical-align-sm admin-team-row">
-        <div class="col-md-2 col-sm-3">
+        <div class="col-md-3 col-sm-3">
             <img class="img-responsive img-circle" alt="{{ .name }}" src="{{ .avatar | absURL }}">
         </div>
-        <div class="col-md-10 col-sm-9">
+        <div class="col-md-9 col-sm-9">
             <div class="text">
                 <h4>
                     {{ .name }}
