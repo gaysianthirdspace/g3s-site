@@ -1,5 +1,6 @@
 ---
-weight: 2
+weight: 3
 name: Mentorship
 icon: fa fa-comments
 description: Seek guidance or offer your own.
+target: /programs/#mentorship

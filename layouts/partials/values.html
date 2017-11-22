@@ -10,10 +10,16 @@
 		{{ end }}
 				<div class="col-md-4">
                     <div class="box-simple">
+			{{ if .target }}
+			<a href="{{ .target }}">
+			{{ end }}
                         <div class="icon">
                             <i class="{{ .icon }} fa-3x"></i>
                         </div>
                         <h3>{{ $element.name }}</h3>
+			{{ if .target }}
+			</a>
+			{{ end }}
                         <p>{{ $element.description | markdownify }}</p>
                     </div>
                 </div>

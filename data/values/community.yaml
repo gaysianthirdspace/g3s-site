@@ -1,5 +1,6 @@
 ---
-weight: 6
+weight: 1
 name: Community
 icon: fa fa-users
 description: Join a supportive, welcoming, and safe community.
+target: /about
