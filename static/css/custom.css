@@ -23,6 +23,10 @@ footer#footer {
   font-size: 13px;
 }
 
+.bar {
+  padding: 10px;
+}
+
 div.box-simple {
   margin-bottom: 60px;
 }
@@ -52,13 +56,17 @@ div.home-carousel div.item {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 div.home-carousel div.dark-mask {
   background-color: rgb(0, 0, 0);
-  opacity: 0.5;
+  opacity: 0.8;
+}
+
+.home-carousel .owl-controls {
+  margin-top: 5px !important;
 }
 
 .home-carousel .owl-theme .owl-controls .owl-page span {
