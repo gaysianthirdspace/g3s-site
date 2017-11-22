@@ -55,7 +55,6 @@ pre = "<i class='fa fa-2x fa-envelope'></i>"
 url = "mailto:gaysianthirdspace@gmail.com"
 weight = 4
 [params]
-about_us = "<p>Outside the clubs and beyond the apps, we aim to provide a Third Space – a community to share, discuss, and provide support for the unique experience of being Gay and Asian. Get involved in our community and make some new friends!</p>"
 author = "Gaysian Third Space"
 copyright = "Copyright © 2017 Gaysian Third Space, All Rights Reserved."
 date_format = "January 2, 2006"
@@ -69,6 +68,8 @@ longitude = "-77.028333"
 style = "orange"
 viewmorepostlink = "/blog/"
 [params.carousel]
+enable = true
+[params.footer_icons]
 enable = true
 [params.partners]
 enable = false
