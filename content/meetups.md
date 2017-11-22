@@ -12,14 +12,14 @@ Pictures/album of meetups
 
 ## Current Regional Chapters
 
-We have regional chapters of various sizes in several North American regions. To get in contact with a regional chapter, please send us a message at our [contact page](/contact/) or send a message directly to the contact person for the chapter:
+We have regional chapters of various sizes in several North American regions. To get in contact with a regional chapter, please send us a message at our [contact page](/contact/) and we'll connect you with the contact person for the chapter:
 
-- Los Angeles Metropolitan Area: message Andrew at (instructions)
-- San Francisco Bay Area: message (Charlie or Ethan) at (instructions)
+- Los Angeles Metropolitan Area: Andrew
+- San Francisco Bay Area: Charlie
 - Toronto/Eastern Canada: ???
 - Boston: message (Justin?) at (instructions)
-- Washington Metropolitan Area: message (Jeff?) at (instructions)
-- New York City: message (Charles or Binh?) at (instructions)
+- Washington Metropolitan Area: Jeff
+- New York City: (Charles or Binh?)
 
 ## Partner Organizations
 

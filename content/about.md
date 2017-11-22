@@ -34,3 +34,25 @@ Add a carousel of quotes from G3S members about the impact G3S has had on them.
 ## <a name="team"></a> The G3S Team
 
 For accountability and relatability, we should probably have brief individual profiles about who the G3S team consists of, why we're doing this work, and what our roles and responsibilities are.
+
+### G3S Co-Founders
+
+Fish:
+
+Jeff:
+
+### Admin Team
+
+Andrew:
+
+Ethan:
+
+Charles:
+
+Anthony:
+
+### Website Maintenance
+
+The G3S website is a community effort: Ethan set up the infrastructure and oversees website maintenance; Fish developed website content and style; Andrew, Thompson, and Jean created graphics used on the website and provided valuable feedback; and Rick contributes to improvement of website style.
+
+
