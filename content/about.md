@@ -12,8 +12,6 @@ Gay Asians and Pacific Islanders represent a unique “double minority” popula
 
 In light of this reality, we decided to create the Gaysian Third Space (G3S), an alternative global platform for individuals looking for Community. A Community that is a safe and supportive environment where members encourage each other to grow and mature as they explore their identities. A Community where we can share our stories and struggles on coming out, family, school/career, romance, body image, relationships, and other experiences that perhaps only fellow gaysians can fully understand. A Community that gives voice to our “multiple minority” experiences on timely issues, because our perspectives are valid and deserve to be heard. That is our vision for Gaysian Third Space.
 
-~ The Gaysian Third Space Team
-
 ## Getting Involved
 
 There are many ways you can get involved in our community:
@@ -27,10 +25,6 @@ There are many ways you can get involved in our community:
 - Follow us on [Instagram](https://www.instagram.com/gaysianthirdspace/)!
 - Follow us on [Facebook](https://www.facebook.com/gaysianthirdspace)!
 
-## Community Impact
-
-Add a carousel of quotes from G3S members about the impact G3S has had on them.
-
 ## <a name="team"></a> The G3S Team
 
 ### Administrative Team
@@ -43,7 +37,7 @@ The administrative team volunteers their time to support and grow the G3S commun
 
 The G3S website is a group effort by members of our community:
 
-- Ethan set up the infrastructure and oversees website maintenance
+- Ethan set up the infrastructure and design and oversees website maintenance
 - Fish developed website content and style
 - Andrew, Thompson, and Jean created graphics used on the website and provided valuable feedback
 - Rick contributes to improvement of website style.
