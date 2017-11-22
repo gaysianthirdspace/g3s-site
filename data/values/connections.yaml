@@ -3,4 +3,4 @@ weight: 4
 name: Connections
 icon: fa fa-globe
 description: Make gaysian friends from around the world.
-target: /programs/#linechat
+target: "/programs/#linechat"
