@@ -3,32 +3,28 @@
 {{ if gt (len .Site.Data.carousel) 0 }}
 <section>
     <div class="home-carousel">
-        <div class="dark-mask"></div>
-        <div class="container">
-            <div class="homepage owl-carousel">
-                {{ range sort .Site.Data.carousel "weight" }}
-                <div class="item">
-                    <div class="row">
-                        {{ if .image }}
-                        <div class="col-sm-5 right">
-                            <h1>{{ .title | safeHTML }}</h1>
-                            {{ .description | safeHTML }}
-                        </div>
-                        <div class="col-sm-7">
-                            <img class="img-responsive" src="{{ .image }}" alt="">
-                        </div>
-                        {{ else }}
-                        <div class="col-sm-12">
-                            <h1>{{ .title | safeHTML }}</h1>
-                            {{ .description | safeHTML }}
-                        </div>
-                        {{ end }}
-                    </div>
+        <div class="homepage owl-carousel">
+            {{ range sort .Site.Data.carousel "weight" }}
+            <div class="item" style="background-image:url('{{ .backgroundimage }}')"> <div class="container"> <div class="row">
+                <div class="dark-mask"></div>
+                {{ if .image }}
+                <div class="col-sm-5 right">
+                    <h1>{{ .title | safeHTML }}</h1>
+                    {{ .description | safeHTML }}
+                </div>
+                <div class="col-sm-7">
+                    <img class="img-responsive" src="{{ .image }}" alt="">
+                </div>
+                {{ else }}
+                <div class="col-sm-12">
+                    <h1>{{ .title | safeHTML }}</h1>
+                    {{ .description | safeHTML }}
                 </div>
                 {{ end }}
-            </div>
-            <!-- /.project owl-slider -->
+            </div> </div> </div>
+            {{ end }}
         </div>
+        <!-- /.project owl-slider -->
     </div>
 </section>
 {{ end }}
