@@ -2,6 +2,10 @@ footer#footer {
   margin-top: 40px;
 }
 
+.navbar ul.nav > li > a {
+  text-decoration: none;
+}
+
 div.box-simple {
   margin-bottom: 60px;
 }
