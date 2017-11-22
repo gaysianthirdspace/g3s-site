@@ -8,8 +8,6 @@ G3S has facilitated meetups all around the world! Our regional chapters in North
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=11zYeY6ifzc83GjO98WY355jNeSc" width="100%" height="480"></iframe>
 
-Pictures/album of meetups
-
 ## Current Regional Chapters
 
 We have regional chapters of various sizes in several North American regions. To get in contact with a regional chapter, please send us a message at our [contact page](/contact/) and we'll connect you with the contact person for the chapter:
@@ -18,8 +16,6 @@ We have regional chapters of various sizes in several North American regions. To
 - San Francisco Bay Area: Charlie
 - Toronto/Eastern Canada: ???
 - Boston: message (Justin?) at (instructions)
-- Washington Metropolitan Area: Jeff
-- New York City: (Charles or Binh?)
 
 ## Partner Organizations
 
@@ -42,3 +38,5 @@ When we plan official meetups, we announce them on our Tumblr blog and our Faceb
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="fb-page" data-href="https://www.facebook.com/gaysianthirdspace/" data-tabs="events" data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/gaysianthirdspace/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/gaysianthirdspace/">Gaysian Third Space - G3S</a></blockquote></div>
+
+Unofficial meetups are usually coordinated informally in our [LINE Chat Group](/programs/#linechat).

@@ -33,26 +33,35 @@ Add a carousel of quotes from G3S members about the impact G3S has had on them.
 
 ## <a name="team"></a> The G3S Team
 
-For accountability and relatability, we should probably have brief individual profiles about who the G3S team consists of, why we're doing this work, and what our roles and responsibilities are.
+### Administrative Team
 
-### G3S Co-Founders
+The administrative team volunteers their time to support and grow the G3S community and the broader Gaysian and LGBTQ+ Asian communities.
 
-Fish:
+#### Fish, Co-founder
+Information needed: why you co-founded G3S; your primary roles and responsibilities for G3S; your background (however you interpret that, e.g. where you've lived, your profession, your community involvements); a few hobbies or things you like to do in your free time; and a profile photo at least 250 px wide (square if possible), or a note to skip the profile photo
 
-Jeff:
+#### Jeffrey Wong, Co-founder
+Information needed: why you co-founded G3S; your roles and responsibilities for G3S; your background (however you interpret that, e.g. where you've lived, your profession, your community involvements); a few hobbies or things you like to do in your free time; and a profile photo at least 250 px wide (square if possible), or a note to skip the profile photo
 
-### Admin Team
+#### Andrew Nguyen
+Information needed: how/why you got involved in G3S and the admin team; your roles and responsibilities for G3S; your background (however you interpret that, e.g. where you've lived, your profession, your community involvements); a few hobbies or things you like to do in your free time; and a profile photo at least 250 px wide (square if possible), or a note to skip the profile photo
 
-Andrew:
+#### Ethan Li
+Information needed: how/why you got involved in G3S and the admin team; your roles and responsibilities for G3S; your background (however you interpret that, e.g. where you've lived, your profession, your community involvements); a few hobbies or things you like to do in your free time; and a profile photo at least 250 px wide (square if possible), or a note to skip the profile photo
 
-Ethan:
+#### Anthony Nguyen
+Information needed: how/why you got involved in G3S and the admin team; your roles and responsibilities for G3S; your background (however you interpret that, e.g. where you've lived, your profession, your community involvements); a few hobbies or things you like to do in your free time; and a profile photo at least 250 px wide (square if possible), or a note to skip the profile photo
 
-Charles:
+#### Charles Lin
+Information needed: how/why you got involved in G3S and the admin team; your roles and responsibilities for G3S; your background (however you interpret that, e.g. where you've lived, your profession, your community involvements); a few hobbies or things you like to do in your free time; and a profile photo at least 250 px wide (square if possible), or a note to skip the profile photo
 
-Anthony:
+### Website Maintenance Team
 
-### Website Maintenance
+The G3S website is a group effort by members of our community:
 
-The G3S website is a community effort: Ethan set up the infrastructure and oversees website maintenance; Fish developed website content and style; Andrew, Thompson, and Jean created graphics used on the website and provided valuable feedback; and Rick contributes to improvement of website style.
+- Ethan set up the infrastructure and oversees website maintenance
+- Fish developed website content and style
+- Andrew, Thompson, and Jean created graphics used on the website and provided valuable feedback
+- Rick contributes to improvement of website style.
 
 
