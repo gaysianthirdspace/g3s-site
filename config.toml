@@ -66,7 +66,7 @@ googlemapsapikey = "AIzaSyANBtYpVRcaEEOn3wq8CBvhGQdHysVk4wU"
 latitude = "-12.043333"
 logo = "img/logo.png"
 longitude = "-77.028333"
-style = "default"
+style = "orange"
 viewmorepostlink = "/blog/"
 [params.carousel]
 enable = true
