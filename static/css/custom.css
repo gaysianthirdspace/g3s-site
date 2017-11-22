@@ -48,6 +48,13 @@ footer#footer {
   color: #666;
 }
 
+.navbar-inverse .container div.navbar-collapse.collapse.in {
+  background-color: #333;
+}
+.navbar-inverse .container div.navbar-collapse.collapsing {
+  background-color: #333;
+}
+
 .bar {
   padding: 10px;
 }
