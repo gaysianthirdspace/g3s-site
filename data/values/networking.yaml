@@ -3,4 +3,4 @@ weight: 5
 name: Networking
 icon: fa fa-thumbs-up
 description: Interact with gaysians from diverse careers and backgrounds.
-target: /meetups
+target: "/meetups"
