@@ -35,25 +35,25 @@ name = "About"
 url = "/about/"
 weight = 2
 [[menu.topbar]]
-name = "Tumblr"
-pre = "<i class='fa fa-tumblr'></i>"
-url = "http://gaysianthirdspace.tumblr.com"
-weight = 1
-[[menu.topbar]]
-name = "Facebook"
-pre = "<i class='fa fa-facebook'></i>"
-url = "http://facebook.com/gaysianthirdspace"
-weight = 2
+name = "Email"
+pre = "<i class='fa fa-envelope'></i>"
+url = "mailto:gaysianthirdspace@gmail.com"
+weight = 4
 [[menu.topbar]]
 name = "Instagram"
 pre = "<i class='fa fa-instagram'></i>"
 url = "http://instagram.com/gaysianthirdspace"
 weight = 3
 [[menu.topbar]]
-name = "Email"
-pre = "<i class='fa fa-envelope'></i>"
-url = "mailto:gaysianthirdspace@gmail.com"
-weight = 4
+name = "Facebook"
+pre = "<i class='fa fa-facebook'></i>"
+url = "http://facebook.com/gaysianthirdspace"
+weight = 2
+[[menu.topbar]]
+name = "Tumblr"
+pre = "<i class='fa fa-tumblr'></i>"
+url = "http://gaysianthirdspace.tumblr.com"
+weight = 1
 [params]
 author = "Gaysian Third Space"
 copyright = "Copyright © 2017 Gaysian Third Space, All Rights Reserved."
