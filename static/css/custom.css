@@ -15,12 +15,29 @@ footer#footer {
 }
 
 .navbar .navbar-header {
-  border-top: solid 4px transparent;
+  border-top: solid 0px transparent;
+}
+
+.navbar .navbar-header .navbar-brand img {
+  height: 50px;
 }
 
 .navbar ul.nav > li > a {
   text-decoration: none;
   font-size: 13px;
+}
+
+.navbar-inverse {
+  background: transparent;
+  z-index: 100;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #ccc;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #666;
 }
 
 .bar {
@@ -36,6 +53,8 @@ div.box-simple div.icon {
 }
 
 div.home-carousel {
+  position: relative;
+  margin-top: -75px;
   background-image: url(../img/carousel/background.jpg);
 }
 
@@ -56,7 +75,7 @@ div.home-carousel div.item {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 120px;
+  padding-top: 195px;
   padding-bottom: 120px;
 }
 
