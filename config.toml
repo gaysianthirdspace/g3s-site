@@ -9,27 +9,27 @@ title = "GaysianThirdSpace"
 [Permalinks]
 blog = "/blog/:year/:month/:day/:filename/"
 [[menu.main]]
-name = "Contact"
-url = "/contact/"
-weight = 5
-[[menu.main]]
-name = "Blog"
-url = "http://gaysianthirdspace.tumblr.com"
-weight = 4
-[[menu.main]]
-identifier = "meetups"
-name = "Meetups"
-url = "/meetups/"
-weight = 3
+name = "About"
+url = "/about/"
+weight = 1
 [[menu.main]]
 identifier = "programs"
 name = "Programs"
 url = "/programs/"
 weight = 2
 [[menu.main]]
-name = "About"
-url = "/about/"
-weight = 1
+identifier = "meetups"
+name = "Meetups"
+url = "/meetups/"
+weight = 3
+[[menu.main]]
+name = "Blog"
+url = "http://gaysianthirdspace.tumblr.com"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 5
 [[menu.topbar]]
 name = "Email"
 pre = "<i class='fa fa-envelope'></i>"
