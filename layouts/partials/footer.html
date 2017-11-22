@@ -70,9 +70,13 @@
         {{ end }}
 
         {{ if isset .Site.Params "footer_icons" }} {{ if .Site.Params.footer_icons.enable }}
-        <div class="col-md-6 col-sm-6">
+        <div class="col-md-6 col-sm-6 social">
 
-            <p class="pull-right">Icons go here!</p>
+            <p class="pull-right">
+            {{ range .Site.Menus.topbar.ByWeight }}
+            <a href="{{ .URL }}" target="_blank" style="opacity: 1;" title="{{ .Name }}">{{ .Pre }}</a>
+            {{ end }}
+            </p>
 
             <hr class="hidden-md hidden-lg hidden-sm">
 

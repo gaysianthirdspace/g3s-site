@@ -1,5 +1,9 @@
 footer#footer {
   margin-top: 40px;
+  background: #333;
+  color: #ccc;
+  font-size: 12px;
+  line-height: 28px;
 }
 
 .navbar ul.nav > li > a {
