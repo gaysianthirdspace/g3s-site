@@ -7,8 +7,6 @@
 
             {{ .Site.Params.about_us | markdownify }}
 
-            <hr class="hidden-md hidden-lg hidden-sm">
-
         </div>
         <!-- /.col-md-4 -->
         {{ end }}
@@ -37,8 +35,6 @@
                 {{ end }}
             </div>
 
-            <hr class="hidden-md hidden-lg">
-
         </div>
         {{ end }} {{ end }}
         <!-- /.col-md-4 -->
@@ -52,8 +48,6 @@
 
             <a href="/contact" class="btn btn-small btn-template-main">{{ i18n "contactGoTo" }}</a>
 
-            <hr class="hidden-md hidden-lg hidden-sm">
-
         </div>
         <!-- /.col-md-4 -->
         {{ end }}
@@ -62,8 +56,6 @@
         <div class="col-md-6 col-sm-6">
 
             <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
-
-            <hr class="hidden-md hidden-lg hidden-sm">
 
         </div>
         <!-- /.col-md-6 -->
@@ -77,8 +69,6 @@
             <a href="{{ .URL }}" target="_blank" style="opacity: 1;" title="{{ .Name }}">{{ .Pre }}</a>
             {{ end }}
             </p>
-
-            <hr class="hidden-md hidden-lg hidden-sm">
 
         </div>
         <!-- /.col-md-6 -->
