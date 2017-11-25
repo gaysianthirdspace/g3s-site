@@ -11,7 +11,6 @@ $(function () {
   // productDetailSizes()
   utils()
   animations()
-  counters()
   contactForm()
 })
 
@@ -167,14 +166,6 @@ function animationsSlider () {
 
       console.log($(this).data('animate-always'))
     })
-  })
-}
-
-/* counters */
-function counters () {
-  $('.counter').counterUp({
-    delay: 10,
-    time: 1000
   })
 }
 
