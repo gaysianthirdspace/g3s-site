@@ -11,7 +11,8 @@
 
           {{ partial "top.html" . }}
 
-          {{ partial "nav_transparent.html" . }}
+          {{ $.navColor := "dark" }}
+          {{ partial "nav.html" . }}
 
         </header>
 
