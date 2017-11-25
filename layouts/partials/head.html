@@ -68,13 +68,15 @@
   <meta property="og:image" content="{{ .Site.Params.logo }}" />
 
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}"></script>
+  <!--<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}"></script>-->
+  <script async src="{{ .Site.BaseURL }}js/gtag.js"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments)};
     gtag('js', new Date());
 
-gtag('config', '{{ .Site.GoogleAnalytics }}');
+    gtag('config', '{{ .Site.GoogleAnalytics }}');
   </script>
+  <script async src="{{ .Site.BaseURL }}js/analytics.js"></script>
 
 </head>
