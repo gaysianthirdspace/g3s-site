@@ -12,10 +12,10 @@ G3S has facilitated meetups all around the world! Our regional chapters in North
 
 We have regional chapters of various sizes in several North American regions. To get in contact with a regional chapter, please send us a message at our [contact page](/contact/) and we'll connect you with the contact person for the chapter:
 
-- Los Angeles Metropolitan Area: Andrew
-- San Francisco Bay Area: Charlie
-- Toronto/Eastern Canada: ???
-- Boston: message (Justin?) at (instructions)
+- Los Angeles Metropolitan Area
+- San Francisco Bay Area
+- Toronto/Eastern Canada
+- Boston
 
 ## Partner Organizations
 
