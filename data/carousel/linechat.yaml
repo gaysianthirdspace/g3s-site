@@ -5,4 +5,4 @@ description: "<p>Get to know some of our members from around the world!</p>"
 image: ''
 backgroundimage: "/img/carousel/playing-cards.jpg"
 backgroundopacity: 0.7
-backgroundposition: "center top"
+backgroundposition: center top
