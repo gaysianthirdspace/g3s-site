@@ -13,17 +13,17 @@ hrefTargetBlank = true
 [[menu.footerbar]]
 name = "Instagram"
 pre = "<i class='fa fa-instagram'></i>"
-url = "//instagram.com/gaysianthirdspace"
+url = "https://instagram.com/gaysianthirdspace"
 weight = 3
 [[menu.footerbar]]
 name = "Facebook"
 pre = "<i class='fa fa-facebook'></i>"
-url = "//facebook.com/gaysianthirdspace"
+url = "https://facebook.com/gaysianthirdspace"
 weight = 2
 [[menu.footerbar]]
 name = "Tumblr"
 pre = "<i class='fa fa-tumblr'></i>"
-url = "//gaysianthirdspace.tumblr.com"
+url = "https://gaysianthirdspace.tumblr.com"
 weight = 1
 [[menu.footerbar]]
 name = "Email"
@@ -32,7 +32,7 @@ url = "mailto:gaysianthirdspace@gmail.com"
 weight = 4
 [[menu.main]]
 name = "Blog"
-url = "//gaysianthirdspace.tumblr.com"
+url = "https://gaysianthirdspace.tumblr.com"
 weight = 4
 [[menu.main]]
 name = "About"
