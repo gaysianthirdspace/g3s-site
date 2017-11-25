@@ -39,7 +39,6 @@ The G3S website is a group effort by members of our community:
 
 - Ethan set up the infrastructure and design and oversees website maintenance
 - Fish developed website content and style
-- Andrew, Thompson, and Jean created graphics used on the website and provided valuable feedback
-- Rick contributes to improvement of website style.
+- Andrew and Thompson created graphics used on the website and provided valuable feedback
 
 
