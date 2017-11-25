@@ -7,3 +7,4 @@ description: <p>On Tumblr, we collect stories, posts, and articles about our ide
 image: ''
 backgroundimage: "/img/carousel/tumblr-posts.jpg"
 backgroundopacity: 0.8
+backgroundposition: "center bottom"

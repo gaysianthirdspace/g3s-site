@@ -5,7 +5,7 @@
     <div class="home-carousel" id="home-hero">
         <div class="homepage owl-carousel">
             {{ range sort .Site.Data.carousel "weight" }}
-            <div class="item item-responsive" style="background-image:url('{{ .backgroundimage }}')">
+            <div class="item item-responsive" style="background-image: url('{{ .backgroundimage }}'); background-position: {{ .backgroundposition }}">
                 <div class="container"> <div class="row">
                     <div class="dark-mask" style="opacity:{{ .backgroundopacity }}"></div>
                     {{ if .image }}
