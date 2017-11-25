@@ -62,7 +62,7 @@ div.container {
 
 /* REGULAR NAVBAR */
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
   color: #666;
 }
 
@@ -73,8 +73,12 @@ div.container {
   z-index: 100;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav > li > a {
   color: #ccc;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.36) 12.5%, rgba(0, 0, 0, 0.216) 25%, rgba(0, 0, 0, 0.1296) 37.5%, rgba(0, 0, 0, 0.07776) 50%, rgba(0, 0, 0, 0.046656) 62.5%, rgba(0, 0, 0, 0.0279936) 75%, rgba(0, 0, 0, 0.01679616) 87.5%, rgba(0, 0, 0, 0)) !important;
 }
 
 .navbar-inverse .container div.navbar-collapse.collapse.in {
@@ -185,6 +189,8 @@ div.home-carousel p {
   top: -40px;
   margin-top: 0px !important;
   z-index: 10;
+  padding-bottom: 10px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.36) 12.5%, rgba(0, 0, 0, 0.216) 25%, rgba(0, 0, 0, 0.1296) 37.5%, rgba(0, 0, 0, 0.07776) 50%, rgba(0, 0, 0, 0.046656) 62.5%, rgba(0, 0, 0, 0.0279936) 75%, rgba(0, 0, 0, 0.01679616) 87.5%, rgba(0, 0, 0, 0)) !important;
 }
 
 .home-carousel .owl-theme .owl-controls .owl-page.active span {
@@ -225,11 +231,11 @@ div.admin-team-row {
 
 /* FOOTER */
 
-footer#footer {
+#footer {
   margin-top: 40px;
-  background: #333;
   color: #ccc;
   font-size: 12px;
   line-height: 28px;
+  background: linear-gradient(to bottom, rgb(8%, 8%, 8%), rgb(12.8%, 12.8%, 12.8%) 5px, rgb(15.68%, 15.68%, 15.68%) 10px, rgb(17.408%, 17.408%, 17.408%) 15px, rgb(18.4448%, 18.4448%, 18.4448%) 20px, rgb(19.06688%, 19.06688%, 19.06688%) 25px, rgb(19.440128%, 19.440128%, 19.440128%) 30px, rgb(19.6640768%, 19.6640768%, 19.6640768%) 35px, rgb(20%, 20%, 20%) 40px);
 }
 
