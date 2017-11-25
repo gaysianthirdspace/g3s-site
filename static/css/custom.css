@@ -13,6 +13,18 @@ body {
 }
 
 /* LAYOUT UTILITIES */
+div.uniform-height-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.uniform-height-row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
 
 @media (min-width: 992px) {
   .vertical-align-md {
