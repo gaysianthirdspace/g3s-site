@@ -1,3 +1,5 @@
+/* TYPOGRAPHY */
+
 body {
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -5,21 +7,35 @@ body {
   line-height: 1.6em;
 }
 
+#heading-breadcrumbs h1 {
+  letter-spacing: 0.05em;
+  word-spacing: 0.02em;
+}
+
+/* LAYOUT UTILITIES */
+
+@media (min-width: 992px) {
+  .vertical-align-md {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .vertical-align-sm {
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+/* LAYOUT */
+
 div.container {
   max-width: 750px;
 }
 
-footer#footer {
-  margin-top: 40px;
-  background: #333;
-  color: #ccc;
-  font-size: 12px;
-  line-height: 28px;
-}
-
-.navbar .navbar-header {
-  border-top: solid 0px transparent;
-}
+/* NAVBAR */
 
 .navbar .navbar-header .navbar-brand img {
   height: 50px;
@@ -31,6 +47,14 @@ footer#footer {
   letter-spacing: 0.1em;
 }
 
+/* REGULAR NAVBAR */
+
+.navbar-default .navbar-nav>li>a {
+  color: #666;
+}
+
+/* TRANSPARENT INVERSE NAVBAR */
+
 .navbar-inverse {
   background-color: rgba(51, 51, 51, 0);
   z-index: 100;
@@ -40,10 +64,6 @@ footer#footer {
   color: #ccc;
 }
 
-.navbar-default .navbar-nav>li>a {
-  color: #666;
-}
-
 .navbar-inverse .container div.navbar-collapse.collapse.in {
   background-color: #333;
 }
@@ -51,21 +71,15 @@ footer#footer {
   background-color: #333;
 }
 
+/* HOMEPAGE LAYOUT */
+
 .bar {
   padding: 10px;
 }
 
-div.box-simple {
-  margin-bottom: 60px;
-}
+/* HOMEPAGE CAROUSEL */
 
-div.box-simple div.icon {
-  border: none;
-}
-
-div.box-simple h3 {
-  letter-spacing: 0.05em;
-}
+/* Homepage Carousel Layout */
 
 div.home-carousel {
   margin-top: -75px;
@@ -83,6 +97,8 @@ div.home-carousel .owl-wrapper {
   flex-direction: row;
 }
 
+/* Homepage Carousel Slides */
+
 div.home-carousel div.item {
   width: 100%;
   height: 100%;
@@ -98,6 +114,8 @@ div.home-carousel div.dark-mask {
   opacity: 0.8;
 }
 
+/* Homepage Carousel Typography */
+
 div.home-carousel h1 {
   letter-spacing: 0.05em;
 }
@@ -105,6 +123,8 @@ div.home-carousel p {
   letter-spacing: 0.08em;
   line-height: 1.6em;
 }
+
+/* Homepage Carousel Controls */
 
 .home-carousel .owl-controls {
   position: relative;
@@ -117,19 +137,21 @@ div.home-carousel p {
   opacity: 0.9;
 }
 
-@media (min-width: 992px) {
-  .vertical-align-md {
-    display: flex;
-    align-items: center;
-  }
+/* HOMEPAGE VALUES */
+
+div.box-simple {
+  margin-bottom: 60px;
 }
 
-@media (min-width: 768px) {
-  .vertical-align-sm {
-    display: flex;
-    align-items: center;
-  }
+div.box-simple div.icon {
+  border: none;
 }
+
+div.box-simple h3 {
+  letter-spacing: 0.05em;
+}
+
+/* ABOUT PAGE ADMIN TEAM GALLERY */
 
 div.admin-team-gallery {
   padding: 0px;
@@ -147,8 +169,13 @@ div.admin-team-row {
   }
 }
 
-#heading-breadcrumbs h1 {
-  letter-spacing: 0.05em;
-  word-spacing: 0.02em;
+/* FOOTER */
+
+footer#footer {
+  margin-top: 40px;
+  background: #333;
+  color: #ccc;
+  font-size: 12px;
+  line-height: 28px;
 }
 
