@@ -3,11 +3,6 @@
 <script defer src="/js/bootstrap-hover-dropdown.min.js"></script>
 
 <script defer src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-{{ if .Site.Params.googleMapsApiKey }}
-<script async src="//maps.googleapis.com/maps/api/js?key={{.Site.Params.googleMapsApiKey}}&v=3.exp"></script>
-{{ else }}
-<script async src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
-{{ end }}
 <script defer src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
 
 <script defer src="{{ .Site.BaseURL }}js/front.js"></script>
