@@ -7,7 +7,7 @@
             {{ range sort .Site.Data.carousel "weight" }}
             <div class="item item-xxs item-xs item-sm item-md item-la item-xl" style="background-image:url('{{ .backgroundimage }}')">
                 <div class="container"> <div class="row">
-                    <div class="dark-mask"></div>
+                    <div class="dark-mask" style="opacity:{{ .backgroundopacity }}"></div>
                     {{ if .image }}
                     <div class="col-sm-5 right">
                         <h1>{{ .title | safeHTML }}</h1>

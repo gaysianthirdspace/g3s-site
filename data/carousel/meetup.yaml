@@ -5,3 +5,4 @@ description: |
   <p>Meet our local communities in person in a casual setting!</p>
 image: ''
 backgroundimage: "/img/carousel/meetups-map.png"
+backgroundopacity: 0.7
