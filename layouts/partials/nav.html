@@ -10,9 +10,9 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="{{ .context.Site.BaseURL }}">
                     {{ if eq .navColor "dark" }}
-                    <img src="{{ .context.Site.BaseURL }}img/logo-dark.png" alt="{{ .Title }} logo" height="50">
+                    <img src="{{ .context.Site.BaseURL }}img/logo-dark.png" alt="{{ .Title }} logo">
                     {{ else }}
-                    <img src="{{ .context.Site.BaseURL }}img/logo.png" alt="{{ .Title }} logo" height="50">
+                    <img src="{{ .context.Site.BaseURL }}img/logo.png" alt="{{ .Title }} logo">
                     {{ end }}
                     <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
                 </a>

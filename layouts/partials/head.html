@@ -55,6 +55,14 @@
   {{ end }}
 
   <!-- Custom stylesheet - for your changes -->
+  <style>
+  div.container {
+    max-width: 750px;
+  }
+  .navbar .navbar-header .navbar-brand img {
+    height: 50px;
+  }
+  </style>
   <link rel="preload" href="{{ .context.Site.BaseURL }}css/custom.css" as="style" onload="this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ .context.Site.BaseURL }}css/custom.css"></noscript>
 
