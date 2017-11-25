@@ -95,6 +95,10 @@ div.container {
 
 /* HOMEPAGE LAYOUT */
 
+section {
+  margin-bottom: 20px;
+}
+
 .bar {
   padding: 10px;
 }
@@ -107,6 +111,7 @@ div.home-carousel {
   margin-top: -75px;
   background: transparent;
   text-align: left !important;
+  margin-bottom: -30px;
 }
 
 div.home-carousel .owl-carousel {
@@ -132,46 +137,9 @@ div.home-carousel div.item {
   align-items: center;
 }
 
-@media (max-width: 449px) {
-  div.home-carousel div.item-xxs {
-    padding-top: 60px;
-    padding-bottom: 30px;
-  }
-}
-
-@media (min-width: 450px) {
-  div.home-carousel div.item-xs {
-    padding-top: 100px;
-    padding-bottom: 70px;
-  }
-}
-
-@media (min-width: 768px) {
-  div.home-carousel div.item-sm {
-    padding-top: 130px;
-    padding-bottom: 100px;
-  }
-}
-
-@media (min-width: 1024px) {
-  div.home-carousel div.item-md {
-    padding-top: 100px;
-    padding-bottom: 70px;
-  }
-}
-
-@media (min-width: 1440px) {
-  div.home-carousel div.item-la {
-    padding-top: 170px;
-    padding-bottom: 150px;
-  }
-}
-
-@media (min-width: 1920px) {
-  div.home-carousel div.item-xl {
-    padding-top: 230px;
-    padding-bottom: 200px;
-  }
+div.home-carousel div.item-responsive {
+  padding-top: 150px;
+  padding-bottom: 120px;
 }
 
 
@@ -207,15 +175,25 @@ div.home-carousel p {
 /* HOMEPAGE VALUES */
 
 div.box-simple {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 div.box-simple div.icon {
   border: none;
 }
 
+div.box-simple a h3 {
+  color: #ff9e00;
+}
+
 div.box-simple h3 {
   letter-spacing: 0.05em;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+
+div.box-simple p {
+  font-size: 14px;
 }
 
 /* ABOUT PAGE ADMIN TEAM GALLERY */
@@ -240,7 +218,7 @@ div.admin-team-row {
 /* FOOTER */
 
 #footer {
-  margin-top: 40px;
+  margin-top: 0px;
   color: #ccc;
   font-size: 12px;
   line-height: 28px;

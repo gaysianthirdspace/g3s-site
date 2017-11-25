@@ -17,11 +17,9 @@ $(function () {
 
 function navsHomepage () {
   $('.navbar-inverse .navbar-collapse').on('show.bs.collapse', function() {
-    console.log('collapse!')
     $('.navbar-header').css('background-color', 'rgba(51, 51, 51, 1)')
   })
   $('.navbar-inverse .navbar-collapse').on('hidden.bs.collapse', function() {
-    console.log('collapse!')
     $('.navbar-header').css('background-color', 'rgba(51, 51, 51, 0)')
   })
 }
@@ -88,7 +86,7 @@ function sliders () {
       navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
       slideSpeed: 400,
       paginationSpeed: 1000,
-      autoPlay: true,
+      autoPlay: 10000,
       stopOnHover: true,
       singleItem: true,
       addClassActive: true,
@@ -190,16 +188,15 @@ function pictureZoom () {
 
 /* full screen intro */
 function fullScreenContainer () {
-  var screenWidth = $(window).width() + 'px'
-  var screenHeight = '500px'
+  var screenHeight = 350
+  var bottomMargin = 150
 
-  if ($(window).height() > 500) {
-    screenHeight = $(window).height() + 'px'
+  if ($(window).height() - bottomMargin >= screenHeight) {
+    screenHeight = $(window).height() - bottomMargin
   }
 
-  $('#intro, #intro .item').css({
-    width: screenWidth,
-    height: screenHeight
+  $('#home-hero .item-responsive').css({
+    height: screenHeight + 'px'
   })
 }
 
@@ -323,23 +320,26 @@ $.fn.alignElementsSameHeight = function () {
   })
 }
 
-var windowWidth
+var windowHeight, windowWidth
 $(function () {
   windowWidth = $(window).width()
+  windowHeight = $(window).height()
 
-  $(this).alignElementsSameHeight()
+  //$(this).alignElementsSameHeight()
   pictureZoom()
 })
 
 $(window).resize(function () {
+  var newWindowHeight = $(window).height()
   var newWindowWidth = $(window).width()
 
-  if (windowWidth !== newWindowWidth) {
+  if (windowHeight !== newWindowHeight) {
     setTimeout(function () {
-      $(this).alignElementsSameHeight()
+      //$(this).alignElementsSameHeight()
       fullScreenContainer()
       pictureZoom()
-    }, 205)
+    }, 105)
+    windowHeight = newWindowHeight
     windowWidth = newWindowWidth
   }
 })
