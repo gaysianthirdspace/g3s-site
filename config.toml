@@ -1,4 +1,4 @@
-baseurl = "http://gaysianthirdspace.com/"
+baseurl = "https://gaysianthirdspace.com/"
 defaultContentLanguage = "en"
 disqusShortname = ""
 googleAnalytics = "UA-77731767-2"
@@ -13,17 +13,17 @@ hrefTargetBlank = true
 [[menu.footerbar]]
 name = "Tumblr"
 pre = "<i class='fa fa-tumblr'></i>"
-url = "http://gaysianthirdspace.tumblr.com"
+url = "//gaysianthirdspace.tumblr.com"
 weight = 1
 [[menu.footerbar]]
 name = "Facebook"
 pre = "<i class='fa fa-facebook'></i>"
-url = "http://facebook.com/gaysianthirdspace"
+url = "//facebook.com/gaysianthirdspace"
 weight = 2
 [[menu.footerbar]]
 name = "Instagram"
 pre = "<i class='fa fa-instagram'></i>"
-url = "http://instagram.com/gaysianthirdspace"
+url = "//instagram.com/gaysianthirdspace"
 weight = 3
 [[menu.footerbar]]
 name = "Email"
@@ -46,7 +46,7 @@ url = "/meetups/"
 weight = 3
 [[menu.main]]
 name = "Blog"
-url = "http://gaysianthirdspace.tumblr.com"
+url = "//gaysianthirdspace.tumblr.com"
 weight = 4
 [[menu.main]]
 name = "Contact"
