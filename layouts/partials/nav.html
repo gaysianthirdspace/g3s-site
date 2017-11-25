@@ -8,11 +8,11 @@
 
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand home" href="{{ .Site.BaseURL }}">
+                <a class="navbar-brand home" href="{{ .context.Site.BaseURL }}">
                     {{ if eq .navColor "dark" }}
-                    <img src="{{ .Site.BaseURL }}img/logo-dark.png" alt="{{ .Title }} logo" height="50">
+                    <img src="{{ .context.Site.BaseURL }}img/logo-dark.png" alt="{{ .Title }} logo" height="50">
                     {{ else }}
-                    <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Title }} logo" height="50">
+                    <img src="{{ .context.Site.BaseURL }}img/logo.png" alt="{{ .Title }} logo" height="50">
                     {{ end }}
                     <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
                 </a>
@@ -27,7 +27,7 @@
 
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
-                  {{ range .Site.Menus.main }}
+                  {{ range .context.Site.Menus.main }}
                   <li class="dropdown">
                     {{ if .HasChildren }}
                       <a href="{{ .URL }}" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>

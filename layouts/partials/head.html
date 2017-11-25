@@ -3,19 +3,19 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ .Title }}</title>
-  <meta name="author" content="{{ .Site.Author.name }}" />
+  <title>{{ .context.Title }}</title>
+  <meta name="author" content="{{ .context.Site.Author.name }}" />
 
-  {{ if .Keywords }}
-  <meta name="keywords" content="{{ delimit .Keywords ", " }}">
-  {{ else if .Site.Params.DefaultKeywords }}
-  <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">
+  {{ if .context.Keywords }}
+  <meta name="keywords" content="{{ delimit .context.Keywords ", " }}">
+  {{ else if .context.Site.Params.DefaultKeywords }}
+  <meta name="keywords" content="{{ delimit .context.Site.Params.DefaultKeywords ", " }}">
   {{ end }}
 
-  {{ if .Description }}
-  <meta name="description" content="{{ .Description }}">
-  {{ else if .Site.Params.DefaultDescription }}
-  <meta name="description" content="{{ .Site.Params.DefaultDescription }}">
+  {{ if .context.Description }}
+  <meta name="description" content="{{ .context.Description }}">
+  {{ else if .context.Site.Params.DefaultDescription }}
+  <meta name="description" content="{{ .context.Site.Params.DefaultDescription }}">
   {{ end }}
 
   {{ .Hugo.Generator }}
@@ -26,7 +26,7 @@
   ga('create', 'UA-XXXXX-Y', 'auto');
   ga('send', 'pageview');
   </script>
-  <script async src='{{ .Site.BaseURL }}js/analytics.js'></script>
+  <script async src='{{ .context.Site.BaseURL }}js/analytics.js'></script>
   <!-- End Google Analytics -->
 
   <link rel="preload" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' type='text/css' as="style" onload="this.rel='stylesheet'">
@@ -42,21 +42,21 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- CSS animations  -->
-  <link rel="preload" href="{{ .Site.BaseURL }}css/animate.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ .Site.BaseURL }}css/animate.css"></noscript>
+  <link rel="preload" href="{{ .context.Site.BaseURL }}css/animate.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ .context.Site.BaseURL }}css/animate.css"></noscript>
 
   <!-- Theme stylesheet, if possible do not edit this stylesheet -->
-  {{ if and (isset .Site.Params "style") .Site.Params.style }}
-  <link rel="preload" href="{{ .Site.BaseURL }}css/style.{{ .Site.Params.style }}.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.{{ .Site.Params.style }}.css" id="theme-stylesheet"></noscript>
+  {{ if and (isset .context.Site.Params "style") .context.Site.Params.style }}
+  <link rel="preload" href="{{ .context.Site.BaseURL }}css/style.{{ .context.Site.Params.style }}.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ .context.Site.BaseURL }}css/style.{{ .context.Site.Params.style }}.css" id="theme-stylesheet"></noscript>
   {{ else }}
-  <link rel="preload" href="{{ .Site.BaseURL }}css/style.default.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.default.css" id="theme-stylesheet"></noscript>
+  <link rel="preload" href="{{ .context.Site.BaseURL }}css/style.default.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ .context.Site.BaseURL }}css/style.default.css" id="theme-stylesheet"></noscript>
   {{ end }}
 
   <!-- Custom stylesheet - for your changes -->
-  <link rel="preload" href="{{ .Site.BaseURL }}css/custom.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css"></noscript>
+  <link rel="preload" href="{{ .context.Site.BaseURL }}css/custom.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ .context.Site.BaseURL }}css/custom.css"></noscript>
 
   <!-- Responsivity for older IE -->
   {{ `
@@ -67,23 +67,25 @@
   ` | safeHTML }}
 
   <!-- Favicon and apple touch icons-->
-  <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon-precomposed" href="{{ .Site.BaseURL }}img/favicon-152.png" />
+  <link rel="shortcut icon" href="{{ .context.Site.BaseURL }}img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon-precomposed" href="{{ .context.Site.BaseURL }}img/favicon-152.png" />
   <meta name="msapplication-TileColor" content="#FFFFFF">
-  <meta name="msapplication-TileImage" content="{{ .Site.BaseURL }}img/favicon-144.png">
-  <link rel="shortcut icon" sizes="196x196" href="{{ .Site.BaseURL }}img/favicon-196.png" />
+  <meta name="msapplication-TileImage" content="{{ .context.Site.BaseURL }}img/favicon-144.png">
+  <link rel="shortcut icon" sizes="196x196" href="{{ .context.Site.BaseURL }}img/favicon-196.png" />
 
   <!-- owl carousel css -->
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/owl.carousel.css">
-  <link rel="preload" href="{{ .Site.BaseURL }}css/owl.theme.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ .Site.BaseURL }}css/owl.theme.css"></noscript>
+  {{ if .loadCarousel }}
+  <link rel="stylesheet" href="{{ .context.Site.BaseURL }}css/owl.carousel.css">
+  <link rel="preload" href="{{ .context.Site.BaseURL }}css/owl.theme.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ .context.Site.BaseURL }}css/owl.theme.css"></noscript>
+  {{ end }}
 
-  <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
+  <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .context.Site.Title }}">
 
   <!-- Facebook OpenGraph tags -->
-  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:title" content="{{ .context.Title }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ .URL }}/" />
-  <meta property="og:image" content="{{ .Site.Params.logo }}" />
+  <meta property="og:url" content="{{ .context.URL }}/" />
+  <meta property="og:image" content="{{ .context.Site.Params.logo }}" />
 
 </head>

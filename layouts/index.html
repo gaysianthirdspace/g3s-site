@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  {{ partial "head.html" . }}
+  {{ partial "head.html" (dict "context" . "loadCarousel" true ) }}
 
   <body>
 
@@ -11,8 +11,7 @@
 
           {{ partial "top.html" . }}
 
-          {{ $.navColor := "dark" }}
-          {{ partial "nav.html" . }}
+          {{ partial "nav.html" (dict "context" . "navColor" "dark") }}
 
         </header>
 
