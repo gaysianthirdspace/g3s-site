@@ -6,4 +6,4 @@ description: |
 image: ''
 backgroundimage: "/img/carousel/meetups-map.png"
 backgroundopacity: 0.65
-backgroundposition: "center center"
+backgroundposition: center center
