@@ -6,10 +6,10 @@ languageCode = "en-us"
 paginate = 10
 theme = "hugo-universal-theme"
 title = "GaysianThirdSpace"
-[blackfriday]
-hrefTargetBlank = true
 [Permalinks]
 blog = "/blog/:year/:month/:day/:filename/"
+[blackfriday]
+hrefTargetBlank = true
 [[menu.main]]
 name = "About"
 url = "/about/"
