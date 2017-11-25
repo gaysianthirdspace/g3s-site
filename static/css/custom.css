@@ -2,11 +2,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   word-spacing: 0.01em;
-  line-height: 1.5em;
-}
-
-h2 {
-  letter-spacing: 0.03em;
+  line-height: 1.6em;
 }
 
 div.container {
@@ -32,7 +28,7 @@ footer#footer {
 .navbar ul.nav > li > a {
   text-decoration: none;
   font-size: 13px;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
 }
 
 .navbar-inverse {
@@ -68,7 +64,7 @@ div.box-simple div.icon {
 }
 
 div.box-simple h3 {
-  letter-spacing: 0.2em;
+  letter-spacing: 0.05em;
 }
 
 div.home-carousel {
@@ -103,12 +99,11 @@ div.home-carousel div.dark-mask {
 }
 
 div.home-carousel h1 {
-  letter-spacing: 0.1em;
-  word-spacing: 0.02em;
+  letter-spacing: 0.05em;
 }
 div.home-carousel p {
-  letter-spacing: 0.15em;
-  line-height: 1.5em;
+  letter-spacing: 0.08em;
+  line-height: 1.6em;
 }
 
 .home-carousel .owl-controls {
@@ -153,7 +148,7 @@ div.admin-team-row {
 }
 
 #heading-breadcrumbs h1 {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   word-spacing: 0.02em;
 }
 
