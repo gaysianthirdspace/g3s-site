@@ -156,10 +156,12 @@ section {
 
 #home-hero h1 {
   letter-spacing: 0.05em;
+  text-shadow: 0 1px 4px black;
 }
 #home-hero p {
   letter-spacing: 0.08em;
   line-height: 1.6em;
+  text-shadow: 0 1px 4px black;
 }
 
 /* Homepage Carousel Controls */
