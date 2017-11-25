@@ -61,11 +61,11 @@
         <!-- /.col-md-6 -->
         {{ end }}
 
-        {{ if isset .Site.Params "footer_icons" }} {{ if .Site.Params.footer_icons.enable }}
+        {{ if isset .Site.Params "footerbar" }} {{ if .Site.Params.footerbar.enable }}
         <div class="col-md-4 col-sm-4 social">
 
             <p class="pull-right">
-            {{ range .Site.Menus.topbar.ByWeight }}
+            {{ range .Site.Menus.footerbar.ByWeight }}
             <a href="{{ .URL }}" target="_blank" style="opacity: 1;" title="{{ .Name }}">{{ .Pre }}</a>
             {{ end }}
             </p>

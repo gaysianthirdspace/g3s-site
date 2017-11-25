@@ -32,22 +32,22 @@ weight = 4
 name = "Contact"
 url = "/contact/"
 weight = 5
-[[menu.topbar]]
+[[menu.footerbar]]
 name = "Email"
 pre = "<i class='fa fa-envelope'></i>"
 url = "mailto:gaysianthirdspace@gmail.com"
 weight = 4
-[[menu.topbar]]
+[[menu.footerbar]]
 name = "Instagram"
 pre = "<i class='fa fa-instagram'></i>"
 url = "http://instagram.com/gaysianthirdspace"
 weight = 3
-[[menu.topbar]]
+[[menu.footerbar]]
 name = "Facebook"
 pre = "<i class='fa fa-facebook'></i>"
 url = "http://facebook.com/gaysianthirdspace"
 weight = 2
-[[menu.topbar]]
+[[menu.footerbar]]
 name = "Tumblr"
 pre = "<i class='fa fa-tumblr'></i>"
 url = "http://gaysianthirdspace.tumblr.com"
@@ -67,7 +67,7 @@ style = "orange"
 viewmorepostlink = "/blog/"
 [params.carousel]
 enable = true
-[params.footer_icons]
+[params.footerbar]
 enable = true
 [params.partners]
 enable = false
