@@ -106,6 +106,7 @@ div.container {
 div.home-carousel {
   margin-top: -75px;
   background: transparent;
+  text-align: left !important;
 }
 
 div.home-carousel .owl-carousel {
@@ -127,6 +128,8 @@ div.home-carousel div.item {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 449px) {
