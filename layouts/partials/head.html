@@ -20,6 +20,15 @@
 
   {{ .Hugo.Generator }}
 
+  <!-- Google Analytics -->
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='{{ .Site.BaseURL }}js/analytics.js'></script>
+  <!-- End Google Analytics -->
+
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
 
   <!-- Bootstrap and Font Awesome css -->
@@ -66,17 +75,5 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .URL }}/" />
   <meta property="og:image" content="{{ .Site.Params.logo }}" />
-
-  <!-- Global Site Tag (gtag.js) - Google Analytics -->
-  <!--<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}"></script>-->
-  <script async src="{{ .Site.BaseURL }}js/gtag.js"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments)};
-    gtag('js', new Date());
-
-    gtag('config', '{{ .Site.GoogleAnalytics }}');
-  </script>
-  <script async src="{{ .Site.BaseURL }}js/analytics.js"></script>
 
 </head>
