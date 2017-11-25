@@ -69,7 +69,8 @@ div.container {
 /* TRANSPARENT INVERSE NAVBAR */
 
 .navbar-inverse {
-  background-color: rgba(51, 51, 51, 0);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.343) 12.5%, rgba(0, 0, 0, 0.2401) 25%, rgba(0, 0, 0, 0.16807) 37.5%, rgba(0, 0, 0, 0.117649) 50%, rgba(0, 0, 0, 0.0823543) 62.5%, rgba(0, 0, 0, 0.05764801) 75%, rgba(0, 0, 0, 0.040353607) 87.5%, rgba(0, 0, 0, 0));
+  border-bottom-width: 0px;
   z-index: 100;
   pointer-events: none;
 }
@@ -107,27 +108,31 @@ section {
 
 /* Homepage Carousel Layout */
 
-div.home-carousel {
+#home-hero {
   margin-top: -75px;
   background: transparent;
   text-align: left !important;
   margin-bottom: -30px;
 }
 
-div.home-carousel .owl-carousel {
+#home-hero .owl-carousel {
   height: 100%;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
-div.home-carousel .owl-wrapper {
+#home-hero .owl-wrapper {
   display: flex !important;
   flex-direction: row;
 }
 
+#home-hero .owl-wrapper-outer {
+  background: black;
+}
+
 /* Homepage Carousel Slides */
 
-div.home-carousel div.item {
+#home-hero div.item {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -137,29 +142,29 @@ div.home-carousel div.item {
   align-items: center;
 }
 
-div.home-carousel div.item-responsive {
+#home-hero div.item-responsive {
   padding-top: 150px;
   padding-bottom: 120px;
 }
 
 
-div.home-carousel div.dark-mask {
+#home-hero div.dark-mask {
   background-color: rgb(0, 0, 0);
 }
 
 /* Homepage Carousel Typography */
 
-div.home-carousel h1 {
+#home-hero h1 {
   letter-spacing: 0.05em;
 }
-div.home-carousel p {
+#home-hero p {
   letter-spacing: 0.08em;
   line-height: 1.6em;
 }
 
 /* Homepage Carousel Controls */
 
-.home-carousel .owl-controls {
+#home-hero .owl-controls {
   position: relative;
   top: -40px;
   margin-top: 0px !important;
@@ -168,7 +173,7 @@ div.home-carousel p {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.36) 12.5%, rgba(0, 0, 0, 0.216) 25%, rgba(0, 0, 0, 0.1296) 37.5%, rgba(0, 0, 0, 0.07776) 50%, rgba(0, 0, 0, 0.046656) 62.5%, rgba(0, 0, 0, 0.0279936) 75%, rgba(0, 0, 0, 0.01679616) 87.5%, rgba(0, 0, 0, 0)) !important;
 }
 
-.home-carousel .owl-theme .owl-controls .owl-page.active span {
+#home-hero .owl-theme .owl-controls .owl-page.active span {
   opacity: 0.9;
 }
 
