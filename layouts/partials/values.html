@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row uniform-height-row">
         {{ range $index, $element := sort .Site.Data.values "weight" }}
-        <div class="col-md-4 col-sm-6 col-xs-12"> <div class="box-simple">
+        <div class="col-md-4 col-sm-6 col-xs-6 col-sm-offset-0 col-xs-offset-3"> <div class="box-simple">
             {{ if .target }}
             <a href="{{ .target }}">
             {{ end }}

@@ -52,17 +52,8 @@
         <!-- /.col-md-4 -->
         {{ end }}
 
-        {{ if isset .Site.Params "copyright" }}
-        <div class="col-md-8 col-sm-8">
-
-            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
-
-        </div>
-        <!-- /.col-md-6 -->
-        {{ end }}
-
         {{ if isset .Site.Params "footerbar" }} {{ if .Site.Params.footerbar.enable }}
-        <div class="col-md-4 col-sm-4 social">
+        <div class="col-md-4 col-sm-4 social pull-right">
 
             <p class="pull-right">
             {{ range .Site.Menus.footerbar.ByWeight }}
@@ -71,8 +62,17 @@
             </p>
 
         </div>
-        <!-- /.col-md-6 -->
+        <!-- /.col-md-4 -->
         {{ end }} {{ end }}
+
+        {{ if isset .Site.Params "copyright" }}
+        <div class="col-md-8 col-sm-8">
+
+            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
+
+        </div>
+        <!-- /.col-md-8 -->
+        {{ end }}
 
     </div>
     <!-- /.container -->
