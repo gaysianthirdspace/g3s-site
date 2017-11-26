@@ -9,7 +9,7 @@ G3S has facilitated meetups all around the world! Our regional chapters in North
 {{< lazy-iframe data-src="//www.google.com/maps/d/u/0/embed?mid=11zYeY6ifzc83GjO98WY355jNeSc" width="100%" height="480px" data-description="map of past meetup locations" >}}
 
 {{< anchor chapters >}}
-## Current Regional Chapters
+## Regional Chapters
 {{< /anchor >}}
 
 We have regional chapters of various sizes in several North American regions. To get in contact with a regional chapter, please send us a message at our [contact page](/contact/) and we'll connect you with the contact person for the chapter:
