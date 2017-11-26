@@ -19,7 +19,7 @@
             <img class="img-responsive" src="{{ .image }}" alt="">
         </div>
         {{ else }}
-        <div class="col-sm-12 {{ if not (isset . "backgroundimage") }}text-right{{ end }}">
+        <div class="col-sm-12 {{ if not (isset . "backgroundimage") }}text-right{{ else }}text-left{{ end }}">
             <h1>{{ .title | safeHTML }}</h1>
             {{ .description | safeHTML }}
         </div>
