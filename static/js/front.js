@@ -248,7 +248,6 @@ function utils () {
     var parts = fullUrl.split('#')
     var trgt = parts[1]
     if (trgt) {
-      console.log(trgt)
       var targetOffset = $('#' + trgt).offset()
       var targetTop = targetOffset.top - 82
 
@@ -257,11 +256,13 @@ function utils () {
       }
     } else {
       var targetTop = 0
+      trgt = 'top'
     }
 
     $('html, body').animate({
       scrollTop: targetTop
     }, 500)
+    window.location.hash = trgt
   }
 }
 
