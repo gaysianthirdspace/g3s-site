@@ -101,7 +101,9 @@ section {
 }
 
 .bar {
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: -20px;
 }
 
 /* HOMEPAGE CAROUSEL */
@@ -224,7 +226,7 @@ div.admin-team-row {
 /* FOOTER */
 
 #footer {
-  margin-top: 0px;
+  margin-top: 20px;
   color: #ccc;
   font-size: 12px;
   line-height: 28px;
