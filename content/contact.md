@@ -11,7 +11,7 @@ We love hearing from people! If you have any questions about Gaysian Third Space
 You can send us a message on Tumblr through our Ask Box. By default, we post answers to all Ask Box questions to our blog, but you can request that we reply to you privately.
 
 <p>
-{{< lazy-iframe data-src="//www.tumblr.com/ask_form/gaysianthirdspace.tumblr.com" width="500" height="190" id="ask_form" >}}
+{{< lazy-iframe data-src="//www.tumblr.com/ask_form/gaysianthirdspace.tumblr.com" width="500px" height="190px" id="ask_form" >}}
 <!--[if IE]><script type="text/javascript">document.getElementById('ask_form').allowTransparency=true;</script><![endif]-->
 </p>
 
@@ -19,7 +19,7 @@ You can send us a message on Tumblr through our Ask Box. By default, we post ans
 
 You can send us a private message on Facebook below:
 
-{{< lazy-iframe data-src="//www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgaysianthirdspace%2F&tabs=messages&width=500&height=250&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="500" height="250" >}}
+{{< lazy-iframe data-src="//www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgaysianthirdspace%2F&tabs=messages&width=500&height=250&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="500px" height="250px" >}}
 
 ## Email
 

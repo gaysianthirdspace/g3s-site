@@ -6,7 +6,7 @@ type = "page"
 +++
 G3S has facilitated meetups all around the world! Our regional chapters in North America organize official social events, and we've also had informal meetups where people hang out together after meeting through G3S's Tumblr, Facebook, or LINE Chat Group. Traveling somewhere and want to get to know some local G3S members? Contact the regional chapters below and get connected!
 
-{{< lazy-iframe data-src="//www.google.com/maps/d/u/0/embed?mid=11zYeY6ifzc83GjO98WY355jNeSc" width="100%" height="480" >}}
+{{< lazy-iframe data-src="//www.google.com/maps/d/u/0/embed?mid=11zYeY6ifzc83GjO98WY355jNeSc" width="100%" height="480px" >}}
 
 ## Current Regional Chapters
 
