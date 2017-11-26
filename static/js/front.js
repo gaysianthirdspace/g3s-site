@@ -12,6 +12,7 @@ $(function () {
   utils()
   animations()
   contactForm()
+  loadIframes()
 })
 
 function navsHomepage () {
@@ -281,6 +282,17 @@ function productDetailSizes () {
     $('.size-input').prop('checked', false)
     $(this).addClass('active')
     $(this).next('input').prop('checked', true)
+  })
+}
+
+function loadIframes () {
+  $("iframe.lazy-src").each(function (index, element) {
+    $(element).attr("src", $(element).attr('data-src'))
+    $(this).show()
+  })
+  $("iframe.lazy-src").each(function (index, element) {
+    $(element).on("load", function () {
+    })
   })
 }
 

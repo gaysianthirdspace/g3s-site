@@ -1,0 +1,3 @@
+<iframe class="lazy-src" {{ range $attrib, $value := $.Params }} {{ $attrib | safeHTMLAttr }}="{{ $value }}" {{ end }} frameborder="0" allowTransparency="true" scrolling="no" ></iframe>
+<noscript><iframe src={{ .Get "data-src" }} {{ range $attrib, $value := $.Params }} {{ $attrib | safeHTMLAttr }}="{{ $value }}" {{ end }} frameborder="0" allowTransparency="true" scrolling="no" ></iframe></noscript>
+

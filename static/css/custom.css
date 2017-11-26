@@ -48,6 +48,16 @@ div.container {
   max-width: 750px;
 }
 
+iframe {
+  border: none;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+iframe.lazy-src { /* display is updated on page load */
+  display: none;
+}
+
 /* NAVBAR */
 
 .navbar .navbar-header .navbar-brand img {
