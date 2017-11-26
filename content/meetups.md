@@ -37,6 +37,6 @@ When we plan official meetups, we announce them on our Tumblr blog and our Faceb
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="fb-page" data-href="//www.facebook.com/gaysianthirdspace/" data-tabs="events" data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="//www.facebook.com/gaysianthirdspace/" class="fb-xfbml-parse-ignore"><a href="//www.facebook.com/gaysianthirdspace/">Gaysian Third Space - G3S</a></blockquote></div>
+<div class="fb-page" data-href="https://www.facebook.com/gaysianthirdspace/" data-tabs="events" data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/gaysianthirdspace/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/gaysianthirdspace/">Gaysian Third Space - G3S</a></blockquote></div>
 
 Unofficial meetups are usually coordinated informally in our [LINE Chat Group](/programs/#linechat).
