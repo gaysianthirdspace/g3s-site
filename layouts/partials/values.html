@@ -1,19 +1,19 @@
 {{ if isset .Site.Params "values" }}
 {{ if .Site.Params.values.enable }}
 {{ if gt (len .Site.Data.values) 0 }}
-<section class="bar background-white">
+<section class="bar background-white" id="values-section">
     <div class="container">
         <div class="row uniform-height-row">
         {{ range $index, $element := sort .Site.Data.values "weight" }}
         <div class="col-md-4 col-sm-6 col-xs-6 col-sm-offset-0 col-xs-offset-3"> <div class="box-simple">
-            {{ if .target }}
-            <a href="{{ .target }}">
+            {{ if .href }}
+            <a href="{{ .href }}" {{ if .hrefTargetBlank }} target="_blank" {{ end }}>
             {{ end }}
             <div class="icon">
                 <i class="{{ .icon }} fa-3x"></i>
             </div>
-            <h3>{{ $element.name }}</h3>
-            {{ if .target }}
+            <h3>{{ $element.name | safeHTML }}</h3>
+            {{ if .href }}
             </a>
             {{ end }}
             <p>{{ $element.description | markdownify }}</p>

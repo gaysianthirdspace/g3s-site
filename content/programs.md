@@ -12,7 +12,7 @@ If you have any questions, or if you’re interested in getting involved in any 
 
 Our [Tumblr blog](//gaysianthirdspace.tumblr.com) curates stories, posts, articles, and discussions so that we can learn from each other's experiences and thoughts. We are always seeking new contributors and content, so please [submit](//gaysianthirdspace.tumblr.com/submit) any posts, new or old, that you think could fit this mission.
 
-We also regularly invite members of our community to guest curate our blog, where they showcase content matching a theme of their choice for a week. If you're interested in helping out with running the blog, please [send us a message](/contact).
+We also regularly invite members of our community to guest curate our blog, where they showcase content matching a theme of their choice for a week. If you're interested in helping out with running the blog, let us know!
 
 Finally, we are [cataloging](//gaysianthirdspace.tumblr.com/tags) our archives to make it easier to find content that speaks to specific topics and experiences.
 
@@ -36,9 +36,9 @@ We look forward to welcoming you to the group!
 
 We understand that people who are just beginning to explore their identities can get overwhelmed with large, fast paced group chats. Sometimes it is challenging to summon the courage to message unfamiliar people. The __G3S Mentors Program__ addresses this need. Our goal is to expand our directory of volunteer mentors (like RAs for new freshman in a college dorm) who would be willing to engage and interact with existing or new G3S members in a one-on-one or small group setting.
 
-If you would like to sign up as a __mentor__, click [here](//docs.google.com/forms/d/e/1FAIpQLSd2FvWZ0IQhHNVpH4L05bPFnX3Bl8C-1fW7pntc52HxIieY0g/viewform?c=0&w=1).
+If you would like to sign up as a __mentor__, please fill out [this form](//docs.google.com/forms/d/e/1FAIpQLSd2FvWZ0IQhHNVpH4L05bPFnX3Bl8C-1fW7pntc52HxIieY0g/viewform?c=0&w=1).
 
-If you would like to sign up as a __mentee__, click [here](//docs.google.com/forms/d/e/1FAIpQLSdyfccqu3Ngg18KvDpURP_LCmTArBQgBlslHLyjo6SXTXICqg/viewform?c=0&w=1).
+If you would like to sign up as a __mentee__, please fill out [this form](//docs.google.com/forms/d/e/1FAIpQLSdyfccqu3Ngg18KvDpURP_LCmTArBQgBlslHLyjo6SXTXICqg/viewform?c=0&w=1).
 
 To see the list of __mentor profiles__, click [here](//docs.google.com/spreadsheets/d/1a4RyU_K5hpO7BnNe2gZpwoxDOhkzzw-Rd6aXTucImPM/edit?usp=sharing).
 
@@ -60,3 +60,4 @@ We are exploring other platforms for engagement and story-sharing by maintaining
 
 - An [Instagram account](//www.instagram.com/gaysianthirdspace/) for sharing our experiences and learning from each other through a more visual medium. We are starting by sharing our Follower Friday profiles on the account, and we hope to eventually provide a community platform for visual storytelling.
 - A [Facebook page](//www.facebook.com/gaysianthirdspace) for facilitating more interactive discussions about the content posted to the Tumblr blog.
+

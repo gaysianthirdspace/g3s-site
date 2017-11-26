@@ -88,6 +88,11 @@ div.lazy-iframe-container div.progress-bar {
   letter-spacing: 0.1em;
 }
 
+.navbar a[target="_blank"]:after {
+    font-family: 'FontAwesome';
+    content: " \f08e";
+}
+
 /* REGULAR NAVBAR */
 
 .navbar-default .navbar-nav > li > a {
@@ -210,19 +215,19 @@ section {
 
 /* HOMEPAGE VALUES */
 
-div.box-simple {
+#values-section div.box-simple {
   margin-bottom: 20px;
 }
 
-div.box-simple div.icon {
+#values-section div.box-simple div.icon {
   border: none;
 }
 
-div.box-simple a h3 {
+#values-section div.box-simple a h3 {
   color: #ff9e00;
 }
 
-div.box-simple h3 {
+#values-section div.box-simple h3 {
   letter-spacing: 0.05em;
   margin-top: -10px;
   margin-bottom: 0px;

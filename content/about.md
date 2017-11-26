@@ -38,8 +38,7 @@ The administrative team volunteers their time to support and grow the G3S commun
 
 The G3S website is a group effort by members of our community:
 
-- Ethan set up the infrastructure and design and oversees website maintenance
-- Fish developed website content and style
-- Andrew and Thompson created graphics used on the website and provided valuable feedback
-
+- Ethan set up the infrastructure and design and oversees website maintenance.
+- Fish developed website content and style.
+- Andrew and Thompson created graphics used on the website and provided valuable feedback.
 
