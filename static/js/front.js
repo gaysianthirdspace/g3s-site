@@ -12,7 +12,6 @@ $(function () {
   utils()
   animations()
   contactForm()
-  loadIframes()
 })
 
 function navsHomepage () {
@@ -285,16 +284,6 @@ function productDetailSizes () {
   })
 }
 
-function loadIframes () {
-  $("iframe.lazy-src").each(function (index, element) {
-    $(element).on("load", function () {
-      $(element).parent().find('.loading-overlay').fadeOut()
-    })
-    $(element).attr("src", $(element).attr('data-src'))
-    $(this).parent().slideDown();
-  })
-}
-
 $.fn.alignElementsSameHeight = function () {
   $('.same-height-row').each(function () {
     var maxHeight = 0
@@ -345,3 +334,12 @@ $(window).resize(function () {
     windowWidth = newWindowWidth
   }
 })
+
+$("iframe.lazy-src").each(function (index, element) {
+  $(element).on("load", function () {
+    $(element).parent().find('.loading-overlay').fadeOut()
+  })
+  $(element).attr("src", $(element).attr('data-src'))
+  $(this).parent().slideDown();
+})
+
