@@ -286,14 +286,12 @@ function productDetailSizes () {
 }
 
 function loadIframes () {
-  console.log('loading iframes...');
   $("iframe.lazy-src").each(function (index, element) {
     $(element).attr("src", $(element).attr('data-src'))
     $(this).parent().slideDown();
-    console.log('loaded an iframe!');
   })
   $("iframe.lazy-src").each(function (index, element) {
-    $(element).on("ready", function () {
+    $(element).on("load", function () {
       $(element).parent().find('.loading-overlay').fadeOut()
     })
   })
