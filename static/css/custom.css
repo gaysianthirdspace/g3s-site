@@ -48,7 +48,7 @@ div.container {
   max-width: 750px;
 }
 
-iframe {
+div.lazy-iframe-container iframe {
   border: none;
   background-color: transparent;
   overflow: hidden;
