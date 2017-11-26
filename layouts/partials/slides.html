@@ -1,6 +1,9 @@
 {{ range (after 1 (sort .Site.Data.slides "weight")) }}
 {{ if isset . "backgroundimage" }}
-<section> <div class="home-slide home-carousel"> <div class="item item-responsive lazy-image" data-src="{{ .backgroundimage }}" style="background-position: {{ .backgroundposition }}">
+<section> <div class="home-slide home-carousel"> <div
+            class="item item-responsive lazy-image"
+            data-src="{{ .backgroundimage }}"
+            style="background-position: {{ .backgroundposition }}">
 {{ else }}
 <section class="bar background-white">
 {{ end }}
@@ -19,7 +22,12 @@
             <img class="img-responsive" src="{{ .image }}" alt="">
         </div>
         {{ else }}
-        <div class="col-sm-12 {{ if not (isset . "backgroundimage") }}text-right{{ else }}text-left{{ end }}">
+        <div class="col-sm-12
+            {{ if not (isset . "backgroundimage") }}
+            text-right
+            {{ else }}
+            text-left
+            {{ end }}">
             <h1>{{ .title | safeHTML }}</h1>
             {{ .description | safeHTML }}
         </div>

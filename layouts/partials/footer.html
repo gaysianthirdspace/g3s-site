@@ -23,9 +23,11 @@
                     <div class="image same-height-always">
                         <a href="{{ .Permalink }}">
                           {{ if isset .Params "banner" }}
-                            <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">
+                            <img src="{{ .Site.BaseURL}}{{ .Params.banner }}"
+                                class="img-responsive" alt="">
                           {{ else }}
-                            <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
+                            <img src="{{ .Site.BaseURL}}img/placeholder.png"
+                                class="img-responsive" alt="">
                           {{ end }}
                         </a>
                     </div>
@@ -47,7 +49,10 @@
 
             {{ .Site.Params.address | markdownify }}
 
-            <a href="/contact" class="btn btn-small btn-template-main">{{ i18n "contactGoTo" }}</a>
+            <a href="/contact"
+                class="btn btn-small btn-template-main">
+                {{ i18n "contactGoTo" }}
+            </a>
 
         </div>
         <!-- /.col-md-4 -->
@@ -58,7 +63,10 @@
 
             <p class="pull-right">
             {{ range .Site.Menus.footerbar.ByWeight }}
-            <a href="{{ .URL }}" target="_blank" style="opacity: 1;" title="{{ .Name }}">{{ .Pre }}</a>
+            <a href="{{ .URL }}" target="_blank"
+                style="opacity: 1;" title="{{ .Name }}">
+                {{ .Pre }}
+            </a>
             {{ end }}
             </p>
 

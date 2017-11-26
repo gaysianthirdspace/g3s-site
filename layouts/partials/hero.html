@@ -1,7 +1,9 @@
 <section>
     <div id="home-hero" class="home-carousel">
         {{ range (first 1 (sort .Site.Data.slides "weight")) }}
-        <div class="item item-responsive" style="background-image: url('{{ .backgroundimage }}'); background-position: {{ .backgroundposition }}">
+        <div class="item item-responsive"
+            style="background-image: url('{{ .backgroundimage }}');
+            background-position: {{ .backgroundposition }}">
             <div class="container"> <div class="row">
                 <div class="mask darken" style="opacity:{{ .backgroundopacity }}"></div>
                 <div class="mask drop-shadow-top"></div>
