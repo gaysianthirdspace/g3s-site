@@ -286,10 +286,22 @@ section {
 
 #home-hero h1 {
   letter-spacing: 0.05em;
+  font-size: 48px;
+}
+@media (max-width: 991px) {
+  #home-hero h1 {
+    font-size: 36px;
+  }
 }
 #home-hero p {
   letter-spacing: 0.08em;
   line-height: 1.6em;
+  font-size: 20px;
+}
+@media (max-width: 991px) {
+  #home-hero p {
+    font-size: 15px;
+  }
 }
 
 /* HOMEPAGE VALUES */

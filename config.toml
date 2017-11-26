@@ -5,7 +5,7 @@ googleAnalytics = "UA-77731767-2"
 languageCode = "en-us"
 paginate = 10
 theme = "hugo-universal-theme"
-title = "GaysianThirdSpace"
+title = "Gaysian Third Space"
 [Permalinks]
 blog = "/blog/:year/:month/:day/:filename/"
 [blackfriday]
