@@ -326,7 +326,7 @@ function loadIframes () {
 
 function loadImages () {
   console.log($('div.lazy-image'))
-  $('.lazy-image').Lazy()
+  $('.lazy-image').show().Lazy()
 }
 
 $.fn.alignElementsSameHeight = function () {

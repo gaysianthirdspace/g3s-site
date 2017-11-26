@@ -97,6 +97,10 @@ div.lazy-iframe-container div.progress-bar {
   height: 24px;
 }
 
+.lazy-image {
+  display: none;
+}
+
 #content {
   padding-bottom: 40px;
 }
