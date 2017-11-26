@@ -97,6 +97,25 @@ div.lazy-iframe-container div.progress-bar {
   height: 24px;
 }
 
+#content {
+  padding-bottom: 40px;
+}
+
+a.anchor:before {
+  display: block;
+  content: "";
+  height: 67px;
+  margin: -67px 0 0;
+}
+
+a.anchor:hover {
+  text-decoration-line: none;
+}
+
+a.anchor h2 {
+  display: inline-block;
+}
+
 /* NAVBAR */
 
 .affixed-nav-wrapper {

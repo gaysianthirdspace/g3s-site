@@ -8,7 +8,9 @@ One of the main missions at G3S is to create a supportive gaysian community and 
 
 If you have any questions, or if you’re interested in getting involved in any of our initiatives, please [send us a message](/contact)!
 
-## <a name="blog"></a> Tumblr Blog
+{{< anchor blog >}}
+## Tumblr Blog
+{{< /anchor >}}
 
 Our [Tumblr blog](//gaysianthirdspace.tumblr.com) curates stories, posts, articles, and discussions so that we can learn from each other's experiences and thoughts. We are always seeking new contributors and content, so please [submit](//gaysianthirdspace.tumblr.com/submit) any posts, new or old, that you think could fit this mission.
 
@@ -18,7 +20,9 @@ Finally, we are [cataloging](//gaysianthirdspace.tumblr.com/tags) our archives t
 
 If you'd prefer to follow us on WordPress, we maintain a mirror of our Tumblr blog [here](//gaysianthirdspacev2.wordpress.com/).
 
-## <a name="linechat"></a> LINE Chat Group
+{{< anchor linechat >}}
+## LINE Chat Group
+{{< /anchor >}}
 
 We have a chat group on LINE to facilitate closer interactions through chatting, serious discussions, and more casual conversations across many time zones. LINE Group Moderators (Fish and Jeff from the [G3S Team](/about#team)) work actively to moderate membership and monitor the chat to maintain a supportive and welcoming environment for all of the participants. They reserve the right to decline new membership or remove current members.
 
@@ -32,7 +36,9 @@ To join the LINE group, please follow these instructions:
 
 We look forward to welcoming you to the group!
 
-## <a name="mentorship"></a> Mentorship Program
+{{< anchor mentorship >}}
+## Mentorship Program
+{{< /anchor >}}
 
 We understand that people who are just beginning to explore their identities can get overwhelmed with large, fast paced group chats. Sometimes it is challenging to summon the courage to message unfamiliar people. The __G3S Mentors Program__ addresses this need. Our goal is to expand our directory of volunteer mentors (like RAs for new freshman in a college dorm) who would be willing to engage and interact with existing or new G3S members in a one-on-one or small group setting.
 
@@ -42,19 +48,27 @@ If you would like to sign up as a __mentee__, please fill out [this form](//docs
 
 To see the list of __mentor profiles__, click [here](//docs.google.com/spreadsheets/d/1a4RyU_K5hpO7BnNe2gZpwoxDOhkzzw-Rd6aXTucImPM/edit?usp=sharing).
 
-## <a name="followers"></a> Follower Friday
+{{< anchor followers >}}
+## Follower Friday
+{{< /anchor >}}
 
 We run a [Follower Fridays series](//gaysianthirdspace.tumblr.com/tagged/followerfriday) to showcase the diversity of gaysians and to get to know each other better by featuring the profile of a member of our community every Friday on our [blog](//gaysianthirdspace.tumblr.com) and our [Instagram account](//www.instagram.com/gaysianthirdspace/).
 
-## <a name="writersroundtable"></a> Writer's Roundtable
+{{< anchor writersroundtable >}}
+## Writer's Roundtable
+{{< /anchor >}}
 
 We run a [Writer’s Roundtable series](//gaysianthirdspace.tumblr.com/tagged/askG3S/chrono) to facilitate and publish conversations on topics of interest to the community. If you have any topics you’d like the writers in our community to discuss, please [submit](//gaysianthirdspace.tumblr.com/writers-roundtable) them to the Writer’s Roundtable!
 
-## <a name="mentalhealth"></a> Mental Health Project
+{{< anchor mentalhealth >}}
+## Mental Health Project
+{{< /anchor >}}
 
 We are working to create resources to support mental health for queer API people, in order to help meet the needs of members of the G3S community and queer API communities more broadly. We are currently investigating how we might best leverage our collective knowledge and resources to meet the needs of our communities. If you are interested in collaborating, sharing notes, or chatting with us about queer API mental health, we'd love to talk to you! Just [send us a message](/contact) and we will follow up with you.
 
-## <a name="socialmedia"></a> Social Media
+{{< anchor socialmedia >}}
+## Social Media
+{{< /anchor >}}
 
 We are exploring other platforms for engagement and story-sharing by maintaining the following pages:
 

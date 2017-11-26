@@ -8,7 +8,9 @@ G3S has facilitated meetups all around the world! Our regional chapters in North
 
 {{< lazy-iframe data-src="//www.google.com/maps/d/u/0/embed?mid=11zYeY6ifzc83GjO98WY355jNeSc" width="100%" height="480px" data-description="map of past meetup locations" >}}
 
+{{< anchor chapters >}}
 ## Current Regional Chapters
+{{< /anchor >}}
 
 We have regional chapters of various sizes in several North American regions. To get in contact with a regional chapter, please send us a message at our [contact page](/contact/) and we'll connect you with the contact person for the chapter:
 
@@ -17,14 +19,18 @@ We have regional chapters of various sizes in several North American regions. To
 - Toronto/Eastern Canada
 - Boston
 
+{{< anchor partners >}}
 ## Partner Organizations
+{{< /anchor >}}
 
 In addition to building regional chapters, we are also collaborating with some existing API queer organizations with community-building programs:
 
 - Asian and Pacific Islander Queers United for Action ([AQUA](http://www.aquadc.us)), Washington DC
 - Gay Asian Pacific Islander Men of New York ([GAPIMNY](http://gapimny.org)), New York City
 
+{{< anchor upcoming >}}
 ## Upcoming Meetups
+{{< /anchor >}}
 
 When we plan official meetups, we announce them on our Tumblr blog and our Facebook page:
 
