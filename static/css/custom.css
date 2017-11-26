@@ -104,8 +104,8 @@ div.lazy-iframe-container div.progress-bar {
 a.anchor:before {
   display: block;
   content: "";
-  height: 67px;
-  margin: -67px 0 0;
+  height: 50px;
+  margin: -50px 0 0;
 }
 
 a.anchor:hover {

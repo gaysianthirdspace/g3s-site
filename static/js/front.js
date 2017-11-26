@@ -180,7 +180,6 @@ function fullScreenHero (initialize) {
     screenHeight = $(window).height() - bottomMargin
   }
 
-  $('.navbar-affixed-top').attr('data-offset-top', screenHeight)
   if (initialize) {
     $('#home-hero .item-responsive').animate({
       height: screenHeight + 'px'
@@ -247,12 +246,16 @@ function utils () {
   function scrollTo (fullUrl) {
     var parts = fullUrl.split('#')
     var trgt = parts[1]
-    console.log(trgt)
-    var targetOffset = $('#' + trgt).offset()
-    var targetTop = targetOffset.top - 100
+    if (trgt) {
+      console.log(trgt)
+      var targetOffset = $('#' + trgt).offset()
+      var targetTop = targetOffset.top - 82
 
-    if (targetTop < 0) {
-      targetTop = 0
+      if (targetTop < 0) {
+        targetTop = 0
+      }
+    } else {
+      var targetTop = 0
     }
 
     $('html, body').animate({
