@@ -54,8 +54,26 @@ iframe {
   overflow: hidden;
 }
 
-iframe.lazy-src { /* display is updated on page load */
-  display: none;
+div.lazy-iframe-container {
+  display: none; /* updated upon page load */
+  align-items: center;
+  position: relative;
+}
+
+div.lazy-iframe-container div.loading-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+div.lazy-iframe-container div.progress-bar {
+  vertical-align: middle;
+  width: 50%;
+  height: 24px;
 }
 
 /* NAVBAR */
