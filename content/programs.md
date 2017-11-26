@@ -44,9 +44,7 @@ To see the list of __mentor profiles__, click [here](//docs.google.com/spreadshe
 
 ## <a name="followers"></a> Follower Friday
 
-We run a [Follower Fridays series](//gaysianthirdspace.tumblr.com/tagged/followerfriday) to showcase the diversity of gaysians and to get to know each other better by featuring the profile of a member of our community every Friday on our [blog](#blog) and our [Instagram account](#instagram).
-
-<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/5bcf39dda36f5466b3e992646162edbb.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+We run a [Follower Fridays series](//gaysianthirdspace.tumblr.com/tagged/followerfriday) to showcase the diversity of gaysians and to get to know each other better by featuring the profile of a member of our community every Friday on our [blog](//gaysianthirdspace.tumblr.com) and our [Instagram account](//www.instagram.com/gaysianthirdspace/).
 
 ## <a name="writersroundtable"></a> Writer's Roundtable
 
