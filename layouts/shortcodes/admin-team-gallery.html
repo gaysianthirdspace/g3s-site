@@ -4,12 +4,12 @@
         <div class="col-md-3 col-sm-3">
             <img class="img-responsive img-circle lazy-image"
                 alt="{{ .name }}"
-                data-src="{{ .avatar | absURL }}"
-                {{ with "avatarretina" }}data-retina="{{ . | absURL}}"{{ end }}>
+                data-src="{{ .avatar }}"
+                {{ with .avatarretina }}data-retina="{{ . }}"{{ end }}>
             <noscript><img
                 class="img-responsive img-circle"
                 alt="{{ .name }}"
-                src="{{ .avatar | absURL }}"></noscript>
+                src="{{ .avatar }}"></noscript>
         </div>
         <div class="col-md-9 col-sm-9">
             <div class="text">
