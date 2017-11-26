@@ -185,6 +185,10 @@ a.anchor h2 {
 
 /* REGULAR NAVBAR */
 
+.navbar-affixed-top.affix.navbar-default {
+  background: rgba(100%, 100%, 100%, 0.9);
+}
+
 .navbar-default .navbar-nav > li > a {
   color: #666;
 }
@@ -200,7 +204,7 @@ a.anchor h2 {
 }
 
 .navbar-affixed-top.affix.navbar-inverse {
-  background: #333;
+  background: rgba(20%, 20%, 20%, 0.9);
 }
 
 .navbar-inverse {
