@@ -1,9 +1,9 @@
 ---
-weight: 3
+weight: 2
 title: Come to our <a href="/meetups/">meetups</a>
 description: |
   <p>Make friends and hang out with our local communities through our in-person meetups!</p>
 image: ''
-backgroundimage: "/img/carousel/meetups-map.png"
+backgroundimage: "/img/slides/meetups-map.png"
 backgroundopacity: 0.65
 backgroundposition: center center

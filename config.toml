@@ -65,8 +65,6 @@ logo = "img/logo.png"
 longitude = "-77.028333"
 style = "orange"
 viewmorepostlink = "/blog/"
-[params.carousel]
-enable = true
 [params.footerbar]
 enable = true
 [params.partners]

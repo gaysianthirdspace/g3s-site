@@ -41,6 +41,27 @@ div.uniform-height-row > [class*='col-'] {
   }
 }
 
+.mask { /* The container holding a .mask block element must have position relative */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.darken {
+  background: #000;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+.drop-shadow-bottom {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.36) 5px, rgba(0, 0, 0, 0.216) 10px, rgba(0, 0, 0, 0.1296) 15px, rgba(0, 0, 0, 0.07776) 20px, rgba(0, 0, 0, 0.046656) 25px, rgba(0, 0, 0, 0.0279936) 30px, rgba(0, 0, 0, 0.01679616) 35px, rgba(0, 0, 0, 0) 40px);
+}
+
+.drop-shadow-top {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.36) 5px, rgba(0, 0, 0, 0.216) 10px, rgba(0, 0, 0, 0.1296) 15px, rgba(0, 0, 0, 0.07776) 20px, rgba(0, 0, 0, 0.046656) 25px, rgba(0, 0, 0, 0.0279936) 30px, rgba(0, 0, 0, 0.01679616) 35px, rgba(0, 0, 0, 0) 40px);
+}
 
 /* LAYOUT */
 
@@ -89,14 +110,22 @@ div.lazy-iframe-container div.progress-bar {
 }
 
 .navbar a[target="_blank"]:after {
-    font-family: 'FontAwesome';
-    content: " \f08e";
+  font-family: 'FontAwesome';
+  content: " \f08e";
+}
+
+.navbar a.current-page {
+  border-top-color: #ff9e00 !important;
 }
 
 /* REGULAR NAVBAR */
 
 .navbar-default .navbar-nav > li > a {
   color: #666;
+}
+
+.navbar-default .container div.navbar-collapse.collapse.in > ul > li > a.current-page {
+  border-top-color: rgba(0, 0, 0, 0) !important;
 }
 
 /* TRANSPARENT INVERSE NAVBAR */
@@ -117,55 +146,35 @@ div.lazy-iframe-container div.progress-bar {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.36) 12.5%, rgba(0, 0, 0, 0.216) 25%, rgba(0, 0, 0, 0.1296) 37.5%, rgba(0, 0, 0, 0.07776) 50%, rgba(0, 0, 0, 0.046656) 62.5%, rgba(0, 0, 0, 0.0279936) 75%, rgba(0, 0, 0, 0.01679616) 87.5%, rgba(0, 0, 0, 0)) !important;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.36) 12.5%, rgba(0, 0, 0, 0.216) 25%, rgba(0, 0, 0, 0.1296) 37.5%, rgba(0, 0, 0, 0.07776) 50%, rgba(0, 0, 0, 0.046656) 62.5%, rgba(0, 0, 0, 0.0279936) 75%, rgba(0, 0, 0, 0.01679616) 87.5%, rgba(0, 0, 0, 0));
 }
 
 .navbar-inverse .container div.navbar-collapse.collapse.in {
   background-color: #333;
 }
+
 .navbar-inverse .container div.navbar-collapse.collapsing {
   background-color: #333;
+}
+
+.navbar-inverse .container div.navbar-collapse.collapse.in > ul > li > a:hover {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 /* HOMEPAGE LAYOUT */
 
 section {
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
-.bar {
-  padding-top: 10px;
-  padding-bottom: 0px;
-  margin-bottom: -20px;
-}
+/* HOMEPAGE HERO */
 
-/* HOMEPAGE CAROUSEL */
-
-/* Homepage Carousel Layout */
+/* Layout */
 
 #home-hero {
   margin-top: -75px;
-  background: transparent;
-  text-align: left !important;
-  margin-bottom: -30px;
+  text-align: left;
 }
-
-#home-hero .owl-carousel {
-  height: 100%;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-#home-hero .owl-wrapper {
-  display: flex !important;
-  flex-direction: row;
-}
-
-#home-hero .owl-wrapper-outer {
-  background: black;
-}
-
-/* Homepage Carousel Slides */
 
 #home-hero div.item {
   width: 100%;
@@ -177,8 +186,8 @@ section {
 }
 
 #home-hero div.item-responsive {
-  padding-top: 150px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 30px;
 }
 
 
@@ -186,7 +195,7 @@ section {
   background-color: rgb(0, 0, 0);
 }
 
-/* Homepage Carousel Typography */
+/* Typography */
 
 #home-hero h1 {
   letter-spacing: 0.05em;
@@ -198,65 +207,12 @@ section {
   text-shadow: 0 1px 4px black;
 }
 
-/* Homepage Carousel Controls */
-
-#home-hero .owl-controls {
-  position: relative;
-  top: -40px;
-  margin-top: 0px !important;
-  z-index: 10;
-  padding-bottom: 10px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.36) 12.5%, rgba(0, 0, 0, 0.216) 25%, rgba(0, 0, 0, 0.1296) 37.5%, rgba(0, 0, 0, 0.07776) 50%, rgba(0, 0, 0, 0.046656) 62.5%, rgba(0, 0, 0, 0.0279936) 75%, rgba(0, 0, 0, 0.01679616) 87.5%, rgba(0, 0, 0, 0)) !important;
-}
-
-#home-hero .owl-theme .owl-controls .owl-page span {
-  background-color: #fff;
-  opacity: 0.5;
-}
-
-#home-hero .owl-theme .owl-controls .owl-page span:hover {
-  background-color: #fff;
-  opacity: 1.0;
-}
-
-#home-hero .owl-theme .owl-controls .owl-page.active span {
-  background-color: #fff;
-  opacity: 1.0;
-}
-
-#home-hero .owl-pagination {
-  z-index: 12;
-}
-
-#home-hero .owl-controls .owl-buttons {
-  position: relative;
-  top: -5px;
-  margin-top: -30px;
-  z-index: 11;
-  pointer-events: none;
-}
-
-#home-hero .owl-controls .owl-buttons .owl-prev {
-  position: relative;
-  right: 60px;
-}
-
-#home-hero .owl-controls .owl-buttons .owl-next {
-  position: relative;
-  left: 60px;
-}
-
-#home-hero .owl-controls .owl-buttons div {
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  font-size: 32px;
-  width: 32px;
-  height: 32px;
-  line-height: 32px;
-  pointer-events: auto;
-}
-
 /* HOMEPAGE VALUES */
+
+#values-section {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
 
 #values-section div.box-simple {
   margin-bottom: 20px;
@@ -278,6 +234,25 @@ section {
 
 div.box-simple p {
   font-size: 15px;
+}
+
+/* HOMEPAGE VALUES */
+
+div.home-slide h1 {
+  text-transform: none !important;
+  letter-spacing: 0.04em;
+}
+div.home-slide p {
+  text-transform: none !important;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+div.home-slide div.item {
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
 }
 
 /* ABOUT PAGE ADMIN TEAM GALLERY */
@@ -302,10 +277,11 @@ div.admin-team-row {
 /* FOOTER */
 
 #footer {
-  margin-top: 20px;
+  position: relative;
+  margin-top: 0px;
   color: #ccc;
   font-size: 12px;
   line-height: 28px;
-  background: linear-gradient(to bottom, rgb(8%, 8%, 8%), rgb(12.8%, 12.8%, 12.8%) 5px, rgb(15.68%, 15.68%, 15.68%) 10px, rgb(17.408%, 17.408%, 17.408%) 15px, rgb(18.4448%, 18.4448%, 18.4448%) 20px, rgb(19.06688%, 19.06688%, 19.06688%) 25px, rgb(19.440128%, 19.440128%, 19.440128%) 30px, rgb(19.6640768%, 19.6640768%, 19.6640768%) 35px, rgb(20%, 20%, 20%) 40px);
+  background: #333;
 }
 

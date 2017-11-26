@@ -8,7 +8,7 @@
 
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand home" href="{{ .context.Site.BaseURL }}">
+                <a class="navbar-brand home" {{ if .context.IsHome }} href="#" {{ else }} href="{{ .context.Site.BaseURL }}" {{ end }}>
                     {{ if eq .navColor "dark" }}
                     <img src="{{ .context.Site.BaseURL }}img/logo-dark.png" alt="{{ .Title }} logo">
                     {{ else }}
@@ -27,24 +27,25 @@
 
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
-                  {{ range .context.Site.Menus.main }}
-                  <li class="dropdown">
-                    {{ if .HasChildren }}
-                      <a href="{{ .URL }}" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      {{ range .Children }}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                      {{ end }}
-                    </ul>
-                    {{ else }}
-                    {{ if eq .Name "Blog" }}
-                    <a href="{{ .URL }}" target="_blank">{{ .Name }}</a>
-                    {{ else }}
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    {{ $currentURL := (printf "%s" .context.URL) }}
+                    {{ range .context.Site.Menus.main }}
+                    <li class="dropdown">
+                        {{ if .HasChildren }}
+                        <a href="{{ .URL }}" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                        {{ range .Children }}
+                            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                        </ul>
+                        {{ else }}
+                        {{ if eq .Name "Blog" }}
+                        <a href="{{ .URL }}" target="_blank">{{ .Name }}</a>
+                        {{ else }}
+                        <a {{ if (eq $currentURL .URL) }} href="#" class="current-page" {{ else }} href="{{ .URL }}" {{ end }}>{{ .Name }}</a>
+                        {{ end }}
+                        {{ end  }}
+                    </li>
                     {{ end }}
-                    {{ end  }}
-                  </li>
-                  {{ end }}
                 </ul>
             </div>
             <!--/.nav-collapse -->

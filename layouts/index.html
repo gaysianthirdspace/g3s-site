@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  {{ partial "head.html" (dict "context" . "loadCarousel" true ) }}
+  {{ partial "head.html" (dict "context" . "loadCarousel" false ) }}
 
   <body>
 
@@ -15,9 +15,11 @@
 
         </header>
 
-        {{ partial "carousel.html" . }}
+        {{ partial "hero.html" . }}
 
         {{ partial "values.html" . }}
+
+        {{ partial "slides.html" . }}
 
         {{ partial "testimonials.html" . }}
 
