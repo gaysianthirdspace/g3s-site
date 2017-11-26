@@ -6,7 +6,13 @@ description: "<p>Beyond the clubs and apps, we have been building a Third Space:
   <p><a href='about/'>Get involved</a> in our community and make some new friends!</p>"
 image: ''
 backgroundimageprefix: "/img/slides/playing-cards-"
-backgroundimagewidths: [256, 427, 640, 853, 1280, 1920]
+backgroundimagewidths:
+- 256
+- 427
+- 640
+- 853
+- 1280
+- 1920
 backgroundimagesuffix: ".jpg"
 backgroundimageloadsize: 1280
 backgroundimagedefaultsize: 1280
