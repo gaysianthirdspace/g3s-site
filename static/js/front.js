@@ -287,13 +287,11 @@ function productDetailSizes () {
 
 function loadIframes () {
   $("iframe.lazy-src").each(function (index, element) {
-    $(element).attr("src", $(element).attr('data-src'))
-    $(this).parent().slideDown();
-  })
-  $("iframe.lazy-src").each(function (index, element) {
     $(element).on("load", function () {
       $(element).parent().find('.loading-overlay').fadeOut()
     })
+    $(element).attr("src", $(element).attr('data-src'))
+    $(this).parent().slideDown();
   })
 }
 
