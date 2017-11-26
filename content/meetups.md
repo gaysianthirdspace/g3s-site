@@ -6,7 +6,7 @@ type = "page"
 +++
 G3S has facilitated meetups all around the world! Our regional chapters in North America organize official social events, and we've also had informal meetups where people hang out together after meeting through G3S's Tumblr, Facebook, or LINE Chat Group. Traveling somewhere and want to get to know some local G3S members? Contact the regional chapters below and get connected!
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=11zYeY6ifzc83GjO98WY355jNeSc" width="100%" height="480"></iframe>
+<iframe src="//www.google.com/maps/d/u/0/embed?mid=11zYeY6ifzc83GjO98WY355jNeSc" width="100%" height="480"></iframe>
 
 ## Current Regional Chapters
 
@@ -37,6 +37,6 @@ When we plan official meetups, we announce them on our Tumblr blog and our Faceb
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="fb-page" data-href="https://www.facebook.com/gaysianthirdspace/" data-tabs="events" data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/gaysianthirdspace/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/gaysianthirdspace/">Gaysian Third Space - G3S</a></blockquote></div>
+<div class="fb-page" data-href="//www.facebook.com/gaysianthirdspace/" data-tabs="events" data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="//www.facebook.com/gaysianthirdspace/" class="fb-xfbml-parse-ignore"><a href="//www.facebook.com/gaysianthirdspace/">Gaysian Third Space - G3S</a></blockquote></div>
 
 Unofficial meetups are usually coordinated informally in our [LINE Chat Group](/programs/#linechat).

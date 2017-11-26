@@ -10,13 +10,13 @@ If you have any questions, or if you’re interested in getting involved in any 
 
 ## <a name="blog"></a> Tumblr Blog
 
-Our [Tumblr blog](http://gaysianthirdspace.tumblr.com) curates stories, posts, articles, and discussions so that we can learn from each other's experiences and thoughts. We are always seeking new contributors and content, so please [submit](http://gaysianthirdspace.tumblr.com/submit) any posts, new or old, that you think could fit this mission.
+Our [Tumblr blog](//gaysianthirdspace.tumblr.com) curates stories, posts, articles, and discussions so that we can learn from each other's experiences and thoughts. We are always seeking new contributors and content, so please [submit](//gaysianthirdspace.tumblr.com/submit) any posts, new or old, that you think could fit this mission.
 
 We also regularly invite members of our community to guest curate our blog, where they showcase content matching a theme of their choice for a week. If you're interested in helping out with running the blog, please [send us a message](/contact).
 
-Finally, we are [cataloging](http://gaysianthirdspace.tumblr.com/tags) our archives to make it easier to find content that speaks to specific topics and experiences.
+Finally, we are [cataloging](//gaysianthirdspace.tumblr.com/tags) our archives to make it easier to find content that speaks to specific topics and experiences.
 
-If you'd prefer to follow us on WordPress, we maintain a mirror of our Tumblr blog [here](https://gaysianthirdspacev2.wordpress.com/).
+If you'd prefer to follow us on WordPress, we maintain a mirror of our Tumblr blog [here](//gaysianthirdspacev2.wordpress.com/).
 
 ## <a name="linechat"></a> LINE Chat Group
 
@@ -24,11 +24,11 @@ We have a chat group on LINE to facilitate closer interactions through chatting,
 
 To join the LINE group, please follow these instructions:
 
-1. Fill out the [sign-up form](https://docs.google.com/forms/d/1et74jeWtk1F0Q667p-cWpZLmKaWFN0FJyHZ-_M9kHVs/edit) here (this step is required).
-2. [Download and install](https://line.me/en/download) the LINE app.
+1. Fill out the [sign-up form](//docs.google.com/forms/d/1et74jeWtk1F0Q667p-cWpZLmKaWFN0FJyHZ-_M9kHVs/edit) here (this step is required).
+2. [Download and install](//line.me/en/download) the LINE app.
 3. Send a friend request to “alostfish” on LINE.
 4. Send “alostfish” a quick message on LINE so he knows to add you.
-5. Please follow our LINE Group [community guidelines](https://docs.google.com/document/d/1bPTXCXAYPnEbOu428BZbERMQEdl5_RKLLNzAM3RuwK4/edit?usp=sharing).
+5. Please follow our LINE Group [community guidelines](//docs.google.com/document/d/1bPTXCXAYPnEbOu428BZbERMQEdl5_RKLLNzAM3RuwK4/edit?usp=sharing).
 
 We look forward to welcoming you to the group!
 
@@ -36,21 +36,21 @@ We look forward to welcoming you to the group!
 
 We understand that people who are just beginning to explore their identities can get overwhelmed with large, fast paced group chats. Sometimes it is challenging to summon the courage to message unfamiliar people. The __G3S Mentors Program__ addresses this need. Our goal is to expand our directory of volunteer mentors (like RAs for new freshman in a college dorm) who would be willing to engage and interact with existing or new G3S members in a one-on-one or small group setting.
 
-If you would like to sign up as a __mentor__, click [here](https://docs.google.com/forms/d/e/1FAIpQLSd2FvWZ0IQhHNVpH4L05bPFnX3Bl8C-1fW7pntc52HxIieY0g/viewform?c=0&w=1).
+If you would like to sign up as a __mentor__, click [here](//docs.google.com/forms/d/e/1FAIpQLSd2FvWZ0IQhHNVpH4L05bPFnX3Bl8C-1fW7pntc52HxIieY0g/viewform?c=0&w=1).
 
-If you would like to sign up as a __mentee__, click [here](https://docs.google.com/forms/d/e/1FAIpQLSdyfccqu3Ngg18KvDpURP_LCmTArBQgBlslHLyjo6SXTXICqg/viewform?c=0&w=1).
+If you would like to sign up as a __mentee__, click [here](//docs.google.com/forms/d/e/1FAIpQLSdyfccqu3Ngg18KvDpURP_LCmTArBQgBlslHLyjo6SXTXICqg/viewform?c=0&w=1).
 
-To see the list of __mentor profiles__, click [here](https://docs.google.com/spreadsheets/d/1a4RyU_K5hpO7BnNe2gZpwoxDOhkzzw-Rd6aXTucImPM/edit?usp=sharing).
+To see the list of __mentor profiles__, click [here](//docs.google.com/spreadsheets/d/1a4RyU_K5hpO7BnNe2gZpwoxDOhkzzw-Rd6aXTucImPM/edit?usp=sharing).
 
 ## <a name="followers"></a> Follower Friday
 
-We run a [Follower Fridays series](http://gaysianthirdspace.tumblr.com/tagged/followerfriday) to showcase the diversity of gaysians and to get to know each other better by featuring the profile of a member of our community every Friday on our [blog](#blog) and our [Instagram account](#instagram).
+We run a [Follower Fridays series](//gaysianthirdspace.tumblr.com/tagged/followerfriday) to showcase the diversity of gaysians and to get to know each other better by featuring the profile of a member of our community every Friday on our [blog](#blog) and our [Instagram account](#instagram).
 
 <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/5bcf39dda36f5466b3e992646162edbb.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 
 ## <a name="writersroundtable"></a> Writer's Roundtable
 
-We run a [Writer’s Roundtable series](http://gaysianthirdspace.tumblr.com/tagged/askG3S/chrono) to facilitate and publish conversations on topics of interest to the community. If you have any topics you’d like the writers in our community to discuss, please [submit](http://gaysianthirdspace.tumblr.com/writers-roundtable) them to the Writer’s Roundtable!
+We run a [Writer’s Roundtable series](//gaysianthirdspace.tumblr.com/tagged/askG3S/chrono) to facilitate and publish conversations on topics of interest to the community. If you have any topics you’d like the writers in our community to discuss, please [submit](//gaysianthirdspace.tumblr.com/writers-roundtable) them to the Writer’s Roundtable!
 
 ## <a name="mentalhealth"></a> Mental Health Project
 
@@ -60,5 +60,5 @@ We are working to create resources to support mental health for queer API people
 
 We are exploring other platforms for engagement and story-sharing by maintaining the following pages:
 
-- An [Instagram account](http://www.instagram.com/gaysianthirdspace/) for sharing our experiences and learning from each other through a more visual medium. We are starting by sharing our Follower Friday profiles on the account, and we hope to eventually provide a community platform for visual storytelling.
-- A [Facebook page](https://www.facebook.com/gaysianthirdspace) for facilitating more interactive discussions about the content posted to the Tumblr blog.
+- An [Instagram account](//www.instagram.com/gaysianthirdspace/) for sharing our experiences and learning from each other through a more visual medium. We are starting by sharing our Follower Friday profiles on the account, and we hope to eventually provide a community platform for visual storytelling.
+- A [Facebook page](//www.facebook.com/gaysianthirdspace) for facilitating more interactive discussions about the content posted to the Tumblr blog.

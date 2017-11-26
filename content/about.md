@@ -10,14 +10,14 @@ Outside the clubs and beyond the apps, we aim to provide a Third Space---a commu
 
 There are many ways you can get involved in our community:
 
-- Follow us on [Tumblr](http://gaysianthirdspace.tumblr.com), where we publish one post, article, or video every day!
-- Read about our featured [Follower](http://gaysianthirdspace.tumblr.com/tagged/followerfriday) profiles, or [submit one](https://docs.google.com/forms/d/e/1FAIpQLScSt3WZ6ZstkFKPDVhh88wLADOjN7w61tfParCQTbQ1jrsZRA/viewform)!
+- Follow us on [Tumblr](//gaysianthirdspace.tumblr.com), where we publish one post, article, or video every day!
+- Read about our featured [Follower](//gaysianthirdspace.tumblr.com/tagged/followerfriday) profiles, or [submit one](//docs.google.com/forms/d/e/1FAIpQLScSt3WZ6ZstkFKPDVhh88wLADOjN7w61tfParCQTbQ1jrsZRA/viewform)!
 - Want a gaysian mentor, or want to mentor a fellow gaysian? Become a [mentee or mentor](/programs#mentorship)!
 - Want to chat with more peeps? Join our [Line group](/programs#linechat)!
-- Have a question on your mind? [Ask it](http://gaysianthirdspace.tumblr.com/writers-roundtable) to the [G3S roundtable](http://gaysianthirdspace.tumblr.com/tagged/askG3S/chrono) writers!
+- Have a question on your mind? [Ask it](//gaysianthirdspace.tumblr.com/writers-roundtable) to the [G3S roundtable](//gaysianthirdspace.tumblr.com/tagged/askG3S/chrono) writers!
 - Come to a [meetup](/meetups) near you!
-- Follow us on [Instagram](https://www.instagram.com/gaysianthirdspace/)!
-- Follow us on [Facebook](https://www.facebook.com/gaysianthirdspace)!
+- Follow us on [Instagram](//www.instagram.com/gaysianthirdspace/)!
+- Follow us on [Facebook](//www.facebook.com/gaysianthirdspace)!
 
 
 ## Why We're Here
