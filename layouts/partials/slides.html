@@ -1,14 +1,22 @@
 {{ range (after 1 (sort .Site.Data.slides "weight")) }}
-{{ if isset . "backgroundimage" }}
-<section> <div class="home-slide home-carousel"> <div
-            class="item item-responsive lazy-image"
-            data-src="{{ .backgroundimage }}"
-            style="background-position: {{ .backgroundposition }}">
+{{ if isset . "backgroundimageprefix" }}
+<section> <div class="home-slide home-carousel">
+{{ $prefix := .backgroundimageprefix }}
+{{ $loading := .backgroundimageloadsize }}
+{{ $default := .backgroundimagedefaultsize }}
+{{ $suffix := .backgroundimagesuffix }}
+<div class="item item-responsive srcset-background-image"
+     style="background-image: url('{{ $prefix }}{{ $loading }}{{ $suffix }}');
+     background-position: {{ .backgroundposition }}">
+    <img class="srcset-lazy-image"
+        data-src="{{ $prefix }}{{ $default }}{{ $suffix }}"
+        data-sizes="100vw"
+        data-srcset="{{ range .backgroundimagewidths }}{{ $prefix }}{{ . }}{{ $suffix }} {{ . }}w,{{ end }}">
 {{ else }}
 <section class="bar background-white">
 {{ end }}
     <div class="container"> <div class="row">
-        {{ if isset . "backgroundimage" }}
+        {{ if isset . "backgroundimageprefix" }}
         <div class="mask darken" style="opacity:{{ .backgroundopacity }}"></div>
         <div class="mask drop-shadow-top"></div>
         <div class="mask drop-shadow-bottom"></div>
@@ -23,7 +31,7 @@
         </div>
         {{ else }}
         <div class="col-sm-12
-            {{ if not (isset . "backgroundimage") }}
+            {{ if not (isset . "backgroundimageprefix") }}
             text-right
             {{ else }}
             text-left
@@ -33,8 +41,9 @@
         </div>
         {{ end }}
     </div> </div>
-{{ if isset . "backgroundimage" }}
-</div> </div> </section>
+{{ if isset . "backgroundimageprefix" }}
+</div> </div>
+</section>
 {{ else }}
 </section>
 {{ end }}

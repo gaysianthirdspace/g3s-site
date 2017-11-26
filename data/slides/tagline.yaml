@@ -5,6 +5,10 @@ description: "<p>Beyond the clubs and apps, we have been building a Third Space:
   place to find support and community as we navigate our gay and Asian experiences.</p>
   <p><a href='about/'>Get involved</a> in our community and make some new friends!</p>"
 image: ''
-backgroundimage: "/img/slides/playing-cards.jpg"
+backgroundimageprefix: "/img/slides/playing-cards-"
+backgroundimagewidths: [256, 427, 640, 853, 1280, 1920]
+backgroundimagesuffix: ".jpg"
+backgroundimageloadsize: 1280
+backgroundimagedefaultsize: 1280
 backgroundopacity: 0.6
 backgroundposition: center top

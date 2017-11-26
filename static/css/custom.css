@@ -76,7 +76,7 @@ div.lazy-iframe-container iframe {
 }
 
 div.lazy-iframe-container {
-  display: none; /* updated upon page load */
+  display: none; /* display set by javascript */
   align-items: center;
   position: relative;
 }
@@ -98,7 +98,15 @@ div.lazy-iframe-container div.progress-bar {
 }
 
 .lazy-image {
-  display: none;
+  display: none; /* display set by javascript */
+}
+
+div.srcset-background-image {
+  display: none; /* display set by javascript */
+}
+
+div.srcset-background-image > img.srcset-lazy-image {
+  display: none !important;
 }
 
 #content {

@@ -1,29 +1,35 @@
-<section>
-    <div id="home-hero" class="home-carousel">
-        {{ range (first 1 (sort .Site.Data.slides "weight")) }}
-        <div class="item item-responsive"
-            style="background-image: url('{{ .backgroundimage }}');
-            background-position: {{ .backgroundposition }}">
-            <div class="container"> <div class="row">
-                <div class="mask darken" style="opacity:{{ .backgroundopacity }}"></div>
-                <div class="mask drop-shadow-top"></div>
-                <div class="mask drop-shadow-bottom"></div>
-                {{ if .image }}
-                <div class="col-sm-5 right">
-                    <h1>{{ .title | safeHTML }}</h1>
-                    {{ .description | safeHTML }}
-                </div>
-                <div class="col-sm-7">
-                    <img class="img-responsive" src="{{ .image }}" alt="">
-                </div>
-                {{ else }}
-                <div class="col-sm-12 text-left">
-                    <h1>{{ .title | safeHTML }}</h1>
-                    {{ .description | safeHTML }}
-                </div>
-                {{ end }}
-            </div> </div>
-        </div>
-        {{ end }}
+<section> <div id="home-hero" class="home-carousel">
+    {{ range (first 1 (sort .Site.Data.slides "weight")) }}
+    {{ $prefix := .backgroundimageprefix }}
+    {{ $loading := .backgroundimageloadsize }}
+    {{ $default := .backgroundimagedefaultsize }}
+    {{ $suffix := .backgroundimagesuffix }}
+    <div class="item item-responsive srcset-background-image"
+        style="background-image: url('{{ $prefix }}{{ $loading }}{{ $suffix }}');
+        background-position: {{ .backgroundposition }}">
+        <img class="srcset-lazy-image"
+            data-src="{{ $prefix }}{{ $default }}{{ $suffix }}"
+            data-sizes="100vw"
+            data-srcset="{{ range .backgroundimagewidths }}{{ $prefix }}{{ . }}{{ $suffix }} {{ . }}w,{{ end }}">
+        <div class="container"> <div class="row">
+            <div class="mask darken" style="opacity:{{ .backgroundopacity }}"></div>
+            <div class="mask drop-shadow-top"></div>
+            <div class="mask drop-shadow-bottom"></div>
+            {{ if .image }}
+            <div class="col-sm-5 right">
+                <h1>{{ .title | safeHTML }}</h1>
+                {{ .description | safeHTML }}
+            </div>
+            <div class="col-sm-7">
+                <img class="img-responsive" src="{{ .image }}" alt="">
+            </div>
+            {{ else }}
+            <div class="col-sm-12 text-left">
+                <h1>{{ .title | safeHTML }}</h1>
+                {{ .description | safeHTML }}
+            </div>
+            {{ end }}
+        </div> </div>
     </div>
-</section>
+    {{ end }}
+</div> </section>

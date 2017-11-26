@@ -4,6 +4,10 @@ title: Come to our <a href="/meetups/">meetups</a>
 description: |
   <p>Make friends and hang out with our local communities through our in-person meetups!</p>
 image: ''
-backgroundimage: "/img/slides/meetups-map.png"
+backgroundimageprefix: "/img/slides/meetups-map-"
+backgroundimagewidths: [256, 427, 640, 853, 1280, 1920]
+backgroundimagesuffix: ".png"
+backgroundimageloadsize: 256
+backgroundimagedefaultsize: 1280
 backgroundopacity: 0.65
 backgroundposition: center center

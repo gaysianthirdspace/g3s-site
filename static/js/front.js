@@ -4,7 +4,7 @@
 $(function () {
   //sliderHomepage()
   sliders()
-  fullScreenHero(true)
+  // fullScreenHero(true) // called by loadImages
   fullScreenSlides(true)
   // productDetailGallery(4000)
   menuSliding()
@@ -326,7 +326,15 @@ function loadIframes () {
 
 function loadImages () {
   $('img.lazy-image').show().Lazy()
-  $('div.lazy-image').show().Lazy()
+  $('.srcset-background-image').show()
+  $('.srcset-background-image > img.srcset-lazy-image').each(function (index, element) {
+    $(element).on("load", function () {
+      var src = (typeof element.currentSrc !== 'undefined') ? element.currentSrc : $(element).attr('src')
+      $(element).parent().css('background-image', 'url("' + src + '")')
+      fullScreenHero(true)
+    })
+  })
+  $('.srcset-background-image > img.srcset-lazy-image').Lazy()
 }
 
 $.fn.alignElementsSameHeight = function () {
