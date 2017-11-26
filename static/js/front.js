@@ -3,7 +3,6 @@
 
 $(function () {
   //sliderHomepage()
-  navsHomepage()
   sliders()
   fullScreenHero(true)
   fullScreenSlides(true)
@@ -15,15 +14,6 @@ $(function () {
   contactForm()
   loadIframes()
 })
-
-function navsHomepage () {
-  $('.navbar-inverse .navbar-collapse').on('show.bs.collapse', function() {
-    $('.navbar-header').css('background-color', 'rgba(51, 51, 51, 1)')
-  })
-  $('.navbar-inverse .navbar-collapse').on('hidden.bs.collapse', function() {
-    $('.navbar-header').css('background-color', 'rgba(51, 51, 51, 0)')
-  })
-}
 
 // Ajax contact
 function contactForm () {
@@ -194,7 +184,7 @@ function fullScreenHero (initialize) {
   if (initialize) {
     $('#home-hero .item-responsive').animate({
       height: screenHeight + 'px'
-    }, {queue: false, duration: 1000})
+    }, {queue: false, duration: 500})
   } else {
     $('#home-hero .item-responsive').css({
       height: screenHeight + 'px'
@@ -214,7 +204,7 @@ function fullScreenSlides (initialize) {
   if (initialize) {
     $('.home-slide .item-responsive').animate({
       height: screenHeight + 'px'
-    }, {queue: false, duration: 1000})
+    }, {queue: false, duration: 500})
   } else {
     $('.home-slide .item-responsive').css({
       height: screenHeight + 'px'
@@ -257,6 +247,7 @@ function utils () {
   function scrollTo (fullUrl) {
     var parts = fullUrl.split('#')
     var trgt = parts[1]
+    console.log(trgt)
     var targetOffset = $('#' + trgt).offset()
     var targetTop = targetOffset.top - 100
 
@@ -266,7 +257,7 @@ function utils () {
 
     $('html, body').animate({
       scrollTop: targetTop
-    }, 1000)
+    }, 500)
   }
 }
 

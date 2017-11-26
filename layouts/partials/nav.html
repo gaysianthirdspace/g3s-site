@@ -1,9 +1,10 @@
-<div class="affixed-nav-wrapper">
-    {{ if eq .navColor "dark" }}
+{{ if eq .navColor "dark" }}
+<div class="affixed-nav-wrapper nav-wrapper-inverse">
     <nav class="navbar navbar-affixed-top navbar-inverse" role="navigation" id="navbar" data-spy="affix" data-offset-top="400">
-    {{ else }}
+{{ else }}
+<div class="affixed-nav-wrapper nav-wrapper-default">
     <nav class="navbar navbar-affixed-top navbar-default" role="navigation" id="navbar" data-spy="affix" data-offset-top="400">
-    {{ end }}
+{{ end }}
 
         <div class="container">
             <div class="navbar-header">
