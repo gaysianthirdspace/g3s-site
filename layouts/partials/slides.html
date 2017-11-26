@@ -1,6 +1,6 @@
 {{ range (after 1 (sort .Site.Data.slides "weight")) }}
 {{ if isset . "backgroundimage" }}
-<section> <div class="home-slide home-carousel"> <div class="item item-responsive" style="background-image: url('{{ .backgroundimage }}'); background-position: {{ .backgroundposition }}">
+<section> <div class="home-slide home-carousel"> <div class="item item-responsive lazy-image" data-src="{{ .backgroundimage }}" style="background-position: {{ .backgroundposition }}">
 {{ else }}
 <section class="bar background-white">
 {{ end }}

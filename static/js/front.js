@@ -13,6 +13,7 @@ $(function () {
   animations()
   contactForm()
   loadIframes()
+  loadImages()
 })
 
 // Ajax contact
@@ -321,6 +322,11 @@ function loadIframes () {
     $(element).attr("src", $(element).attr('data-src'))
     $(this).parent().slideDown();
   })
+}
+
+function loadImages () {
+  console.log($('div.lazy-image'))
+  $('.lazy-image').Lazy()
 }
 
 $.fn.alignElementsSameHeight = function () {
