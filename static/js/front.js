@@ -190,6 +190,7 @@ function fullScreenHero (initialize) {
     screenHeight = $(window).height() - bottomMargin
   }
 
+  $('.navbar-affixed-top').attr('data-offset-top', screenHeight)
   if (initialize) {
     $('#home-hero .item-responsive').animate({
       height: screenHeight + 'px'
@@ -369,12 +370,10 @@ $(window).resize(function () {
   var newWindowWidth = $(window).width()
 
   if (windowHeight !== newWindowHeight) {
-    setTimeout(function () {
-      //$(this).alignElementsSameHeight()
-      fullScreenHero(false)
-      fullScreenSlides(false)
-      pictureZoom()
-    }, 105)
+    //$(this).alignElementsSameHeight()
+    fullScreenHero(false)
+    fullScreenSlides(false)
+    pictureZoom()
     windowHeight = newWindowHeight
     windowWidth = newWindowWidth
   }

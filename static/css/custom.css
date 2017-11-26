@@ -99,6 +99,10 @@ div.lazy-iframe-container div.progress-bar {
 
 /* NAVBAR */
 
+.affixed-nav-wrapper {
+  min-height: 67px;
+}
+
 .navbar .navbar-header .navbar-brand img {
   height: 50px;
 }
@@ -128,7 +132,17 @@ div.lazy-iframe-container div.progress-bar {
   border-top-color: rgba(0, 0, 0, 0) !important;
 }
 
+.navbar-affixed-top {
+  top: 0;
+}
+
 /* TRANSPARENT INVERSE NAVBAR */
+
+.navbar-affixed-top.affix.navbar-inverse {
+  background: #333;
+  -webkit-box-shadow: 0 0 20px #000;
+  box-shadow: 0 1px 10px #000;
+}
 
 .navbar-inverse {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.343) 12.5%, rgba(0, 0, 0, 0.2401) 25%, rgba(0, 0, 0, 0.16807) 37.5%, rgba(0, 0, 0, 0.117649) 50%, rgba(0, 0, 0, 0.0823543) 62.5%, rgba(0, 0, 0, 0.05764801) 75%, rgba(0, 0, 0, 0.040353607) 87.5%, rgba(0, 0, 0, 0));
@@ -143,6 +157,10 @@ div.lazy-iframe-container div.progress-bar {
 
 .navbar-inverse .navbar-nav > li > a {
   color: #ccc;
+}
+
+.navbar-affixed-top.affix.navbar-inverse .navbar-nav > li > a:hover {
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -173,7 +191,7 @@ section {
 
 #home-hero {
   margin-top: -75px;
-  text-align: left;
+  text-align: left !important;
 }
 
 #home-hero div.item {

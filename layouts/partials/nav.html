@@ -1,9 +1,8 @@
-<div class="navbar-static-top">
-
+<div class="affixed-nav-wrapper">
     {{ if eq .navColor "dark" }}
-    <div class="navbar navbar-inverse yamm" role="navigation" id="navbar">
+    <nav class="navbar navbar-affixed-top navbar-inverse" role="navigation" id="navbar" data-spy="affix" data-offset-top="400">
     {{ else }}
-    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+    <nav class="navbar navbar-default" role="navigation" id="navbar">
     {{ end }}
 
         <div class="container">
@@ -51,9 +50,8 @@
             <!--/.nav-collapse -->
 
         </div>
-    </div>
+    </nav>
     <!-- /#navbar -->
-
 </div>
 
 <!-- *** NAVBAR END ***-->
