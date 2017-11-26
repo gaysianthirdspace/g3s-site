@@ -5,7 +5,13 @@ description: |
   <p>Make friends and hang out with our local communities through our in-person meetups!</p>
 image: ''
 backgroundimageprefix: "/img/slides/meetups-map-"
-backgroundimagewidths: [256, 427, 640, 853, 1280, 1920]
+backgroundimagewidths:
+- 256
+- 427
+- 640
+- 853
+- 1280
+- 1920
 backgroundimagesuffix: ".png"
 backgroundimageloadsize: 256
 backgroundimagedefaultsize: 1280

@@ -8,6 +8,6 @@ text: Ethan focuses on behind-the-scenes work to develop G3S as a community reso
   enjoy dancing with friends in a K-pop dance cover group, building things, and reading
   speculative fiction and Asian American literature.
 name: Ethan Li
-avatar: /img/admin-team/ethan.jpg
-avatarretina: /img/admin-team/ethan-retina.jpg
+avatar: "/img/admin-team/ethan.jpg"
+avatarretina: "/img/admin-team/ethan-retina.jpg"
 order: 4

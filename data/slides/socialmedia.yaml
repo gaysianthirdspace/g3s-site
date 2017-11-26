@@ -6,7 +6,13 @@ description: <p>On Tumblr, we collect stories, posts, and articles about our ide
   target="_blank">Facebook</a> and <a href="//instagram.com/gaysianthirdspace" target="_blank">Instagram</a>.</p>
 image: ''
 backgroundimageprefix: "/img/slides/tumblr-posts-"
-backgroundimagewidths: [256, 427, 640, 853, 1280, 1920]
+backgroundimagewidths:
+- 256
+- 427
+- 640
+- 853
+- 1280
+- 1920
 backgroundimagesuffix: ".jpg"
 backgroundimageloadsize: 256
 backgroundimagedefaultsize: 1280
