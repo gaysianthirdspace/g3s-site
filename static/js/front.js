@@ -4,7 +4,7 @@
 $(function () {
   //sliderHomepage()
   sliders()
-  // fullScreenHero(true) // called by loadImages
+  fullScreenHero(true)
   fullScreenSlides(true)
   // productDetailGallery(4000)
   menuSliding()
@@ -184,7 +184,7 @@ function fullScreenHero (initialize) {
   if (initialize) {
     $('#home-hero .item-responsive').animate({
       height: screenHeight + 'px'
-    }, {queue: false, duration: 500})
+    }, {queue: false, duration: 200})
   } else {
     $('#home-hero .item-responsive').css({
       height: screenHeight + 'px'
@@ -204,7 +204,7 @@ function fullScreenSlides (initialize) {
   if (initialize) {
     $('.home-slide .item-responsive').animate({
       height: screenHeight + 'px'
-    }, {queue: false, duration: 500})
+    }, {queue: false, duration: 200})
   } else {
     $('.home-slide .item-responsive').css({
       height: screenHeight + 'px'
@@ -331,8 +331,10 @@ function loadImages () {
   $('.srcset-background-image > img.srcset-lazy-image').each(function (index, element) {
     $(element).on("load", function () {
       var src = (typeof element.currentSrc !== 'undefined') ? element.currentSrc : $(element).attr('src')
-      $(element).parent().css('background-image', 'url("' + src + '")')
-      fullScreenHero(true)
+      var backgroundString = 'url("' + src + '")'
+      if (backgroundString != $(element).parent().css('background-image')) {
+        $(element).parent().css('background-image', 'url("' + src + '")')
+      }
     })
   })
   $('.srcset-background-image > img.srcset-lazy-image').Lazy()
