@@ -16,5 +16,4 @@ backgroundimagewidths:
 backgroundimagesuffix: ".jpg"
 backgroundimageloadsize: 1280
 backgroundimagedefaultsize: 1280
-backgroundopacity: 0.0
 backgroundposition: center top

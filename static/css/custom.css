@@ -289,28 +289,32 @@ section {
   background-color: rgb(0, 0, 0);
 }
 
-/* Typography */
+/* HERO AND SLIDES TYPOGRAPHY */
 
-#home-hero h1,
-#home-hero p {
+#home-hero h1, #home-hero p,
+div.home-slide h1, div.home-slide p {
   background-color: #111;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 25px;
   padding-right: 40px;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  display: inline-block;
 }
 
-#home-hero h1 {
+#home-hero h1, div.home-slide h1 {
   padding-left: 22px;
+  margin-bottom: 20px;
 }
 
-#home-hero a {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+#home-hero p, div.home-slide p {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+#home-hero a, div.home-slide a {
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
 }
 
 /* HOMEPAGE VALUES */
@@ -318,6 +322,12 @@ section {
 #values-section {
   padding-top: 40px;
   padding-bottom: 10px;
+}
+
+#values-section .row > div {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 #values-section div.box-simple {

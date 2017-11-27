@@ -1,6 +1,6 @@
 ---
 weight: 2
-title: Come to our <a href="/meetups/">meetups</a>
+title: Attend a <a href="/meetups/">meetup</a>
 description: |
   <p>Make friends and hang out with our local communities through our in-person meetups!</p>
 image: ''
@@ -15,5 +15,4 @@ backgroundimagewidths:
 backgroundimagesuffix: ".png"
 backgroundimageloadsize: 256
 backgroundimagedefaultsize: 1280
-backgroundopacity: 0.65
-backgroundposition: center center
+backgroundposition: top center

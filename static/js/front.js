@@ -195,7 +195,7 @@ function fullScreenHero (initialize) {
 /* full screen slides */
 function fullScreenSlides (initialize) {
   var screenHeight = 200
-  var navbarMargin = 50
+  var navbarMargin = -100
 
   if ($(window).height() - navbarMargin >= screenHeight) {
     screenHeight = $(window).height() - navbarMargin
