@@ -309,6 +309,11 @@ div.home-slide h1, div.home-slide p {
 #home-hero p, div.home-slide p {
   margin-top: -10px;
   margin-bottom: -10px;
+  line-height: 1.5em;
+}
+
+section.bar p {
+  font-size: 20px;
 }
 
 #home-hero a, div.home-slide a {
@@ -352,7 +357,7 @@ div.box-simple p {
   font-size: 15px;
 }
 
-/* HOMEPAGE VALUES */
+/* HOMEPAGE SLIDES */
 
 div.home-slide h1 {
   text-transform: none !important;
@@ -360,8 +365,9 @@ div.home-slide h1 {
 }
 div.home-slide p {
   text-transform: none !important;
-  letter-spacing: 0.05em;
+  font-size: 24px;
   font-weight: 500;
+  letter-spacing: 0.05em;
 }
 
 div.home-slide div.item {
