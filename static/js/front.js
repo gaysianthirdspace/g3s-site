@@ -174,7 +174,7 @@ function pictureZoom () {
 
 /* full screen hero */
 function fullScreenHero (initialize) {
-  var screenHeight = 300
+  var screenHeight = 500
   var bottomMargin = 50
 
   if ($(window).height() - bottomMargin >= screenHeight) {

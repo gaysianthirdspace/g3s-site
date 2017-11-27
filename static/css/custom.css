@@ -63,6 +63,10 @@ div.uniform-height-row > [class*='col-'] {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.36) 5px, rgba(0, 0, 0, 0.216) 10px, rgba(0, 0, 0, 0.1296) 15px, rgba(0, 0, 0, 0.07776) 20px, rgba(0, 0, 0, 0.046656) 25px, rgba(0, 0, 0, 0.0279936) 30px, rgba(0, 0, 0, 0.01679616) 35px, rgba(0, 0, 0, 0) 40px);
 }
 
+.drop-shadow-top-thick {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0) 120px);
+}
+
 /* LAYOUT */
 
 div.container {
@@ -275,6 +279,9 @@ section {
 #home-hero div.item-responsive {
   padding-top: 80px;
   padding-bottom: 30px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 
@@ -285,23 +292,24 @@ section {
 /* Typography */
 
 #home-hero h1 {
-  letter-spacing: 0.05em;
-  font-size: 48px;
-}
-@media (max-width: 991px) {
-  #home-hero h1 {
-    font-size: 36px;
-  }
+  background-color: #111;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 22px;
+  padding-right: 40px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 #home-hero p {
-  letter-spacing: 0.08em;
-  line-height: 1.6em;
-  font-size: 20px;
-}
-@media (max-width: 991px) {
-  #home-hero p {
-    font-size: 15px;
-  }
+  background-color: #111;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 40px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 /* HOMEPAGE VALUES */
