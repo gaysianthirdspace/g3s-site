@@ -9,7 +9,11 @@
         background-position: {{ .backgroundposition }}">
         <img class="srcset-lazy-image"
             data-src="{{ $prefix }}{{ $default }}{{ $suffix }}"
-            data-sizes="100vw"
+            data-sizes="
+                (min-aspect-ratio: 16/9) 100vw,
+                (min-aspect-ratio: 1) 400vw,
+                (min-aspect-ratio: 9/16) 800vw,
+                1600vw"
             data-srcset="{{ range .backgroundimagewidths }}{{ $prefix }}{{ . }}{{ $suffix }} {{ . }}w,{{ end }}">
         <div class="container"> <div class="row">
             <div class="mask drop-shadow-top-thick"></div>
