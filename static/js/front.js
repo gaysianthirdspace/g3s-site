@@ -256,7 +256,6 @@ function utils () {
       }
     } else {
       var targetTop = 0
-      trgt = 'top'
     }
 
     $('html, body').animate({
