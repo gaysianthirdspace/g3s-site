@@ -67,6 +67,14 @@ div.uniform-height-row > [class*='col-'] {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0) 120px);
 }
 
+/* ANIMATION UTILITIES */
+
+.transition-fast {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
 /* LAYOUT */
 
 div.container {
@@ -279,9 +287,6 @@ section {
 #home-hero div.item-responsive {
   padding-top: 80px;
   padding-bottom: 30px;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
 }
 
 

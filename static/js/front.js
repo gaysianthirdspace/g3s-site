@@ -5,7 +5,7 @@ $(function () {
   //sliderHomepage()
   sliders()
   fullScreenHero(true)
-  fullScreenSlides(true)
+  fullScreenSlides()
   // productDetailGallery(4000)
   menuSliding()
   // productDetailSizes()
@@ -182,9 +182,16 @@ function fullScreenHero (initialize) {
   }
 
   if (initialize) {
+    $('#home-hero .item-responsive').removeClass('transition-fast')
     $('#home-hero .item-responsive').animate({
       height: screenHeight + 'px'
-    }, {queue: false, duration: 200})
+    }, {
+      queue: false,
+      duration: 200,
+      complete: function() {
+        $('#home-hero .item-responsive').addClass('transition-fast')
+      }
+    })
   } else {
     $('#home-hero .item-responsive').css({
       height: screenHeight + 'px'
@@ -193,7 +200,7 @@ function fullScreenHero (initialize) {
 }
 
 /* full screen slides */
-function fullScreenSlides (initialize) {
+function fullScreenSlides () {
   var screenHeight = 200
   var navbarMargin = -100
 
@@ -201,15 +208,9 @@ function fullScreenSlides (initialize) {
     screenHeight = $(window).height() - navbarMargin
   }
 
-  if (initialize) {
-    $('.home-slide .item-responsive').animate({
-      height: screenHeight + 'px'
-    }, {queue: false, duration: 200})
-  } else {
-    $('.home-slide .item-responsive').css({
-      height: screenHeight + 'px'
-    })
-  }
+  $('.home-slide .item-responsive').css({
+    height: screenHeight + 'px'
+  })
 }
 
 function utils () {

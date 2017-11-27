@@ -4,7 +4,7 @@
     {{ $loading := .backgroundimageloadsize }}
     {{ $default := .backgroundimagedefaultsize }}
     {{ $suffix := .backgroundimagesuffix }}
-    <div class="item item-responsive srcset-background-image"
+    <div class="item item-responsive srcset-background-image transition-fast"
         style="background-image: url('{{ $prefix }}{{ $loading }}{{ $suffix }}');
         background-position: {{ .backgroundposition }}">
         <img class="srcset-lazy-image"
