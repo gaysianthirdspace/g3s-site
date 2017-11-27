@@ -327,16 +327,18 @@ function loadIframes () {
 function loadImages () {
   $('img.lazy-image').show().Lazy()
   $('.srcset-background-image').show()
-  $('.srcset-background-image > img.srcset-lazy-image').each(function (index, element) {
-    $(element).on("load", function () {
-      var src = (typeof element.currentSrc !== 'undefined') ? element.currentSrc : $(element).attr('src')
-      var backgroundString = 'url("' + src + '")'
-      if (backgroundString != $(element).parent().css('background-image')) {
-        $(element).parent().css('background-image', 'url("' + src + '")')
-      }
-    })
+  $('.srcset-background-image > img.srcset-lazy-image').Lazy({
+    afterLoad: function(element) {
+      element.on("load", function () {
+        var currentSrc = element[0].currentSrc
+        var src = (typeof element[0].currentSrc !== 'undefined') ? element[0].currentSrc : $(element).attr('src')
+        var backgroundString = 'url("' + src + '")'
+        if (backgroundString != $(element).parent().css('background-image')) {
+          $(element).parent().css('background-image', 'url("' + src + '")')
+        }
+      })
+    }
   })
-  $('.srcset-background-image > img.srcset-lazy-image').Lazy()
 }
 
 $.fn.alignElementsSameHeight = function () {
