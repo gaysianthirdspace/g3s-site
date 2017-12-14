@@ -1,2 +1,2 @@
-# appernetic-hugo-project
-Hugo Project
+# g3s-site
+The landing page for [Gaysian Third Space](https://gaysianthirdspace.com)
