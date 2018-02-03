@@ -21,12 +21,13 @@
   {{ .Hugo.Generator }}
 
   <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ .context.Site.GoogleAnalytics }}"></script>
   <script>
-  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-  ga('create', '{{ .context.Site.GoogleAnalytics }}', 'auto');
-  ga('send', 'pageview');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ .context.Site.GoogleAnalytics }}');
   </script>
-  <script async src='{{ .context.Site.BaseURL }}js/analytics.js'></script>
   <!-- End Google Analytics -->
 
   <link rel="preload" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' type='text/css' as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.rel='stylesheet'">
