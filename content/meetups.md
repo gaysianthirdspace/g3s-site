@@ -12,12 +12,14 @@ G3S has facilitated meetups all around the world! Our regional chapters in North
 ## Regional Chapters
 {{< /anchor >}}
 
-We have regional chapters of various sizes in several North American regions. To get in contact with a regional chapter, please send us a message at our [contact page](/contact/) and we'll connect you with the contact person for the chapter:
+We hold meetups more often in our North American regional chapters. To get connected with a regional chapter, please send us a message at our [contact page](/contact/), and we'll connect you with the contact person for the chapter:
 
 - Los Angeles Metropolitan Area
 - San Francisco Bay Area
 - Toronto/Eastern Canada
 - Boston
+
+If you aren't near any of our regional chapters, check out our [online community](/programs/)!
 
 {{< anchor partners >}}
 ## Partner Organizations
