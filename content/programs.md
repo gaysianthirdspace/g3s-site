@@ -12,9 +12,7 @@ If you have any questions, or if you’re interested in getting involved in any 
 ## Tumblr Blog
 {{< /anchor >}}
 
-Our [Tumblr blog](//gaysianthirdspace.tumblr.com) curates stories, posts, articles, and discussions so that we can learn from each other's experiences and thoughts. We are always seeking new contributors and content, so please [submit](//gaysianthirdspace.tumblr.com/submit) any posts, new or old, that you think could fit this mission.
-
-We also regularly invite members of our community to guest curate our blog, where they showcase content matching a theme of their choice for a week. If you're interested in helping out with running the blog, let us know!
+Our [Tumblr blog](//gaysianthirdspace.tumblr.com) curates stories, posts, articles, and discussions so that we can learn from each other's experiences and thoughts. We are always seeking new contributors and content, so please [submit](//gaysianthirdspace.tumblr.com/submit) any posts, new or old, that you think could fit this mission. We also regularly invite members of our community to guest curate our blog, where they showcase content matching a theme of their choice for a week.
 
 Finally, we are [cataloging](//gaysianthirdspace.tumblr.com/tags) our archives to make it easier to find content that speaks to specific topics and experiences.
 
@@ -32,7 +30,7 @@ To join the LINE group, please follow these instructions:
 2. [Download and install](//line.me/en/download) the LINE app.
 3. Send a friend request to “alostfish” on LINE.
 4. Send “alostfish” a quick message on LINE so he knows to add you.
-5. Please follow our LINE Group [community guidelines](//docs.google.com/document/d/1bPTXCXAYPnEbOu428BZbERMQEdl5_RKLLNzAM3RuwK4/edit?usp=sharing).
+5. Please review and commit to following our LINE Group [community guidelines](//docs.google.com/document/d/1bPTXCXAYPnEbOu428BZbERMQEdl5_RKLLNzAM3RuwK4/edit?usp=sharing).
 
 We look forward to welcoming you to the group!
 
@@ -40,7 +38,7 @@ We look forward to welcoming you to the group!
 ## Mentorship Program
 {{< /anchor >}}
 
-We understand that people who are just beginning to explore their identities can get overwhelmed with large, fast paced group chats. Sometimes it is challenging to summon the courage to message unfamiliar people. The __G3S Mentors Program__ addresses this need. Our goal is to expand our directory of volunteer mentors (like RAs for new freshman in a college dorm) who would be willing to engage and interact with existing or new G3S members in a one-on-one or small group setting.
+We understand that people who are just beginning to explore their identities can get overwhelmed with large, fast-paced group chats. Sometimes it is challenging to summon the courage to message unfamiliar people. The __G3S Mentors Program__ addresses this need. Our goal is to expand our directory of volunteer mentors (like RAs for new freshman in a college dorm) who would be willing to engage and interact with existing or new G3S members in a one-on-one or small group setting.
 
 If you would like to sign up as a __mentor__, please fill out [this form](//docs.google.com/forms/d/e/1FAIpQLSd2FvWZ0IQhHNVpH4L05bPFnX3Bl8C-1fW7pntc52HxIieY0g/viewform?c=0&w=1).
 

@@ -4,18 +4,18 @@ title = "Meetups"
 type = "page"
 
 +++
-G3S has facilitated meetups all around the world! Our regional chapters in North America organize official social events, and we've also had informal meetups where people hang out together after meeting through G3S's Tumblr, Facebook, or LINE Chat Group. Traveling somewhere and want to get to know some local G3S members? Contact the regional chapters below and get connected!
+G3S has facilitated meetups all around the world! Our regional chapters in North America organize official social events, and we've also had informal meetups where people hang out together after connecting through G3S's Tumblr, Facebook, or LINE Chat Group. Traveling somewhere and want to meet some local G3S members? Contact the regional chapters below and get connected!
 
-{{< lazy-iframe data-src="//www.google.com/maps/d/u/0/embed?mid=11zYeY6ifzc83GjO98WY355jNeSc" width="100%" height="480px" data-description="map of past meetup locations" >}}
+{{< lazy-iframe data-src="//www.google.com/maps/d/u/0/embed?mid=11zYeY6ifzc83GjO98WY355jNeSc" width="100%" height="500px" data-description="map of past meetup locations" >}}
 
 {{< anchor chapters >}}
 ## Regional Chapters
 {{< /anchor >}}
 
-We hold meetups more often in our North American regional chapters. To get connected with a regional chapter, please send us a message at our [contact page](/contact/), and we'll connect you with the contact person for the chapter:
+We organize most meetups through our North American regional chapters. To learn more about a regional chapter, please [send us a message](/contact/) and we'll connect you with the contact person for the chapter:
 
 - Los Angeles Metropolitan Area
-- San Francisco Bay Area
+- San Francisco Bay Area (SF + South Bay)
 - Toronto/Eastern Canada
 - Boston
 
@@ -34,7 +34,7 @@ In addition to building regional chapters, we are also collaborating with some e
 ## Upcoming Meetups
 {{< /anchor >}}
 
-When we plan official meetups, we announce them on our Tumblr blog and our Facebook page:
+When we plan official meetups, we usually announce them on our Tumblr blog and our Facebook page:
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -47,4 +47,4 @@ When we plan official meetups, we announce them on our Tumblr blog and our Faceb
 
 <div class="fb-page" data-href="https://www.facebook.com/gaysianthirdspace/" data-tabs="events" data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/gaysianthirdspace/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/gaysianthirdspace/">Gaysian Third Space - G3S</a></blockquote></div>
 
-Unofficial meetups are usually coordinated informally in our [LINE Chat Group](/programs/#linechat).
+Unofficial meetups are coordinated informally in our [LINE Chat Group](/programs/#linechat).

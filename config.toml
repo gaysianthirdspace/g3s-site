@@ -54,7 +54,7 @@ url = "/meetups/"
 weight = 3
 [params]
 author = "Gaysian Third Space"
-copyright = "Copyright © 2017 Gaysian Third Space, All Rights Reserved."
+copyright = "Copyright © 2018 Gaysian Third Space, All Rights Reserved."
 date_format = "January 2, 2006"
 defaultdescription = "Outside the clubs and beyond the apps, we aim to provide a Third Space – a community to share, discuss, and provide support for the unique experience of being Gay and Asian. Get involved in our community and make some new friends!"
 defaultkeywords = ["gaysian", "gay", "asian", "asian american", "queer", "lgbt", "lgbtq", "community"]
