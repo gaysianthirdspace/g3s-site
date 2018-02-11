@@ -140,6 +140,11 @@ a.anchor h2 {
   display: inline-block;
 }
 
+a.anchor i.header-icon {
+  vertical-align: 0%;
+  margin-left: -54px;
+}
+
 /* NAVBAR */
 
 .affixed-nav-wrapper {

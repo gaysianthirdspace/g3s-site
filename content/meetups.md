@@ -9,7 +9,7 @@ G3S has facilitated meetups all around the world! Our regional chapters in North
 {{< lazy-iframe data-src="//www.google.com/maps/d/u/0/embed?mid=11zYeY6ifzc83GjO98WY355jNeSc" width="100%" height="500px" data-description="map of past meetup locations" >}}
 
 {{< anchor chapters >}}
-## Regional Chapters
+## <i class="header-icon fa fa-fw fa-map-marker hidden-xs"></i> Regional Chapters
 {{< /anchor >}}
 
 We organize most meetups through our North American regional chapters. To learn more about a regional chapter, please [send us a message](/contact/) and we'll connect you with the contact person for the chapter:
@@ -22,7 +22,7 @@ We organize most meetups through our North American regional chapters. To learn 
 If you aren't near any of our regional chapters, check out our [online community](/programs/)!
 
 {{< anchor partners >}}
-## Partner Organizations
+## <i class="header-icon fa fa-fw fa-paper-plane hidden-xs"></i> Partner Organizations
 {{< /anchor >}}
 
 In addition to building regional chapters, we are also collaborating with some existing API queer organizations with community-building programs:
@@ -31,7 +31,7 @@ In addition to building regional chapters, we are also collaborating with some e
 - Gay Asian Pacific Islander Men of New York ([GAPIMNY](http://gapimny.org)), New York City
 
 {{< anchor upcoming >}}
-## Upcoming Meetups
+## <i class="header-icon fa fa-fw fa-calendar hidden-xs"></i> Upcoming Meetups
 {{< /anchor >}}
 
 When we plan official meetups, we usually announce them on our Tumblr blog and our Facebook page:

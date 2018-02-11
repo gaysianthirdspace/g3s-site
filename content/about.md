@@ -7,7 +7,7 @@ type = "page"
 Outside the clubs and beyond the apps, we aim to provide a Third Space---a community to share, discuss, and provide support for the unique experience of being Gay and Asian.
 
 {{< anchor joining >}}
-## Getting Involved
+## <i class="header-icon fa fa-fw fa-exclamation-circle hidden-xs"></i> Getting Involved
 {{< /anchor >}}
 
 There are many ways you can get involved in our community:
@@ -23,7 +23,7 @@ There are many ways you can get involved in our community:
 
 
 {{< anchor mission >}}
-## Why We're Here
+## <i class="header-icon fa fa-fw fa-rocket hidden-xs"></i> Mission
 {{< /anchor >}}
 
 Gay Asians and Pacific Islanders represent a unique “double minority” population in many western countries&mdash;as gaysians, we are not only a minority in ethnic background but also in sexual orientation. Growing up and dealing with both institutionalized discrimination and the stigma against homosexuality can be an incredibly challenging and isolating experience. Unlike many of our friends who do not share the same minority status, many gaysians lack proper role models to learn from at a critical time during the development of their self-identities. In fact, for the vast majority, our first contacts with other gaysians and gay social groups are facilitated through dating apps and the clubbing/raving scenes. Yet too often, the apps and gay venues are platforms that prioritize physical beauty, instant gratification, objectification, and sexual prowess at the expense of deeper and longer-lasting connections.
@@ -32,7 +32,7 @@ In light of this reality, we created the Gaysian Third Space (G3S), an alternati
 
 
 {{< anchor history >}}
-## History
+## <i class="header-icon fa fa-fw fa-history hidden-xs"></i> History
 {{< /anchor >}}
 
 __2015__: Fish and Jeffrey meet in September and, with input from friends in the community, develop a vision for G3S as a safe and welcoming community to support gaysians in the process of personal growth and identity formation. Fish and Jeffrey launch the Tumblr blog and the LINE chat group to curate an online collection of gaysian stories and to facilitate discussions.
@@ -45,7 +45,7 @@ __2018__ *in progress*: Fish and Ethan officially launch the G3S website to docu
 
 
 {{< anchor team >}}
-## The G3S Team
+## <i class="header-icon fa fa-fw fa-users hidden-xs"></i> The G3S Team
 {{< /anchor >}}
 
 ### Administrative Team
