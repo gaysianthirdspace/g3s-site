@@ -8,6 +8,21 @@ One of the main missions at G3S is to create a supportive gaysian community and 
 
 If you have any questions, or if you’re interested in getting involved in any of our initiatives, please [send us a message](/contact)!
 
+{{< anchor linechat >}}
+## LINE Chat Group
+{{< /anchor >}}
+
+We have a chat group on LINE to facilitate chatting, serious discussions, and more casual conversations across many time zones. LINE Group Moderators (Fish and Jeff from the [G3S Team](/about#team)) work actively to moderate membership and monitor the chat to maintain a supportive and welcoming environment for all of the participants.
+
+To join the LINE group, please follow these instructions:
+
+1. Fill out the [sign-up form](//docs.google.com/forms/d/1et74jeWtk1F0Q667p-cWpZLmKaWFN0FJyHZ-_M9kHVs/edit) here (this step is required).
+2. [Download and install](//line.me/en/download) the LINE app.
+3. Send a friend request to “alostfish” on LINE.
+4. Send “alostfish” a quick message on LINE so he knows to add you.
+
+Please review and commit to following our LINE Group [community guidelines](//docs.google.com/document/d/1bPTXCXAYPnEbOu428BZbERMQEdl5_RKLLNzAM3RuwK4/edit?usp=sharing). We look forward to welcoming you to the group!
+
 {{< anchor blog >}}
 ## Tumblr Blog
 {{< /anchor >}}
@@ -17,22 +32,6 @@ Our [Tumblr blog](//gaysianthirdspace.tumblr.com) curates stories, posts, articl
 Finally, we are [cataloging](//gaysianthirdspace.tumblr.com/tags) our archives to make it easier to find content that speaks to specific topics and experiences.
 
 If you'd prefer to follow us on WordPress, we maintain a mirror of our Tumblr blog [here](//gaysianthirdspacev2.wordpress.com/).
-
-{{< anchor linechat >}}
-## LINE Chat Group
-{{< /anchor >}}
-
-We have a chat group on LINE to facilitate closer interactions through chatting, serious discussions, and more casual conversations across many time zones. LINE Group Moderators (Fish and Jeff from the [G3S Team](/about#team)) work actively to moderate membership and monitor the chat to maintain a supportive and welcoming environment for all of the participants. They reserve the right to decline new membership or remove current members.
-
-To join the LINE group, please follow these instructions:
-
-1. Fill out the [sign-up form](//docs.google.com/forms/d/1et74jeWtk1F0Q667p-cWpZLmKaWFN0FJyHZ-_M9kHVs/edit) here (this step is required).
-2. [Download and install](//line.me/en/download) the LINE app.
-3. Send a friend request to “alostfish” on LINE.
-4. Send “alostfish” a quick message on LINE so he knows to add you.
-5. Please review and commit to following our LINE Group [community guidelines](//docs.google.com/document/d/1bPTXCXAYPnEbOu428BZbERMQEdl5_RKLLNzAM3RuwK4/edit?usp=sharing).
-
-We look forward to welcoming you to the group!
 
 {{< anchor mentorship >}}
 ## Mentorship Program
