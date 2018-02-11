@@ -31,10 +31,22 @@ Gay Asians and Pacific Islanders represent a unique “double minority” popula
 In light of this reality, we created the Gaysian Third Space (G3S), an alternative global platform for individuals looking for Community. A Community that is a safe and supportive environment where members encourage each other to grow and mature as they explore their identities. A Community where we can share our stories and struggles on coming out, family, school/career, romance, body image, relationships, and other experiences that perhaps only fellow gaysians can fully understand. A Community that gives voice to our “multiple minority” experiences on timely issues, because our perspectives are valid and deserve to be heard. That is our vision for Gaysian Third Space.
 
 
+{{< anchor history >}}
+## History
+{{< /anchor >}}
+
+__2015__: Fish and Jeffrey meet in September and, with input from friends in the community, develop a vision for G3S as a safe and welcoming community to support gaysians in the process of personal growth and identity formation. Fish and Jeffrey launch the Tumblr blog and the LINE chat group to curate an online collection of gaysian stories and to facilitate discussions.
+
+__2016__: Anthony gets involved in the Tumblr blog as its first guest curator. Fish, Jeffrey, and Charles begin collaborating on The Gaysian Diaries. Fish and Jeffrey launch the G3S mentorship program. Fish and Jeffrey host the first in-person meetups in Los Angeles and San Francisco. These meetups mark the start of the G3S regional chapters in these areas.
+
+__2017__: Andrew, Ethan, Anthony, and Charles start helping out as part of a newly expanded G3S administrative team. Andrew launches the G3S Facebook page as another way for members of our community to engage with each other. The LA chapter hosts monthly meetups, and the SF Bay Area chapter hosts quarterly meetups in SF. Administrative team members maintain ongoing projects and lay the foundations for new long-term initiatives.
+
+__2018__ *in progress*: Fish and Ethan officially launch the G3S website to document and enable discovery of G3S's various projects in one location. The SF Bay Area chapter begins hosting meetups in the South Bay.
+
+
 {{< anchor team >}}
 ## The G3S Team
 {{< /anchor >}}
-
 
 ### Administrative Team
 
@@ -48,5 +60,6 @@ The G3S website is a group effort by members of our community:
 
 - Ethan set up the infrastructure and design and oversees website maintenance.
 - Fish developed website content and style.
-- Andrew and Thompson created graphics used on the website and provided valuable feedback.
+- Andrew created graphics used on the website.
+- Alvin, Thompson, and other members of our community provided valuable feedback.
 
