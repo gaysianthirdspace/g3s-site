@@ -39,7 +39,7 @@ __2015__: Fish and Jeffrey meet in September and, with input from friends in the
 
 __2016__: Anthony gets involved in the Tumblr blog as its first guest curator. Fish, Jeffrey, and Charles begin collaborating on The Gaysian Diaries. Fish and Jeffrey launch the G3S mentorship program. Fish and Jeffrey host the first in-person meetups in Los Angeles and San Francisco. These meetups mark the start of the G3S regional chapters in these areas.
 
-__2017__: Andrew, Ethan, Anthony, and Charles start helping out as part of a newly expanded G3S administrative team. Andrew launches the G3S Facebook page as another way for members of our community to engage with each other. The LA chapter hosts monthly meetups, and the SF Bay Area chapter hosts quarterly meetups in SF. Administrative team members maintain ongoing projects and lay the foundations for new long-term initiatives.
+__2017__: Andrew, Ethan, Anthony, and Charles start helping out as part of a newly expanded G3S administrative team. Andrew launches the G3S Facebook page as another way for members of our community to engage with each other. The LA chapter hosts monthly meetups, and the SF Bay Area chapter hosts quarterly meetups in SF. G3S members meet up throughout North America and East and Southeast Asia. Administrative team members maintain ongoing projects and lay the foundations for new long-term initiatives.
 
 __2018__ *in progress*: Fish and Ethan officially launch the G3S website to document and enable discovery of G3S's various projects in one location. The SF Bay Area chapter begins hosting meetups in the South Bay.
 
