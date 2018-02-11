@@ -2593,7 +2593,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 0;
 }
 #footer .social a {
-  color: #555555;
+  color: #c27800;
   font-size: 25px;
   margin: 0 10px 0 0;
 }
@@ -3158,12 +3158,14 @@ body {
 }
 a {
   color: #ff9e00;
-  text-decoration: none;
+  text-decoration: underline;
+}
+a:visited {
+  color: #e68e00;
 }
 a:hover,
 a:focus {
-  color: #d68500;
-  text-decoration: underline;
+  color: #c27800;
 }
 a:focus {
   outline: thin dotted;

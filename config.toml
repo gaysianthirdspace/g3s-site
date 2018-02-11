@@ -9,7 +9,7 @@ title = "Gaysian Third Space"
 [Permalinks]
 blog = "/blog/:year/:month/:day/:filename/"
 [blackfriday]
-hrefTargetBlank = true
+hrefTargetBlank = false
 [[menu.footerbar]]
 name = "Tumblr"
 pre = "<i class='fa fa-tumblr'></i>"
