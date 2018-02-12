@@ -177,6 +177,10 @@ a.anchor i.header-icon {
   margin-top: -5px;
 }
 
+.navbar .navbar-header .navbar-brand img:hover {
+  filter: brightness(125%);
+}
+
 .navbar a[target="_blank"]:after {
   font-family: 'FontAwesome';
   content: " \f08e";
