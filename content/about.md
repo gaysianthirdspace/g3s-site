@@ -6,9 +6,7 @@ type = "page"
 +++
 Outside the clubs and beyond the apps, we aim to provide a Third Space---a community to share, discuss, and provide support for the unique experience of being Gay and Asian.
 
-{{< anchor joining >}}
-## <i class="header-icon fa fa-fw fa-exclamation-circle hidden-xs"></i> Getting Involved
-{{< /anchor >}}
+{{< content-header joining fa-exclamation-circle >}}Getting Involved{{< /content-header >}}
 
 There are many ways you can get involved in our community:
 
@@ -22,18 +20,14 @@ There are many ways you can get involved in our community:
 - Follow us on [Facebook](//www.facebook.com/gaysianthirdspace)!
 
 
-{{< anchor mission >}}
-## <i class="header-icon fa fa-fw fa-rocket hidden-xs"></i> Mission
-{{< /anchor >}}
+{{< content-header mission fa-rocket >}}Mission{{< /content-header >}}
 
 Gay Asians and Pacific Islanders represent a unique “double minority” population in many western countries&mdash;as gaysians, we are not only a minority in ethnic background but also in sexual orientation. Growing up and dealing with both institutionalized discrimination and the stigma against homosexuality can be an incredibly challenging and isolating experience. Unlike many of our friends who do not share the same minority status, many gaysians lack proper role models to learn from at a critical time during the development of their self-identities. In fact, for the vast majority, our first contacts with other gaysians and gay social groups are facilitated through dating apps and the clubbing/raving scenes. Yet too often, the apps and gay venues are platforms that prioritize physical beauty, instant gratification, objectification, and sexual prowess at the expense of deeper and longer-lasting connections.
 
 In light of this reality, we created the Gaysian Third Space (G3S), an alternative global platform for individuals looking for Community. A Community that is a safe and supportive environment where members encourage each other to grow and mature as they explore their identities. A Community where we can share our stories and struggles on coming out, family, school/career, romance, body image, relationships, and other experiences that perhaps only fellow gaysians can fully understand. A Community that gives voice to our “multiple minority” experiences on timely issues, because our perspectives are valid and deserve to be heard. That is our vision for Gaysian Third Space.
 
 
-{{< anchor history >}}
-## <i class="header-icon fa fa-fw fa-history hidden-xs"></i> History
-{{< /anchor >}}
+{{< content-header history fa-history >}}History{{< /content-header >}}
 
 __2015__: Fish and Jeffrey meet in September and, with input from friends in the community, develop a vision for G3S as a safe and welcoming community to support gaysians in the process of personal growth and identity formation. Fish and Jeffrey launch the Tumblr blog and the LINE chat group to curate an online collection of gaysian stories and to facilitate discussions.
 
@@ -44,9 +38,7 @@ __2017__: Andrew, Ethan, Anthony, and Charles start helping out as part of a new
 __2018__ *in progress*: Fish and Ethan officially launch the G3S website to document and enable discovery of G3S's various projects in one location. The SF Bay Area chapter begins hosting meetups in the South Bay.
 
 
-{{< anchor team >}}
-## <i class="header-icon fa fa-fw fa-users hidden-xs"></i> The G3S Team
-{{< /anchor >}}
+{{< content-header team fa-users >}}The G3S Team{{< /content-header >}}
 
 ### Administrative Team
 

@@ -326,7 +326,11 @@ function loadIframes () {
 }
 
 function loadImages () {
-  $('img.lazy-image').show().Lazy()
+  $('img.lazy-image').show().Lazy({
+    effect: 'fadeIn',
+    effectTime: 500,
+    threshold: 1000
+  })
   $('.srcset-background-image').show()
   $('.srcset-background-image > img.srcset-lazy-image').Lazy({
     afterLoad: function(element) {

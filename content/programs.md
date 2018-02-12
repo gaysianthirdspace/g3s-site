@@ -8,9 +8,7 @@ One of the main missions at G3S is to create a supportive gaysian community and 
 
 If you have any questions, or if you’re interested in getting involved in any of our initiatives, please [send us a message](/contact)!
 
-{{< anchor linechat >}}
-## <i class="header-icon fa fa-fw fa-comments hidden-xs"></i> LINE Chat Group
-{{< /anchor >}}
+{{< content-header linechat fa-comments >}}LINE Chat Group{{< /content-header >}}
 
 We have a chat group on LINE to facilitate chatting, serious discussions, and more casual conversations across many time zones. LINE Group Moderators (Fish and Jeff from the [G3S Team](/about#team)) work actively to moderate membership and monitor the chat to maintain a supportive and welcoming environment for all of the participants.
 
@@ -23,9 +21,7 @@ To join the LINE group, please follow these instructions:
 
 Please review and commit to following our LINE Group [community guidelines](//docs.google.com/document/d/1bPTXCXAYPnEbOu428BZbERMQEdl5_RKLLNzAM3RuwK4/edit?usp=sharing). We look forward to welcoming you to the group!
 
-{{< anchor blog >}}
-## <i class="header-icon fa fa-fw fa-tumblr hidden-xs"></i> Tumblr Blog
-{{< /anchor >}}
+{{< content-header blog fa-tumblr >}}Tumblr Blog{{< /content-header >}}
 
 Our [Tumblr blog](//gaysianthirdspace.tumblr.com) curates stories, posts, articles, and discussions so that we can learn from each other's experiences and thoughts. We are always seeking new contributors and content, so please [submit](//gaysianthirdspace.tumblr.com/submit) any posts, new or old, that you think could fit this mission. We also regularly invite members of our community to guest curate our blog, where they showcase content matching a theme of their choice for a week.
 
@@ -33,9 +29,7 @@ Finally, we are [cataloging](//gaysianthirdspace.tumblr.com/tags) our archives t
 
 If you'd prefer to follow us on WordPress, we maintain a mirror of our Tumblr blog [here](//gaysianthirdspacev2.wordpress.com/).
 
-{{< anchor mentorship >}}
-## <i class="header-icon fa fa-fw fa-envelope-open hidden-xs"></i> Mentorship Program
-{{< /anchor >}}
+{{< content-header mentorship fa-envelope-open >}}Mentorship Program{{< /content-header >}}
 
 We understand that people who are just beginning to explore their identities can get overwhelmed with large, fast-paced group chats. Sometimes it is challenging to summon the courage to message unfamiliar people. The __G3S Mentors Program__ addresses this need. Our goal is to expand our directory of volunteer mentors (like RAs for new freshman in a college dorm) who would be willing to engage and interact with existing or new G3S members in a one-on-one or small group setting.
 
@@ -45,27 +39,19 @@ If you would like to sign up as a __mentee__, please fill out [this form](//docs
 
 To see the list of __mentor profiles__, click [here](//docs.google.com/spreadsheets/d/1a4RyU_K5hpO7BnNe2gZpwoxDOhkzzw-Rd6aXTucImPM/edit?usp=sharing).
 
-{{< anchor followers >}}
-## <i class="header-icon fa fa-fw fa-address-card hidden-xs"></i> Follower Friday
-{{< /anchor >}}
+{{< content-header followers fa-address-card >}}Follower Friday{{< /content-header >}}
 
 We run a [Follower Fridays series](//gaysianthirdspace.tumblr.com/tagged/followerfriday) to showcase the diversity of gaysians and to get to know each other better by featuring the profile of a member of our community every Friday on our [blog](//gaysianthirdspace.tumblr.com) and our [Instagram account](//www.instagram.com/gaysianthirdspace/).
 
-{{< anchor writersroundtable >}}
-## <i class="header-icon fa fa-fw fa-pencil hidden-xs"></i> Writer's Roundtable
-{{< /anchor >}}
+{{< content-header writersroundtable fa-pencil >}}Writer's Roundtable{{< /content-header >}}
 
 We run a [Writer’s Roundtable series](//gaysianthirdspace.tumblr.com/tagged/askG3S/chrono) to facilitate and publish conversations on topics of interest to the community. If you have any topics you’d like the writers in our community to discuss, please [submit](//gaysianthirdspace.tumblr.com/writers-roundtable) them to the Writer’s Roundtable!
 
-{{< anchor mentalhealth >}}
-## <i class="header-icon fa fa-fw fa-life-ring hidden-xs"></i> Mental Health Project
-{{< /anchor >}}
+{{< content-header mentalhealth fa-life-ring >}}Mental Health Project{{< /content-header >}}
 
 We are working to create resources to support mental health for queer API people, in order to help meet the needs of members of the G3S community and queer API communities more broadly. We are currently investigating how we might best leverage our collective knowledge and resources to meet the needs of our communities. If you are interested in collaborating, sharing notes, or chatting with us about queer API mental health, we'd love to talk to you! Just [send us a message](/contact) and we will follow up with you.
 
-{{< anchor socialmedia >}}
-## <i class="header-icon fa fa-fw fa-facebook hidden-xs"></i> Social Media
-{{< /anchor >}}
+{{< content-header socialmedia fa-facebook >}}Social Media{{< /content-header >}}
 
 We are exploring other platforms for engagement and story-sharing by maintaining the following pages:
 
