@@ -169,12 +169,12 @@ a.anchor i.header-icon {
   border-top: solid 5px transparent;
 }
 
-.navbar .navbar-header .navbar-brand img {
-  margin-top: -5px;
+.navbar .navbar-header .navbar-brand:hover {
+  border-top-color: #ff9e00;
 }
 
-.navbar .navbar-header .navbar-brand:hover {
-  border-top: solid 5px #ff9e00;
+.navbar .navbar-header .navbar-brand img {
+  margin-top: -5px;
 }
 
 .navbar a[target="_blank"]:after {
@@ -247,6 +247,10 @@ a.anchor i.header-icon {
   min-height: 50px;
   -webkit-box-shadow: 0 0 5px #333;
   box-shadow: 0 0 5px #333;
+}
+
+.navbar-affixed-top.affix .navbar-header .navbar-brand {
+  border-top-width: 3px;
 }
 
 .navbar-affixed-top.affix ul.nav > li > a {
