@@ -165,6 +165,18 @@ a.anchor i.header-icon {
   letter-spacing: 0.1em;
 }
 
+.navbar .navbar-header .navbar-brand {
+  border-top: solid 5px transparent;
+}
+
+.navbar .navbar-header .navbar-brand img {
+  margin-top: -5px;
+}
+
+.navbar .navbar-header .navbar-brand:hover {
+  border-top: solid 5px #ff9e00;
+}
+
 .navbar a[target="_blank"]:after {
   font-family: 'FontAwesome';
   content: " \f08e";
@@ -179,6 +191,54 @@ a.anchor i.header-icon {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+}
+
+.navbar .nav-border-0:hover {
+  border-top-color: #c273ff !important;
+}
+
+.navbar .nav-current-border-0 {
+  border-top-color: #c273ff !important;
+}
+
+.navbar .nav-border-1:hover {
+  border-top-color: #69aaf5 !important;
+}
+
+.navbar .nav-current-border-1 {
+  border-top-color: #69aaf5 !important;
+}
+
+.navbar .nav-border-2:hover {
+  border-top-color: #97d457 !important;
+}
+
+.navbar .nav-current-border-2 {
+  border-top-color: #97d457 !important;
+}
+
+.navbar .nav-border-3:hover {
+  border-top-color: #ffd622 !important;
+}
+
+.navbar .nav-current-border-3 {
+  border-top-color: #ffd622 !important;
+}
+
+.navbar .nav-border-4:hover {
+  border-top-color: #ff9e00 !important;
+}
+
+.navbar .nav-current-border-4 {
+  border-top-color: #ff9e00 !important;
+}
+
+.navbar .nav-border-5:hover {
+  border-top-color: #ff8585 !important;
+}
+
+.navbar .nav-current-border-5 {
+  border-top-color: #ff8585 !important;
 }
 
 /* Affixed top behavior */

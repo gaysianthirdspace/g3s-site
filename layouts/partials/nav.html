@@ -10,7 +10,7 @@
 
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand home
+                <a class="navbar-brand home nav-border-0
                     {{ if .context.IsHome }}scroll-to{{ end }}"
                     {{ if .context.IsHome }}href="#"{{ else }}
                     href="{{ .context.Site.BaseURL }}" {{ end }}>
@@ -36,28 +36,29 @@
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
                     {{ $currentURL := (printf "%s" .context.URL) }}
-                    {{ range .context.Site.Menus.main }}
+                    {{ range $index, $element := .context.Site.Menus.main }}
                     <li class="dropdown">
                         {{ if .HasChildren }}
-                        <a href="{{ .URL }}" data-toggle="dropdown"
+                        <a href="{{ .URL }}" class="nav-border-{{ add $index 1 }}" data-toggle="dropdown"
                             data-hover="dropdown" role="button"
                             aria-haspopup="true" aria-expanded="false">
                             {{ .Name }} <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
                         {{ range .Children }}
-                            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                            <li><a href="{{ .URL }}" class="nav-border-{{ add $index 1 }}">{{ .Name }}</a></li>
                         {{ end }}
                         </ul>
                         {{ else }}
                         {{ if eq .Name "Blog" }}
-                        <a href="{{ .URL }}" target="_blank">{{ .Name }}</a>
+                        <a href="{{ .URL }}" class="nav-border-{{ add $index 1 }}" target="_blank">{{ .Name }}</a>
                         {{ else }}
                         <a {{ if (eq $currentURL .URL) }}
                             href="#"
-                            class="current-page scroll-to"
+                            class="nav-current-border-{{ add $index 1 }} scroll-to"
                             {{ else }}
                             href="{{ .URL }}"
+                            class="nav-border-{{ add $index 1 }}"
                             {{ end }}>
                             {{ .Name }}
                         </a>
