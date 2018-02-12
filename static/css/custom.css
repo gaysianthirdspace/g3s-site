@@ -280,7 +280,7 @@ a.anchor i.header-icon {
 /* REGULAR NAVBAR */
 
 .navbar-affixed-top.affix.navbar-default {
-  background: rgba(100%, 100%, 100%, 0.9);
+  background: rgba(100%, 100%, 100%, 1.0);
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -298,13 +298,16 @@ a.anchor i.header-icon {
 }
 
 .navbar-affixed-top.affix.navbar-inverse {
-  background: rgba(20%, 20%, 20%, 0.9);
+  background: rgba(20%, 20%, 20%, 1.0);
 }
 
 .navbar-inverse {
-  background: transparent;
   border-bottom-width: 0px;
   z-index: 100;
+}
+
+.navbar-inverse-transparent {
+  background: transparent;
 }
 
 .navbar-inverse .navbar-nav > li > a {

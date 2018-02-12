@@ -1,26 +1,14 @@
-{{ if eq .navColor "dark" }}
 <div class="affixed-nav-wrapper nav-wrapper-inverse">
-    <nav class="navbar navbar-affixed-top navbar-inverse"
+    <nav class='navbar navbar-affixed-top navbar-inverse {{ if eq .navColor "dark-transparent" }}navbar-inverse-transparent{{ end }}'
         role="navigation" id="navbar" data-spy="affix" data-offset-top="1">
-{{ else }}
-<div class="affixed-nav-wrapper nav-wrapper-default">
-    <nav class="navbar navbar-affixed-top navbar-default"
-        role="navigation" id="navbar" data-spy="affix" data-offset-top="1">
-{{ end }}
-
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home nav-border-0
                     {{ if .context.IsHome }}scroll-to{{ end }}"
                     {{ if .context.IsHome }}href="#"{{ else }}
                     href="{{ .context.Site.BaseURL }}" {{ end }}>
-                    {{ if eq .navColor "dark" }}
                     <img src="{{ .context.Site.BaseURL }}img/logo-dark.png"
                         alt="{{ .Title }} logo">
-                    {{ else }}
-                    <img src="{{ .context.Site.BaseURL }}img/logo.png"
-                        alt="{{ .Title }} logo">
-                    {{ end }}
                     <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
                 </a>
                 <div class="navbar-buttons">
