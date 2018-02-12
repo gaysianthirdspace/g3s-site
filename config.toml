@@ -12,22 +12,22 @@ blog = "/blog/:year/:month/:day/:filename/"
 hrefTargetBlank = false
 [[menu.footerbar]]
 name = "Tumblr"
-pre = "<i class='fa fa-tumblr'></i>"
+pre = "<i class='fa fa-tumblr' title='Tumblr Blog'></i>"
 url = "https://gaysianthirdspace.tumblr.com"
 weight = 1
 [[menu.footerbar]]
 name = "Facebook"
-pre = "<i class='fa fa-facebook'></i>"
+pre = "<i class='fa fa-facebook' title='Facebook Page'></i>"
 url = "https://facebook.com/gaysianthirdspace"
 weight = 2
 [[menu.footerbar]]
 name = "Instagram"
-pre = "<i class='fa fa-instagram'></i>"
+pre = "<i class='fa fa-instagram' title='Instagram Page'></i>"
 url = "https://instagram.com/gaysianthirdspace"
 weight = 3
 [[menu.footerbar]]
 name = "Email"
-pre = "<i class='fa fa-envelope'></i>"
+pre = "<i class='fa fa-envelope' title='Send an Email'></i>"
 url = "mailto:gaysianthirdspace@gmail.com"
 weight = 4
 [[menu.main]]
