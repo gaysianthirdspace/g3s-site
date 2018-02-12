@@ -1,17 +1,24 @@
 <div class="admin-team-gallery">
     {{ range $index, $element := sort .Site.Data.adminteam "order" }}
     <div class="row vertical-align-md vertical-align-sm admin-team-row">
-        <div class="col-md-3 col-sm-3">
-            <img class="img-responsive img-circle lazy-image"
-                alt="{{ .name }}"
-                data-src="{{ .avatar }}"
-                {{ with .avatarretina }}data-retina="{{ . }}"{{ end }}>
+        <div class="col-md-3 col-sm-3 admin-team-image">
+            <div class="lazy-image">
+                <div class="loading-overlay">
+                  <div class="progress-bar progress-bar-warning progress-bar-striped active center-block" role="progressbar">
+                    Loading...
+                  </div>
+                </div>
+                <img class="img-responsive img-circle lazy-image"
+                    alt="{{ .name }}"
+                    data-src="{{ .avatar }}"
+                    {{ with .avatarretina }}data-retina="{{ . }}"{{ end }}>
+            </div>
             <noscript><img
                 class="img-responsive img-circle"
                 alt="{{ .name }}"
                 src="{{ .avatar }}"></noscript>
         </div>
-        <div class="col-md-9 col-sm-9">
+        <div class="col-md-9 col-sm-9 admin-team-profile">
             <div class="text">
                 <h4>
                     {{ .name }}

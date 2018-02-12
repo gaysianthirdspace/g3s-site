@@ -93,7 +93,7 @@ div.lazy-iframe-container {
   position: relative;
 }
 
-div.lazy-iframe-container div.loading-overlay {
+div.loading-overlay {
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
   top: 0;
@@ -103,7 +103,7 @@ div.lazy-iframe-container div.loading-overlay {
   align-items: center;
 }
 
-div.lazy-iframe-container div.progress-bar {
+div.loading-overlay div.progress-bar {
   vertical-align: middle;
   width: 50%;
   height: 24px;
@@ -112,6 +112,7 @@ div.lazy-iframe-container div.progress-bar {
 .lazy-image {
   display: none; /* display set by javascript */
 }
+
 
 div.srcset-background-image {
   display: none; /* display set by javascript */
@@ -402,6 +403,17 @@ div.admin-team-gallery {
 div.admin-team-row {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+div.admin-team-row div.loading-overlay {
+  background: none;
+}
+
+div.admin-team-row div.admin-team-image {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 @media (max-width: 767px) {
