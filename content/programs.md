@@ -16,8 +16,7 @@ To join the LINE group, please follow these instructions:
 
 1. Fill out the [sign-up form](//docs.google.com/forms/d/1et74jeWtk1F0Q667p-cWpZLmKaWFN0FJyHZ-_M9kHVs/edit) here (this step is required).
 2. [Download and install](//line.me/en/download) the LINE app.
-3. Send a friend request to “alostfish” on LINE.
-4. Send “alostfish” a quick message on LINE so he knows to add you.
+3. Wait for “alostfish” to send you a message on LINE. If he doesn't contact you within two days, please send him a friend request and a message.
 
 Please review and commit to following our LINE Group [community guidelines](//docs.google.com/document/d/1bPTXCXAYPnEbOu428BZbERMQEdl5_RKLLNzAM3RuwK4/edit?usp=sharing). We look forward to welcoming you to the group!
 
