@@ -4,13 +4,13 @@ title = "What We Do"
 type = "page"
 
 +++
-One of the main missions at G3S is to create a supportive gaysian community and foster mentorship and friendship as we explore our identities. To fulfill this mission, we started by creating a __Tumblr blog__ to share and archive content relevant to our community. To facilitate closer interactions, we created a __LINE chat group__ for chatting and more casual conversation. In addition to these platforms, we have created a __mentorship program__ for people to interact and learn from each other in an even smaller group setting. We are continuing to develop our initiatives—including our __Follower Friday__ and __Writer's Roundtable__ series, [__local meetups__](/meetups), and our __Mental Health Project__—to better meet the needs of our community.
+One of the main missions at G3S is to create a supportive gaysian community and foster mentorship and friendship as we explore our identities. To fulfill this mission, we started by creating a **Tumblr blog** to share and archive content relevant to our community. To facilitate closer interactions, we created a **LINE chat group** for chatting and more casual conversation. In addition to these platforms, we have created a **mentorship program** for people to interact and learn from each other in an even smaller group setting. We are continuing to develop our initiatives—including our **Follower Friday** and **Writer's Roundtable** series, [**local meetups**](/meetups), and our **Mental Health Project**—to better meet the needs of our community.
 
 If you have any questions, or if you’re interested in getting involved in any of our initiatives, please [send us a message](/contact)!
 
 {{< content-header linechat fa-comments >}}LINE Chat Group{{< /content-header >}}
 
-We have a chat group on LINE to facilitate chatting, serious discussions, and more casual conversations across many time zones. LINE Group Moderators (Fish and Jeff from the [G3S Team](/about#team)) work actively to moderate membership and monitor the chat to maintain a supportive and welcoming environment for all of the participants.
+We have a chat group on LINE to facilitate chatting, serious discussions, and more casual conversations across many time zones. LINE group moderators (Fish and Jeff from the [G3S Team](/about#team)) work actively to moderate membership and monitor the chat to maintain a supportive and welcoming environment for all of the participants.
 
 To join the LINE group, please follow these instructions:
 
@@ -30,13 +30,13 @@ If you'd prefer to follow us on WordPress, we maintain a mirror of our Tumblr bl
 
 {{< content-header mentorship fa-envelope-open >}}Mentorship Program{{< /content-header >}}
 
-We understand that people who are just beginning to explore their identities can get overwhelmed with large, fast-paced group chats. Sometimes it is challenging to summon the courage to message unfamiliar people. The __G3S Mentors Program__ addresses this need. Our goal is to expand our directory of volunteer mentors (like RAs for new freshman in a college dorm) who would be willing to engage and interact with existing or new G3S members in a one-on-one or small group setting.
+We understand that people who are just beginning to explore their identities can get overwhelmed with large, fast-paced group chats. Sometimes it is challenging to summon the courage to message unfamiliar people. The **G3S Mentors Program** addresses this need. Our goal is to expand our directory of volunteer mentors (like RAs for new freshman in a college dorm) who would be willing to engage and interact with existing or new G3S members in a one-on-one or small group setting.
 
-If you would like to sign up as a __mentor__, please fill out [this form](//docs.google.com/forms/d/e/1FAIpQLSd2FvWZ0IQhHNVpH4L05bPFnX3Bl8C-1fW7pntc52HxIieY0g/viewform?c=0&w=1).
+If you would like to sign up as a **mentor**, please fill out [this form](//docs.google.com/forms/d/e/1FAIpQLSd2FvWZ0IQhHNVpH4L05bPFnX3Bl8C-1fW7pntc52HxIieY0g/viewform?c=0&w=1).
 
-If you would like to sign up as a __mentee__, please fill out [this form](//docs.google.com/forms/d/e/1FAIpQLSdyfccqu3Ngg18KvDpURP_LCmTArBQgBlslHLyjo6SXTXICqg/viewform?c=0&w=1).
+If you would like to sign up as a **mentee**, please fill out [this form](//docs.google.com/forms/d/e/1FAIpQLSdyfccqu3Ngg18KvDpURP_LCmTArBQgBlslHLyjo6SXTXICqg/viewform?c=0&w=1).
 
-To see the list of __mentor profiles__, click [here](//docs.google.com/spreadsheets/d/1a4RyU_K5hpO7BnNe2gZpwoxDOhkzzw-Rd6aXTucImPM/edit?usp=sharing).
+To see the list of **mentor profiles**, click [here](//docs.google.com/spreadsheets/d/1a4RyU_K5hpO7BnNe2gZpwoxDOhkzzw-Rd6aXTucImPM/edit?usp=sharing).
 
 {{< content-header followers fa-address-card >}}Follower Friday{{< /content-header >}}
 
@@ -54,6 +54,5 @@ We are working to create resources to support mental health for queer API people
 
 We are exploring other platforms for engagement and story-sharing by maintaining the following pages:
 
-- An [Instagram account](//www.instagram.com/gaysianthirdspace/) for sharing our experiences and learning from each other through a more visual medium. We are starting by sharing our Follower Friday profiles on the account, and we hope to eventually provide a community platform for visual storytelling.
-- A [Facebook page](//www.facebook.com/gaysianthirdspace) for facilitating more interactive discussions about the content posted to the Tumblr blog.
-
+* An [Instagram account](//www.instagram.com/gaysianthirdspace/) for sharing our experiences and learning from each other through a more visual medium. We are starting by sharing our Follower Friday profiles on the account, and we hope to eventually provide a community platform for visual storytelling.
+* A [Facebook page](//www.facebook.com/gaysianthirdspace) for facilitating more interactive discussions about the content posted to the Tumblr blog.
