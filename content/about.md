@@ -10,7 +10,7 @@ Outside the clubs and beyond the apps, we aim to provide a Third Space---a commu
 
 There are many ways you can get involved in our community:
 
-- Follow us on [Tumblr](//gaysianthirdspace.tumblr.com), where we publish one post, article, or video every day!
+- Follow us on [Tumblr](//gaysianthirdspace.tumblr.com), where we publish one post, article, or video every Monday, Wednesday, and Friday!
 - Read about our featured [Follower](//gaysianthirdspace.tumblr.com/tagged/followerfriday) profiles, or [submit one](//docs.google.com/forms/d/e/1FAIpQLScSt3WZ6ZstkFKPDVhh88wLADOjN7w61tfParCQTbQ1jrsZRA/viewform)!
 - Want a gaysian mentor, or want to mentor a fellow gaysian? Become a [mentee or mentor](/programs#mentorship)!
 - Want to chat with more peeps? Join our [Line group](/programs#linechat)!
