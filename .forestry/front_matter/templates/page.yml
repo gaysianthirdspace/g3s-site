@@ -1,4 +1,5 @@
 ---
+label: page
 hide_body: false
 fields:
 - name: date
