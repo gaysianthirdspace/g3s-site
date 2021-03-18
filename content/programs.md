@@ -4,7 +4,7 @@ title = "What We Do"
 type = "page"
 
 +++
-One of the main missions at G3S is to create a supportive gaysian community and foster mentorship and friendship as we explore our identities. To fulfill this mission, we started by creating a **Tumblr blog** to share and archive content relevant to our community. To facilitate closer interactions, we created a **LINE chat group** for chatting and more casual conversation. In addition to these platforms, we have created a **mentorship program** for people to interact and learn from each other in an even smaller group setting. We are continuing to develop our initiatives—including our **Follower Friday** and **Writer's Roundtable** series, [**local meetups**](/meetups), and our **Mental Health Project**—to better meet the needs of our community.
+One of the main missions at G3S is to create a supportive gaysian community and foster mentorship and friendship as we explore our identities. To fulfill this mission, we started by creating a **Tumblr blog** to share and archive content relevant to our community. To facilitate closer interactions, we created a **LINE chat group** for chatting and more casual conversation. In addition to these platforms, we have created a **mentorship program** for people to interact and learn from each other in an even smaller group setting. We are continuing to develop our initiatives—including our **Follower Friday** and **Writer's Roundtable** series, [**local meetups**](/meetups), and our **Mental Health Project**—to better meet the needs of our community.T
 
 If you have any questions, or if you’re interested in getting involved in any of our initiatives, please [send us a message](/contact)!
 
