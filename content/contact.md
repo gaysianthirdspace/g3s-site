@@ -4,7 +4,7 @@ title = "Contact"
 type = "page"
 
 +++
-We love hearing from people! If you have any questions about Gaysian Third Space, if you'd like to join our community, or if you'd like to work with us, please send us a message! You can message us by email, on our Tumblr blog, or on our Facebook page. F
+We love hearing from people! If you have any questions about Gaysian Third Space, if you'd like to join our community, or if you'd like to work with us, please send us a message! You can message us by email, on our Tumblr blog, or on our Facebook page. 
 
 {{< content-header tumblr fa-tumblr >}}Tumblr{{< /content-header >}}
 
